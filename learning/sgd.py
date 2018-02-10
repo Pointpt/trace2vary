@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn import svm
+from sklearn.linear_model import SGDClassifier
 from sklearn.model_selection import train_test_split, cross_val_predict
 from sklearn import metrics, preprocessing
 from sklearn.model_selection import ShuffleSplit
@@ -16,7 +16,7 @@ y = training_data_frame['Result'].values
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=0)
 
-estimator = svm.SVC(gamma='auto', C=1.0, kernel='rbf')
+estimator = SGDClassifier(loss='hinge', penalty='l2', max_iter=1000)
 estimator.fit(X_train, y_train)
 
 print("\n=== Prediction test ===")
