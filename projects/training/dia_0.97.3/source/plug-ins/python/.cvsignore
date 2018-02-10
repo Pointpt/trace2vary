@@ -1,0 +1,10 @@
+Makefile
+Makefile.in
+*.a
+*.la
+*.lo
+*.pyc
+*.pyo
+.libs
+.deps
+
