@@ -16,7 +16,6 @@ features_data_frame = training_data_frame.drop(['Feature', 'Document', 'Result']
 features_matrix = features_data_frame.as_matrix()
 rbf_feature = RBFSampler(gamma=1, random_state=1)
 X = rbf_feature.fit_transform(features_matrix)
-
 y = training_data_frame['Result'].values
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=0)
