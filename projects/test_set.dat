@@ -1,4 +1,7 @@
 ../projects/test/
+subversion-1.9.5 c preprocessor 156778
+sylpheed-3.5.1 c preprocessor 119488
+vim-7.4 c preprocessor 304992
 gimp-2.8.22 c preprocessor 705635
 glibc-2.25 c preprocessor 876996
 php-7.1.6 c preprocessor 1246119
