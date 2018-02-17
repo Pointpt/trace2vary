@@ -1,5 +1,5 @@
-from sklearn import svm, pipeline
-from sklearn.kernel_approximation import Nystroem
+from sklearn.kernel_approximation import RBFSampler
+from sklearn.linear_model import SGDClassifier
 from sklearn.model_selection import train_test_split
 from preprocessing.merge_training_data import get_training_data_frame
 from sklearn.externals import joblib
@@ -7,48 +7,51 @@ from sklearn.externals import joblib
 # Choosing the right estimator - http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 # SGD with kernel approximation - http://scikit-learn.org/stable/modules/kernel_approximation.html
 
-print("1/5 - Reading training data")
-training_data_frame = get_training_data_frame()
 
-print("2/5 - Building training and test sets")
-features_data_frame = training_data_frame.drop(['Feature', 'Document', 'Result'], 1)
+def run_kernel_approximation():
 
-X = features_data_frame.as_matrix()
-y = training_data_frame['Result'].values
+    print("\n\n- METHOD: Kernel Approximation")
+    print("1/5 - Reading training data")
+    training_data_frame = get_training_data_frame()
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=0)
+    print("2/5 - Building training and test sets")
+    features_data_frame = training_data_frame.drop(['Feature', 'Document', 'Result'], 1)
 
-print("3/5 - Fitting the kernel approximation estimator")
-components = len(X_train) - 1
-feature_map_nystroem = Nystroem(gamma=.2, random_state=1, n_components=components)
-estimator = pipeline.Pipeline(
-    [("feature_map", feature_map_nystroem), ("svm", svm.LinearSVC())]
-)
-estimator.fit(X_train, y_train)
+    X = features_data_frame.as_matrix()
+    y = training_data_frame['Result'].values
 
-print("4/5 - Calculating the estimator accuracy")
-accuracy = estimator.score(X_test, y_test)
-print("Test set accuracy score: " + str(accuracy))
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=0)
 
-print("5/5 - Dumping the kernel approximation estimator")
-joblib.dump(estimator, 'kernel_approximation.pkl')
+    print("3/5 - Fitting the kernel approximation estimator")
+    rbf_feature = RBFSampler(gamma=1, random_state=1)
+    X_train_features = rbf_feature.fit_transform(X_train)
+    estimator = SGDClassifier(max_iter=1000)
+    estimator.fit(X_train_features, y_train)
 
-# from sklearn import metrics
-# from sklearn.model_selection import ShuffleSplit
-# from learning.plot_learning_curve import plot_learning_curve
-# from sklearn.model_selection cross_val_predict
+    print("4/5 - Calculating the estimator accuracy")
+    X_test_features = rbf_feature.fit_transform(X_test)
+    accuracy = estimator.score(X_test_features, y_test)
+    print("Test set accuracy score: " + str(accuracy))
 
-# print("\n=== Prediction test ===")
-# result = estimator.predict(X_test)
-# print("Actual: " + str(result))
+    print("5/5 - Dumping the kernel approximation estimator")
+    joblib.dump(estimator, 'kernel_approximation.pkl')
 
-# print("\n=== Cross validation results ===")
-# predicted = cross_val_predict(estimator, X, y, cv=5)
-# accuracy_score = metrics.accuracy_score(y, predicted)
-# print("Accuracy score: " + str(accuracy_score))
+    # from sklearn import metrics
+    # from sklearn.model_selection import ShuffleSplit
+    # from learning.plot_learning_curve import plot_learning_curve
+    # from sklearn.model_selection cross_val_predict
 
-# print("\n=== Learning curve ===")
-# Cross validation with 10 iterations to get smoother mean test and train
-# score curves, each time with 20% data randomly selected as a validation set.
-# cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
-# plot_learning_curve(estimator, X, y, cv)
+    # print("\n=== Prediction test ===")
+    # result = estimator.predict(X_test)
+    # print("Actual: " + str(result))
+
+    # print("\n=== Cross validation results ===")
+    # predicted = cross_val_predict(estimator, X, y, cv=5)
+    # accuracy_score = metrics.accuracy_score(y, predicted)
+    # print("Accuracy score: " + str(accuracy_score))
+
+    # print("\n=== Learning curve ===")
+    # Cross validation with 10 iterations to get smoother mean test and train
+    # score curves, each time with 20% data randomly selected as a validation set.
+    # cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
+    # plot_learning_curve(estimator, X, y, cv)

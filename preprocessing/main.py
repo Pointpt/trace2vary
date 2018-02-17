@@ -14,7 +14,7 @@ Contact: tassio.vale@ufrb.edu.br
 """
 
 # START READING THE PROJECTS METADATA
-with open('../projects/training_set.dat', 'r') as projects_input_file:
+with open('../projects/test_set.dat', 'r') as projects_input_file:
 
     projects_base_path = projects_input_file.readline().strip('\n')
 
@@ -33,7 +33,5 @@ with open('../projects/training_set.dat', 'r') as projects_input_file:
         data = data.append(data_frame)
 
         file_index += 1
-
-    data.to_csv('../projects/training/training_set.csv')
 
     print('DONE\n\n')

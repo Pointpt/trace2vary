@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from multiprocessing.pool import ThreadPool
 import pandas as pd
 from feature_extractor.extractor import FeatureExtractor
 from preprocessing.pre_processor import SPLProjectPreProcessor
@@ -98,23 +99,44 @@ class ProjectAnalysis:
 
                 for document in pre_processor.get_documents().keys():
 
+                    pool = ThreadPool(processes=1)
+
                     # Frequency of the term in the document
-                    doc_frequency_value = document_frequency_value(pre_processor, feature_synonyms, document)
+                    document_frequency_result = pool.apply_async(
+                        document_frequency_value, (pre_processor, feature_synonyms, document)
+                    )
 
                     # TF-IDF measure
-                    tfidf_value = tfidf_resulting_value(pre_processor, feature_synonyms, document)
+                    tfidf_result = pool.apply_async(
+                        tfidf_resulting_value, (pre_processor, feature_synonyms, document)
+                    )
 
                     # Algebraic - classic vector model
-                    classic_vector_value = classic_vector_calculation(pre_processor, feature_synonyms, document)
+                    classic_vector_result = pool.apply_async(
+                        classic_vector_calculation, (pre_processor, feature_synonyms, document)
+                    )
 
                     # Algebraic - neural networks model
-                    neural_network_value = neural_network_calculation(neural_network, document)
+                    neural_network_result = pool.apply_async(
+                        neural_network_calculation, (neural_network, document)
+                    )
 
                     # Set theoretic - extended boolean model
-                    extended_boolean_value = extended_boolean_calculation(pre_processor, feature_synonyms, document)
+                    extended_boolean_result = pool.apply_async(
+                        extended_boolean_calculation, (pre_processor, feature_synonyms, document)
+                    )
 
                     # Probabilistic - BM25 model
-                    bm25_value = bm25_calculation(pre_processor, feature_synonyms, document, k1_const, b_const)
+                    bm25_result = pool.apply_async(
+                        bm25_calculation, (pre_processor, feature_synonyms, document, k1_const, b_const)
+                    )
+
+                    doc_frequency_value = document_frequency_result.get()
+                    tfidf_value = tfidf_result.get()
+                    classic_vector_value = classic_vector_result.get()
+                    neural_network_value = neural_network_result.get()
+                    extended_boolean_value = extended_boolean_result.get()
+                    bm25_value = bm25_result.get()
 
                     traced = 0
                     if feature_name in traces and document in traces[feature_name]:
