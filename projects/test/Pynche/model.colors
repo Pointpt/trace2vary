@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE featuremodelattributes SYSTEM "featuremodelattributes.dtd">
+<featuremodelattributes>
+<featureattr name="Red" id="7" selected="true"/>
+<featureattr name="Viewer" id="11" selected="true"/>
+<featureattr name="Details" id="18" selected="true"/>
+<featureattr name="Strip" id="13" selected="true"/>
+<featureattr name="LoadPalette" id="20" selected="true"/>
+<featureattr name="Color" id="12" selected="true"/>
+<featureattr name="Stripe" id="5" selected="true"/>
+<featureattr name="Windows" id="16" selected="true"/>
+<featureattr name="Help" id="19" selected="true"/>
+<featureattr name="Text" id="15" selected="true"/>
+<featureattr name="Blue" id="6" selected="true"/>
+<featureattr name="TestFeat2" id="1" selected="true"/>
+<featureattr name="Pynche" id="10" selected="true"/>
+<featureattr name="ColorList" id="17" selected="true"/>
+<featureattr name="Green" id="8" selected="true"/>
+<featureattr name="StripeCore" id="9" selected="true"/>
+<featureattr name="TestFeat1" id="2" selected="true"/>
+<featureattr name="About" id="14" selected="true"/>
+<featureattr name="Chip" id="3" selected="true"/>
+<featureattr name="TypeIn" id="4" selected="true"/>
+</featuremodelattributes>

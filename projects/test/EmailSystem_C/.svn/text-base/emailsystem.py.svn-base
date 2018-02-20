@@ -1,0 +1,61 @@
+from splverifier.api.base import *
+from splverifier.api.fs import *
+from splverifier.api.config import *
+from splverifier.integration import featurehouse
+from splverifier.integration import featurescene
+from splverifier.api.spl import *
+from glob import glob
+import scenarios
+
+class EmailSystem(ProductLine):
+
+    containment_hierarchy = PATHS.base + 'case_studies/emailsystem/emailclient/'
+    variants = glob(PATHS.base + 'case_studies/emailsystem/exps/*.exp')
+    feature_model = Record(
+        model_file = containment_hierarchy + 'model.m',
+        cnf_file = containment_hierarchy + 'model.cnf',
+        all_expression = PATHS.base + 'case_studies/emailsystem/features.exp',
+    )
+
+    interactions = [
+        (0, 'Forward/DecryptForward.spec', scenarios.DECRYPT_FORWARD),
+        (1, 'Encrypt/AddressBookEncrypt.spec', scenarios.ADDRESSBOOK_ENCRYPT),
+        (3, 'Sign/SignVerify.spec', scenarios.SIGN_VERIFY),
+        (4, 'Sign/SignForward.spec', scenarios.SIGN_FORWARD),
+        (6, 'Encrypt/EncryptDecrypt.spec', scenarios.ENCRYPT_DECRYPT),
+        (7, 'Verify/EncryptVerify.spec', scenarios.ENCRYPT_VERIFY),
+        (8, 'Encrypt/EncryptAutoResponder.spec', scenarios.ENCRYPT_AUTORESPONDER),
+        (9, 'Encrypt/EncryptForward.spec', scenarios.ENCRYPT_FORWARD),
+	# this specification would also be violated if autoresponder is not enabled
+        #(11, 'Decrypt/DecryptAutoResponder.spec', scenarios.DECRYPT_AUTORESPONDER),
+	(11, 'AutoResponder/DecryptAutoResponder.spec', scenarios.DECRYPT_AUTORESPONDER),
+        (27, 'Verify/VerifyForward.spec', scenarios.VERIFY_FORWARD),
+    ]
+
+    scenario_config = Record(
+        action_map = dict(
+            bobKeyAdd='Keys',
+            rjhKeyAdd='Keys',
+            chuckKeyAdd='Keys',
+            chuckKeyAddRjh='Keys',
+            rjhKeyChange='Keys',
+            bobKeyChange='Keys',
+            rjhDeletePrivateKey='Keys',
+            rjhEnableForwarding='Forward',
+            rjhSetAutoRespond='AutoResponder',
+            bobSetAddressBook='AddressBook',
+        ),
+        scenarios=None,
+    )
+    
+    def __init__(self, **kwargs):
+        super(EmailSystem, self).__init__(**kwargs)
+        self.specifications = [self.containment_hierarchy + rel[1] for rel in self.interactions]
+        self.load_scenarios('fix')
+    
+    def load_scenarios(self, key):
+        scenarios = dict()
+        for interaction in self.interactions:
+            scenarios[self.containment_hierarchy + interaction[1]] = interaction[2][key]
+        self.scenario_config.scenarios = scenarios
+        

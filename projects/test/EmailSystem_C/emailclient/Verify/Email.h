@@ -1,0 +1,2 @@
+/*
+int isVerified (EMAIL msg);*/

@@ -1,0 +1,8 @@
+keys:features/Keys/EmailSystem/Client.java
+encrypt:features/Encrypt/EmailSystem/Client.java,features/Encrypt/EmailSystem/Email.java
+autoresponder:features/AutoResponder/EmailSystem/Client.java
+addressbook:features/AddressBook/EmailSystem/Client.java
+sign:features/Sign/EmailSystem/Client.java,features/Sign/EmailSystem/Email.java
+forward:features/Forward/EmailSystem/Client.java
+decrypt:features/Decrypt/EmailSystem/Client.java
+verify:features/Verify/EmailSystem/Client.java,features/Verify/EmailSystem/Email.java

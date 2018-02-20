@@ -1,0 +1,11 @@
+x_notglider:glider
+bludeno:bluendo
+compression:compressed
+not_plain_socket:plain,socket
+x_notui:ui
+x_notcompression:compression,compressed
+x_not_bludeno:bluendo
+x_nottls:tls
+timing:time
+x_nottiming:timing,time
+x_notbxmpp:bxmpp

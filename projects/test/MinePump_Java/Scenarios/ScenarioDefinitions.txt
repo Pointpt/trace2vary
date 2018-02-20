@@ -1,0 +1,5 @@
+"Specification1" 1 requiresFeature base
+"Specification2" 2 requiresFeature base
+"Specification3" 3 requiresFeature base
+"Specification4" 4 requiresFeature base
+"Specification5" 5 requiresFeature base

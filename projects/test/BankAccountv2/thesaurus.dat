@@ -1,0 +1,8 @@
+bankaccount:account,balance
+creditworthiness:credit,amount,creditworthiness_
+dailylimit:daily_limit,withdraw
+interest:interest_rate
+interestestimation:interest,daysleft
+lock:unlock
+overdraft:overdraft_limit
+transaction:source,destination

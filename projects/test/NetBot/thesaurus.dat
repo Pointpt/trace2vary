@@ -1,0 +1,3 @@
+encryption:crypto
+keylogging:keylogger,keylog
+pcinfos:cpu,processor,os,operatingsystem,hdd,harddisk

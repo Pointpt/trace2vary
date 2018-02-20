@@ -1,0 +1,14 @@
+base/Specifications/Specification1
+The pump is never on when there is methane.
+
+base/Specifications/Specification2
+When the pump is running, and there is methane, then it is in switched off at most 1 timesteps.
+
+base/Specifications/Specification3
+When the water is high and there is no methane, then the pump is on.
+
+base/Specifications/Specification4
+The pump is never on when the water level is low
+
+base/Specifications/Specification5
+The Pump is never switched on when the water is below the highWater sensor.

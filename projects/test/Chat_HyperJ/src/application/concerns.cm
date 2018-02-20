@@ -1,0 +1,4 @@
+package application : Feature.Base
+package application.client : Feature.Base
+package application.common : Feature.Base
+package application.server : Feature.Base

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<project name="MinePump">
+  <property file="ant.properties"/>
+
+  <target name="clean" description="Delete all generated files">
+    <delete dir="${destinationFeature.dir}" failonerror="false"/>
+  	
+  </target>
+	
+  <target name="compose" depends="clean">
+	<java jar="${featureHouse.jar}" fork="true" failonerror="true">
+		<arg line="--expression ${basedir}/features/MinePump.features"/>
+	</java>
+  </target>
+
+  <taskdef 
+      resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties">
+    <classpath>
+      <pathelement location="${aspectj.jar}"/>
+    </classpath>
+  </taskdef>
+
+  <target name="compileWithAspectJ" depends="compose">
+    <iajc
+		destDir="${destinationAspect.dir}"
+		sourceroots="${destinationFeature.dir}"
+		source="1.5"
+    	failonError="true"
+    	showWeaveInfo="true">
+        <classpath>
+			<pathelement path="${basedir}/lib/AspectJ/aspectjrt.jar"/>
+        	<pathelement path="${basedir}/lib/junit-4.8.2.jar"/>
+        	<pathelement path="${basedir}/lib/jpf.jar"/>
+		</classpath>
+	</iajc>
+  </target>
+
+  <target name="test" depends="compileWithAspectJ">
+    <junit>
+        <classpath>
+			<pathelement location="composed"/>
+        	<pathelement path="${basedir}/lib/junit-4.8.2.jar"/>
+			<pathelement path="${basedir}/lib/AspectJ/aspectjrt.jar"/>
+		</classpath>
+      <formatter type="brief" usefile="false" />
+      <test name="JUnit_Scenario_Tests"/>
+    </junit>
+  </target>
+
+</project>

@@ -1,0 +1,63 @@
+from splverifier.integration.featurescene import *
+SPEC1 = dict(
+    fix = Scenario('notImplemented'),
+    varopt2 = Scenario(
+	Repeat(4,
+		Optional('waterRise'),
+		Optional('changeMethaneLevel'),
+		OneOfOrNone('startSystem', 'stopSystem'),
+		'timeShift'
+	),
+	'cleanup'
+    )
+)
+
+SPEC2 = dict(
+    fix = Scenario('notImplemented'),
+    varopt2 = Scenario(
+	Repeat(4,
+		Optional('waterRise'),
+		Optional('changeMethaneLevel'),
+		OneOfOrNone('startSystem', 'stopSystem'),
+		'timeShift'
+	),
+	'cleanup'
+    )
+)
+SPEC3 = dict(
+    fix = Scenario('notImplemented'),
+    varopt2 = Scenario(
+	Repeat(4,
+		Optional('waterRise'),
+		Optional('changeMethaneLevel'),
+		OneOfOrNone('startSystem', 'stopSystem'),
+		'timeShift'
+	),
+	'cleanup'
+    )
+)
+SPEC4 = dict(
+    fix = Scenario('notImplemented'),
+    varopt2 = Scenario(
+	Repeat(4,
+		Optional('waterRise'),
+		Optional('changeMethaneLevel'),
+		OneOfOrNone('startSystem', 'stopSystem'),
+		'timeShift'
+	),
+	'cleanup'
+    )
+)
+SPEC5 = dict(
+    fix = Scenario('notImplemented'),
+    varopt2 = Scenario(
+	Repeat(4,
+		Optional('waterRise'),
+		Optional('changeMethaneLevel'),
+		OneOfOrNone('startSystem', 'stopSystem'),
+		'timeShift'
+	),
+	'cleanup'
+    )
+)
+

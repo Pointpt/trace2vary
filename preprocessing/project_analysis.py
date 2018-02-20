@@ -76,7 +76,6 @@ class ProjectAnalysis:
             traces = extract_true_traces(self.project)
 
             print('Step 3: processing project...')
-            print('Progress: 0%', end="", flush=True)
 
             # Preprocessor and CIDE projects are the ones which implement ifdef conditional compilation directives
             remove_ifdefs = False
@@ -87,12 +86,7 @@ class ProjectAnalysis:
             # TF-IDF calculation
             calculate_tfidf_weights(pre_processor)
 
-            features_total = len(features_dictionary)
-            features_counter = 1
-
             for (feature_name, feature_synonyms) in features_dictionary.items():
-
-                print('\rProgress: ' + str(round(features_counter * 100 / features_total)) + '%', end="", flush=True)
 
                 # Building the neural network for a given feature
                 neural_network = create_neural_network(pre_processor, feature_synonyms)
@@ -157,6 +151,8 @@ class ProjectAnalysis:
                         ignore_index=True
                     )
 
+                    print('Feature: ' + str(feature_name) + '\tDocument: ' + str(document))
+
                     # print('\n\n==============================')
                     # print('Feature and synonyms: ' + str(feature_synonyms))
                     # print('Document: ' + str(document))
@@ -164,7 +160,5 @@ class ProjectAnalysis:
                     #      + str(classic_vector_value) + ', ' + str(neural_network_value) + ', '
                     #      + str(extended_boolean_value) + ', ' + str(bm25_value) + ', ' + str(traced) + ']')
                     # print('==============================')
-
-                features_counter += 1
 
         return data_frame

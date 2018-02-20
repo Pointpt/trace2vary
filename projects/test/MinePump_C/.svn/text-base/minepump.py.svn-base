@@ -1,0 +1,46 @@
+from splverifier.api.base import *
+from splverifier.api.fs import *
+from splverifier.api.config import *
+from splverifier.integration import featurehouse
+from splverifier.integration import featurescene
+from splverifier.api.spl import *
+from glob import glob
+import scenarios
+
+class MinePump(ProductLine):
+
+    containment_hierarchy = PATHS.base + 'case_studies/minepump/features/'
+    variants = glob(PATHS.base + 'case_studies/minepump/exps/*.exp')
+    feature_model = Record(
+        model_file = containment_hierarchy + 'model.m',
+        cnf_file = containment_hierarchy + 'model.cnf',
+        all_expression = PATHS.base + 'case_studies/minepump/features.exp',
+    )
+
+    interactions = [
+	(1, 'base/Specification1.spec', scenarios.SPEC1),
+	(2, 'base/Specification2.spec', scenarios.SPEC2),
+	(3, 'base/Specification3.spec', scenarios.SPEC3),
+	(4, 'base/Specification4.spec', scenarios.SPEC4),
+	(5, 'base/Specification5.spec', scenarios.SPEC5),
+    ]
+
+    scenario_config = Record(
+        action_map = dict(
+            startSystem='startCommand',
+            stopSystem='stopCommand',
+        ),
+        scenarios=None,
+    )
+    
+    def __init__(self, **kwargs):
+        super(MinePump, self).__init__(**kwargs)
+        self.specifications = [self.containment_hierarchy + rel[1] for rel in self.interactions]
+        self.load_scenarios('fix')
+    
+    def load_scenarios(self, key):
+        scenarios = dict()
+        for interaction in self.interactions:
+            scenarios[self.containment_hierarchy + interaction[1]] = interaction[2][key]
+        self.scenario_config.scenarios = scenarios
+        
