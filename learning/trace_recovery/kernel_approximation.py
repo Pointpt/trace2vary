@@ -1,39 +1,39 @@
 from sklearn.kernel_approximation import RBFSampler
 from sklearn.linear_model import SGDClassifier
-from sklearn.model_selection import train_test_split
-from preprocessing.merge_training_data import get_training_data_frame
+from preprocessing.merge_features_data import get_features_data_frame
 from sklearn.externals import joblib
 
 # Choosing the right estimator - http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 # SGD with kernel approximation - http://scikit-learn.org/stable/modules/kernel_approximation.html
 
 
-def run_kernel_approximation():
+def run_kernel_approximation(config_file):
 
     print("\n\n- METHOD: Kernel Approximation")
-    print("1/5 - Reading training data")
-    training_data_frame = get_training_data_frame()
+    print("1/4 - Reading training data")
+    training_data_frame = get_features_data_frame(config_file)
 
-    print("2/5 - Building training and test sets")
+    print("2/4 - Building training set")
     features_data_frame = training_data_frame.drop(['Feature', 'Document', 'Result'], 1)
 
     X = features_data_frame.as_matrix()
     y = training_data_frame['Result'].values
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=0)
+    # from sklearn.model_selection import train_test_split
+    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=0)
 
-    print("3/5 - Fitting the kernel approximation estimator")
+    print("3/4 - Fitting the kernel approximation estimator")
     rbf_feature = RBFSampler(gamma=1, random_state=1)
-    X_train_features = rbf_feature.fit_transform(X_train)
+    X_features = rbf_feature.fit_transform(X)
     estimator = SGDClassifier(max_iter=1000)
-    estimator.fit(X_train_features, y_train)
+    estimator.fit(X_features, y)
 
-    print("4/5 - Calculating the estimator accuracy")
-    X_test_features = rbf_feature.fit_transform(X_test)
-    accuracy = estimator.score(X_test_features, y_test)
-    print("Test set accuracy score: " + str(accuracy))
+    # print("4/5 - Calculating the estimator accuracy")
+    # X_test_features = rbf_feature.fit_transform(X_test)
+    # accuracy = estimator.score(X_test_features, y_test)
+    # print("Test set accuracy score: " + str(accuracy))
 
-    print("5/5 - Dumping the kernel approximation estimator")
+    print("4/4 - Dumping the kernel approximation estimator")
     joblib.dump(estimator, 'kernel_approximation.pkl')
 
     # from sklearn import metrics

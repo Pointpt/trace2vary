@@ -1,0 +1,12 @@
+commandline:prompt,cmd
+html:html-datei
+index_history:index_history_selector,his_indexer
+latex:part,chapter,section
+linux:os
+multi_directory:rootdirectories,directory,path
+normal_view:fontnormal
+query_history:history,history_query
+single_directory:directory,path
+tree_view:treeview,tree,treemap,treenode
+user_interface:userinterface,ui
+windows:os

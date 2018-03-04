@@ -1,8 +1,0 @@
-keys:features/keys/Test_Actions.java,features/keys/EmailSystem/Client.java
-encrypt:features/encrypt/EmailSystem/Client.java,features/encrypt/EmailSystem/Email.java,features/encrypt/TestSpecifications/Specification1_8.java,features/encrypt/TestSpecifications/Specification6.java,features/encrypt/TestSpecifications/Specification9.java,features/encrypt/TestSpecifications/SpecificationManager.java,features/encrypt/TestSpecifications/SpecificationsEncrypt.aj
-autoresponder:features/autoresponder/EmailSystem/Client.java,features/autoresponder/TestSpecifications/Specification11.java,features/autoresponder/TestSpecifications/SpecificationManager.java,features/autoresponder/TestSpecifications/SpecificationsAutoResponder.aj
-addressbook:features/addressbook/EmailSystem/Client.java,features/addressbook/Test_Actions.java
-sign:features/sign/EmailSystem/Client.java,features/sign/EmailSystem/Email.java,features/sign/TestSpecifications/Specification3.java,features/sign/TestSpecifications/Specification4.java,features/sign/TestSpecifications/SpecificationManager.java,features/sign/TestSpecifications/SpecificationsSign.aj
-forward:features/forward/EmailSystem/Client.java,features/forward/Test_Actions.java
-verify:features/verify/EmailSystem/Client.java,features/verify/EmailSystem/Email.java,features/verify/TestSpecifications/Specification7.java,features/verify/TestSpecifications/Specification27.java,features/verify/TestSpecifications/SpecificationManager.java,features/verify/TestSpecifications/SpecificationsVerify.aj
-decrypt:features/decrypt/EmailSystem/Client.java

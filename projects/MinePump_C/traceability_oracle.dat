@@ -1,0 +1,6 @@
+highwatersensor:features/highWaterSensor/Environment.c,features/highWaterSensor/Environment.h,features/highWaterSensor/MinePump.c
+lowwatersensor:features/lowWaterSensor/Environment.c,features/lowWaterSensor/Environment.h,features/lowWaterSensor/MinePump.c
+methanealarm:features/methaneAlarm/MinePump.c
+methanequery:features/methaneQuery/MinePump.c
+startcommand:features/startCommand/MinePump.c,features/startCommand/MinePump.h
+stopcommand:features/stopCommand/MinePump.c,features/stopCommand/MinePump.h

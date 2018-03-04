@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="minepump">
+  <property file="ant.properties"/>
+
+  <target name="clean" description="Delete all generated files">
+    <delete dir="${destinationFeature.dir}" failonerror="false"/>
+  	
+  </target>
+	
+  <target name="compose" depends="clean">
+	<java jar="${featureHouse.jar}" fork="true" failonerror="true">
+		<arg line="--expression ${basedir}/features/debugFeatures.exp"/>
+	</java>
+  </target>
+
+</project>

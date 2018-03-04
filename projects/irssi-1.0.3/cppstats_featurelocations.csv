@@ -1,0 +1,265 @@
+"sep=,"
+FILENAME,LINE_START,LINE_END,TYPE,EXPRESSION,CONSTANTS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,1,119,#if,!defined(__COMMON_H),__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,14,16,#if,(!defined(__COMMON_H)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,28,30,#if,(!defined(__COMMON_H)) && (defined(HAVE_SYS_TIME_H)),HAVE_SYS_TIME_H;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,33,35,#if,(!defined(__COMMON_H)) && (defined(HAVE_UNISTD_H)),HAVE_UNISTD_H;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,36,38,#if,(!defined(__COMMON_H)) && (defined(HAVE_DIRENT_H)),HAVE_DIRENT_H;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,42,44,#if,(!defined(__COMMON_H)) && (defined(HAVE_GMODULE)),HAVE_GMODULE;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,46,48,#if,(!defined(__COMMON_H)) && (defined (UOFF_T_INT)),UOFF_T_INT;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,48,50,#elif,((!defined(__COMMON_H)) && (!(defined (UOFF_T_INT)))) && (defined (UOFF_T_LONG)),UOFF_T_INT;UOFF_T_LONG;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,50,52,#elif,(((!defined(__COMMON_H)) && (!(defined (UOFF_T_INT)))) && (!(defined (UOFF_T_LONG)))) && (defined (UOFF_T_LONG_LONG)),UOFF_T_INT;UOFF_T_LONG;UOFF_T_LONG_LONG;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/common.h.xml,52,54,#else,(((!defined(__COMMON_H)) && (!(defined (UOFF_T_INT)))) && (!(defined (UOFF_T_LONG)))) && (!(defined (UOFF_T_LONG_LONG))),UOFF_T_INT;UOFF_T_LONG;UOFF_T_LONG_LONG;__COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/args.h.xml,1,7,#if,!defined(__ARGS_H),__ARGS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/channels-setup.h.xml,1,34,#if,!defined(__CHANNELS_SETUP_H),__CHANNELS_SETUP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/channels.h.xml,1,39,#if,!defined(__CHANNELS_H),__CHANNELS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/chat-protocols.h.xml,1,61,#if,!defined(__CHAT_PROTOCOLS_H),__CHAT_PROTOCOLS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/chatnets.h.xml,1,32,#if,!defined(__CHATNETS_H),__CHATNETS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/commands.h.xml,1,174,#if,!defined(__COMMANDS_H),__COMMANDS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/core.c.xml,49,52,#if,defined(HAVE_SYS_RESOURCE_H),HAVE_SYS_RESOURCE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/core.c.xml,114,125,#if,defined(HAVE_SYS_RESOURCE_H),HAVE_SYS_RESOURCE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/core.c.xml,259,261,#if,defined(HAVE_SYS_RESOURCE_H),HAVE_SYS_RESOURCE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/core.h.xml,1,25,#if,!defined(__IRSSI_CORE_H),__IRSSI_CORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/expandos.c.xml,36,38,#if,defined(HAVE_SYS_UTSNAME_H),HAVE_SYS_UTSNAME_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/expandos.c.xml,591,593,#if,defined(HAVE_SYS_UTSNAME_H),HAVE_SYS_UTSNAME_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/expandos.c.xml,603,609,#if,defined(HAVE_SYS_UTSNAME_H),HAVE_SYS_UTSNAME_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/expandos.h.xml,1,43,#if,!defined(__EXPANDOS_H),__EXPANDOS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.c.xml,70,73,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.c.xml,73,76,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.c.xml,330,344,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.c.xml,344,364,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.c.xml,384,386,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.c.xml,386,388,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.h.xml,1,55,#if,!defined(__IGNORE_H),__IGNORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.h.xml,4,6,#if,(!defined(__IGNORE_H)) && (!defined(USE_GREGEX)),USE_GREGEX;__IGNORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.h.xml,23,25,#if,(!defined(__IGNORE_H)) && (defined(USE_GREGEX)),USE_GREGEX;__IGNORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/ignore.h.xml,25,28,#else,(!defined(__IGNORE_H)) && (!(defined(USE_GREGEX))),USE_GREGEX;__IGNORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/levels.h.xml,1,47,#if,!defined(__LEVELS_H),__LEVELS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/line-split.h.xml,1,11,#if,!defined(__LINE_SPLIT_H),__LINE_SPLIT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/log.h.xml,1,62,#if,!defined(__LOG_H),__LOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/masks.h.xml,1,11,#if,!defined(__MASKS_H),__MASKS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/misc.c.xml,25,27,#if,!defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/misc.c.xml,528,530,#if,defined(UOFF_T_LONG_LONG),UOFF_T_LONG_LONG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/misc.c.xml,530,532,#else,!(defined(UOFF_T_LONG_LONG)),UOFF_T_LONG_LONG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/misc.h.xml,1,117,#if,!defined(__MISC_H),__MISC_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules-load.c.xml,30,398,#if,defined(HAVE_GMODULE),HAVE_GMODULE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules-load.c.xml,398,405,#else,!(defined(HAVE_GMODULE)),HAVE_GMODULE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules-load.c.xml,417,420,#if,defined(HAVE_GMODULE),HAVE_GMODULE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules-load.h.xml,1,16,#if,!defined(__MODULES_LOAD_H),__MODULES_LOAD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules.h.xml,1,92,#if,!defined(__MODULES_H),__MODULES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules.h.xml,20,23,#if,(!defined(__MODULES_H)) && (defined(HAVE_GMODULE)),HAVE_GMODULE;__MODULES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules.h.xml,23,25,#else,(!defined(__MODULES_H)) && (!(defined(HAVE_GMODULE))),HAVE_GMODULE;__MODULES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/modules.h.xml,42,44,#if,(!defined(__MODULES_H)) && (defined(HAVE_GMODULE)),HAVE_GMODULE;__MODULES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/net-disconnect.h.xml,1,11,#if,!defined(__NET_DISCONNECT_H),__NET_DISCONNECT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/net-nonblock.h.xml,1,41,#if,!defined(__NET_NONBLOCK_H),__NET_NONBLOCK_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/net-sendbuffer.h.xml,1,38,#if,!defined(__NET_SENDBUFFER_H),__NET_SENDBUFFER_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network-openssl.c.xml,37,45,#if,(OPENSSL_VERSION_NUMBER >= 0x10100000L) && !defined(LIBRESSL_VERSION_NUMBER),LIBRESSL_VERSION_NUMBER;OPENSSL_VERSION_NUMBER
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network-openssl.c.xml,367,372,#if,(OPENSSL_VERSION_NUMBER >= 0x10100000L) && !defined(LIBRESSL_VERSION_NUMBER),LIBRESSL_VERSION_NUMBER;OPENSSL_VERSION_NUMBER
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network-openssl.c.xml,372,376,#else,!((OPENSSL_VERSION_NUMBER >= 0x10100000L) && !defined(LIBRESSL_VERSION_NUMBER)),LIBRESSL_VERSION_NUMBER;OPENSSL_VERSION_NUMBER
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network-openssl.c.xml,514,516,#if,defined(SSL_CTRL_SET_TLSEXT_HOSTNAME),SSL_CTRL_SET_TLSEXT_HOSTNAME
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network-openssl.c.xml,686,728,#if,defined(SSL_get_server_tmp_key),SSL_get_server_tmp_key
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network-openssl.c.xml,691,693,#if,(defined(SSL_get_server_tmp_key)) && (!defined(OPENSSL_NO_EC)),OPENSSL_NO_EC;SSL_get_server_tmp_key
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network-openssl.c.xml,705,718,#if,(defined(SSL_get_server_tmp_key)) && (!defined(OPENSSL_NO_EC)),OPENSSL_NO_EC;SSL_get_server_tmp_key
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.c.xml,26,28,#if,!defined(INADDR_NONE),INADDR_NONE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.c.xml,53,55,#if,defined(IN6ADDR_ANY_INIT),IN6ADDR_ANY_INIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.c.xml,55,57,#else,!(defined(IN6ADDR_ANY_INIT)),IN6ADDR_ANY_INIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.c.xml,480,483,#if,defined(HAVE_INET_ATON),HAVE_INET_ATON
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.c.xml,483,489,#else,!(defined(HAVE_INET_ATON)),HAVE_INET_ATON
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.c.xml,524,526,#if,defined(EAI_NODATA),EAI_NODATA
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.c.xml,526,528,#else,!(defined(EAI_NODATA)),EAI_NODATA
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.h.xml,1,94,#if,!defined(__NETWORK_H),__NETWORK_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.h.xml,4,6,#if,(!defined(__NETWORK_H)) && (defined(HAVE_SOCKS_H)),HAVE_SOCKS_H;__NETWORK_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.h.xml,14,20,#if,(!defined(__NETWORK_H)) && (!defined(AF_INET6)),AF_INET6;__NETWORK_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.h.xml,15,17,#if,((!defined(__NETWORK_H)) && (!defined(AF_INET6))) && (defined(PF_INET6)),AF_INET6;PF_INET6;__NETWORK_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/network.h.xml,17,19,#else,((!defined(__NETWORK_H)) && (!defined(AF_INET6))) && (!(defined(PF_INET6))),AF_INET6;PF_INET6;__NETWORK_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/nicklist.h.xml,1,63,#if,!defined(__NICKLIST_H),__NICKLIST_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/nickmatch-cache.h.xml,1,26,#if,!defined(__NICKMATCH_CACHE_H),__NICKMATCH_CACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/pidwait.h.xml,1,16,#if,!defined(__PIDWAIT_H),__PIDWAIT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/queries.h.xml,1,34,#if,!defined(__QUERIES_H),__QUERIES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/rawlog.h.xml,1,28,#if,!defined(__RAWLOG_H),__RAWLOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/recode.h.xml,1,15,#if,!defined(__RECODE_H),__RECODE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/servers-reconnect.h.xml,1,23,#if,!defined(__SERVER_RECONNECT_H),__SERVER_RECONNECT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/servers-setup.h.xml,1,48,#if,!defined(__SERVERS_SETUP_H),__SERVERS_SETUP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/servers.h.xml,1,79,#if,!defined(__SERVERS_H),__SERVERS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/session.h.xml,1,13,#if,!defined(__SESSION_H),__SESSION_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/settings.h.xml,1,131,#if,!defined(__SETTINGS_H),__SETTINGS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/signals.c.xml,238,240,#if,SIGNAL_MAX_ARGUMENTS != 6,SIGNAL_MAX_ARGUMENTS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/signals.h.xml,1,76,#if,!defined(__SIGNAL_H),__SIGNAL_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/special-vars.h.xml,1,44,#if,!defined(__SPECIAL_VARS_H),__SPECIAL_VARS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/tls.h.xml,19,90,#if,!defined(__TLS_H),__TLS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/utf8.h.xml,1,56,#if,!defined(__UTF8_H),__UTF8_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/wcwidth.c.xml,207,220,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/window-item-def.h.xml,1,9,#if,!defined(__WINDOW_ITEM_DEF_H),__WINDOW_ITEM_DEF_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/core/write-buffer.h.xml,1,10,#if,!defined(__WRITE_BUFFER_H),__WRITE_BUFFER_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/chat-completion.h.xml,1,16,#if,!defined(__CHAT_COMPLETION_H),__CHAT_COMPLETION_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/command-history.h.xml,1,36,#if,!defined(__COMMAND_HISTORY_H),__COMMAND_HISTORY_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/completion.h.xml,1,18,#if,!defined(__COMPLETION_H),__COMPLETION_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-channels.h.xml,1,16,#if,!defined(__FE_CHANNELS_H),__FE_CHANNELS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-common-core.c.xml,432,434,#if,defined(SIGPIPE),SIGPIPE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-common-core.h.xml,1,13,#if,!defined(__FE_COMMON_CORE_H),__FE_COMMON_CORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-core-commands.h.xml,1,9,#if,!defined(__FE_CORE_COMMANDS_H),__FE_CORE_COMMANDS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-exec.h.xml,1,52,#if,!defined(__FE_EXEC_H),__FE_EXEC_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-ignore.c.xml,61,64,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-ignore.c.xml,64,67,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-messages.h.xml,1,12,#if,!defined(__FE_MESSAGES_H),__FE_MESSAGES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-modules.c.xml,32,259,#if,defined(HAVE_GMODULE),HAVE_GMODULE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-modules.c.xml,259,276,#else,!(defined(HAVE_GMODULE)),HAVE_GMODULE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-queries.h.xml,1,13,#if,!defined(__FE_QUERIES_H),__FE_QUERIES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-recode.h.xml,1,7,#if,!defined(__FE_RECODE_H),__FE_RECODE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-tls.h.xml,19,25,#if,!defined(__FE_TLS_H),__FE_TLS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/fe-windows.h.xml,1,103,#if,!defined(__WINDOWS_H),__WINDOWS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,128,155,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,160,174,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,174,176,#else,!(defined(TERM_TRUECOLOR)),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,860,866,#if,!defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,994,1002,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,1002,1010,#else,!(defined(TERM_TRUECOLOR)),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,1136,1149,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,1199,1206,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.c.xml,1343,1347,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.h.xml,1,158,#if,!defined(__FORMATS_H),__FORMATS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/formats.h.xml,137,139,#if,(!defined(__FORMATS_H)) && (defined(TERM_TRUECOLOR)),TERM_TRUECOLOR;__FORMATS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,104,106,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,106,108,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,125,130,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,130,137,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,210,221,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,221,233,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,527,530,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.c.xml,530,533,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.h.xml,1,56,#if,!defined(__HILIGHT_TEXT_H),__HILIGHT_TEXT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.h.xml,4,6,#if,(!defined(__HILIGHT_TEXT_H)) && (!defined(USE_GREGEX)),USE_GREGEX;__HILIGHT_TEXT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.h.xml,27,29,#if,(!defined(__HILIGHT_TEXT_H)) && (defined(USE_GREGEX)),USE_GREGEX;__HILIGHT_TEXT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/hilight-text.h.xml,29,32,#else,(!defined(__HILIGHT_TEXT_H)) && (!(defined(USE_GREGEX))),USE_GREGEX;__HILIGHT_TEXT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/keyboard.h.xml,1,58,#if,!defined(__KEYBOARD_H),__KEYBOARD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.c.xml,449,451,#if,!defined(SUPPRESS_PRINTF_FALLBACK),SUPPRESS_PRINTF_FALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,1,118,#if,!defined(__PRINTTEXT_H),__PRINTTEXT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,39,49,#if,(!defined(__PRINTTEXT_H)) && (defined (__GNUC__) && !defined (__STRICT_ANSI__)),__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,49,59,#elif,((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (defined (_ISOC99_SOURCE)),_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,59,116,#else,((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE))),_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,61,63,#if,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (defined(G_CAN_INLINE)),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,63,65,#else,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (!(defined(G_CAN_INLINE))),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,75,77,#if,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (defined(G_CAN_INLINE)),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,77,79,#else,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (!(defined(G_CAN_INLINE))),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,89,91,#if,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (defined(G_CAN_INLINE)),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,91,93,#else,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (!(defined(G_CAN_INLINE))),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,103,105,#if,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (defined(G_CAN_INLINE)),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/printtext.h.xml,105,107,#else,(((!defined(__PRINTTEXT_H)) && (!(defined (__GNUC__) && !defined (__STRICT_ANSI__)))) && (!(defined (_ISOC99_SOURCE)))) && (!(defined(G_CAN_INLINE))),G_CAN_INLINE;_ISOC99_SOURCE;__GNUC__;__PRINTTEXT_H;__STRICT_ANSI__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/themes.h.xml,1,75,#if,!defined(__THEMES_H),__THEMES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/window-activity.h.xml,1,13,#if,!defined(__WINDOW_ACTIVITY_H),__WINDOW_ACTIVITY_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/window-items.h.xml,1,34,#if,!defined(__WINDOW_ITEMS_H),__WINDOW_ITEMS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/core/windows-layout.h.xml,1,11,#if,!defined(__WINDOWS_LAYOUT_H),__WINDOWS_LAYOUT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/irc/dcc/fe-dcc.h.xml,1,7,#if,!defined(__FE_DCC_H),__FE_DCC_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/irc/fe-irc-channels.h.xml,1,10,#if,!defined(__FE_IRC_CHANNELS_H),__FE_IRC_CHANNELS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-common/irc/fe-irc-server.h.xml,1,9,#if,!defined(__FE_IRC_SERVER_H),__FE_IRC_SERVER_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-none/irssi.c.xml,28,31,#if,defined(HAVE_STATIC_PERL),HAVE_STATIC_PERL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-none/irssi.c.xml,63,65,#if,defined(HAVE_STATIC_PERL),HAVE_STATIC_PERL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-none/irssi.c.xml,72,74,#if,defined(HAVE_STATIC_PERL),HAVE_STATIC_PERL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-none/irssi.c.xml,95,97,#if,defined(HAVE_SOCKS),HAVE_SOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/gui-entry.h.xml,1,80,#if,!defined(__GUI_ENTRY_H),__GUI_ENTRY_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/gui-printtext.h.xml,1,24,#if,!defined(__GUI_PRINTTEXT_H),__GUI_PRINTTEXT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/gui-readline.h.xml,1,15,#if,!defined(__GUI_READLINE_H),__GUI_READLINE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/gui-windows.h.xml,1,45,#if,!defined(__GUI_WINDOWS_H),__GUI_WINDOWS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/irssi.c.xml,48,54,#if,defined(HAVE_STATIC_PERL),HAVE_STATIC_PERL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/irssi.c.xml,148,155,#if,defined(SIGTRAP),SIGTRAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/irssi.c.xml,190,193,#if,defined(HAVE_STATIC_PERL),HAVE_STATIC_PERL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/irssi.c.xml,220,223,#if,defined(HAVE_STATIC_PERL),HAVE_STATIC_PERL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/irssi.c.xml,290,292,#if,defined(HAVE_SOCKS),HAVE_SOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/mainwindows.h.xml,1,60,#if,!defined(__MAINWINDOWS_H),__MAINWINDOWS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/statusbar-config.h.xml,1,12,#if,!defined(__STATUSBAR_CONFIG_H),__STATUSBAR_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/statusbar-item.h.xml,1,17,#if,!defined(IRSSI_STATUSBAR_ITEM_H),IRSSI_STATUSBAR_ITEM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/statusbar.h.xml,1,111,#if,!defined(__STATUSBAR_H),__STATUSBAR_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term-terminfo.c.xml,341,343,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term-terminfo.c.xml,343,345,#else,!(defined(TERM_TRUECOLOR)),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term-terminfo.c.xml,350,357,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term-terminfo.c.xml,360,367,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,29,31,#if,defined(HAVE_SYS_IOCTL_H),HAVE_SYS_IOCTL_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,48,66,#if,defined(TIOCGWINSZ),TIOCGWINSZ
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,66,68,#else,!(defined(TIOCGWINSZ)),TIOCGWINSZ
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,91,97,#if,defined(SIGWINCH),SIGWINCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,155,158,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,158,160,#else,!(defined(TERM_TRUECOLOR)),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,169,171,#if,defined(SIGWINCH),SIGWINCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,178,181,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,181,183,#else,!(defined(TERM_TRUECOLOR)),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.c.xml,196,201,#if,defined(SIGWINCH),SIGWINCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.h.xml,1,108,#if,!defined(__TERM_H),__TERM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.h.xml,75,78,#if,(!defined(__TERM_H)) && (defined(TERM_TRUECOLOR)),TERM_TRUECOLOR;__TERM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/term.h.xml,78,81,#else,(!defined(__TERM_H)) && (!(defined(TERM_TRUECOLOR))),TERM_TRUECOLOR;__TERM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/terminfo-core.c.xml,5,7,#if,!defined(_POSIX_VDISABLE),_POSIX_VDISABLE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/terminfo-core.c.xml,515,517,#if,defined(VDSUSP),VDSUSP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/terminfo-core.c.xml,518,520,#if,defined(VSUSP),VSUSP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/terminfo-core.h.xml,1,113,#if,!defined(__TERMINFO_CORE_H),__TERMINFO_CORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/terminfo-core.h.xml,49,51,#if,(!defined(__TERMINFO_CORE_H)) && (!defined(HAVE_TERMINFO)),HAVE_TERMINFO;__TERMINFO_CORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.c.xml,157,182,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.c.xml,251,254,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.c.xml,300,302,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.c.xml,397,399,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.c.xml,434,437,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.c.xml,488,491,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.h.xml,1,157,#if,!defined(__TEXTBUFFER_VIEW_H),__TEXTBUFFER_VIEW_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer-view.h.xml,18,20,#if,(!defined(__TEXTBUFFER_VIEW_H)) && (defined(TERM_TRUECOLOR)),TERM_TRUECOLOR;__TEXTBUFFER_VIEW_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,30,32,#if,!defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,246,263,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,276,280,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,294,298,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,486,489,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,534,538,#if,defined(TERM_TRUECOLOR),TERM_TRUECOLOR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,548,550,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,550,552,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,562,571,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,571,578,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,599,601,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,601,603,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,637,640,#if,defined(USE_GREGEX),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.c.xml,640,642,#else,!(defined(USE_GREGEX)),USE_GREGEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.h.xml,1,108,#if,!defined(__TEXTBUFFER_H),__TEXTBUFFER_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/fe-text/textbuffer.h.xml,24,26,#if,(!defined(__TEXTBUFFER_H)) && (defined(TERM_TRUECOLOR)),TERM_TRUECOLOR;__TEXTBUFFER_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/bans.h.xml,1,14,#if,!defined(__BANS_H),__BANS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/channel-rejoin.h.xml,1,13,#if,!defined(__CHANNEL_REJOIN_H),__CHANNEL_REJOIN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/ctcp.h.xml,1,14,#if,!defined(__CTCP_H),__CTCP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-cap.h.xml,1,9,#if,!defined(__IRC_CAP_H),__IRC_CAP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-channels.h.xml,1,35,#if,!defined(__IRC_CHANNELS_H),__IRC_CHANNELS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-chatnets.h.xml,1,43,#if,!defined(__IRC_CHATNETS_H),__IRC_CHATNETS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-commands.h.xml,1,26,#if,!defined(__IRC_COMMANDS_H),__IRC_COMMANDS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-expandos.c.xml,30,32,#if,!defined(HOST_NAME_MAX),HOST_NAME_MAX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-masks.h.xml,1,13,#if,!defined(__IRC_MASKS_H),__IRC_MASKS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-nicklist.h.xml,1,20,#if,!defined(__IRC_NICKLIST_H),__IRC_NICKLIST_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-queries.h.xml,1,22,#if,!defined(__IRC_QUERIES_H),__IRC_QUERIES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-servers-setup.h.xml,1,26,#if,!defined(__IRC_SERVERS_SETUP_H),__IRC_SERVERS_SETUP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc-servers.h.xml,1,146,#if,!defined(__IRC_SERVERS_H),__IRC_SERVERS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc.c.xml,37,39,#if,defined(BLOCKING_SOCKETS),BLOCKING_SOCKETS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc.c.xml,39,41,#else,!(defined(BLOCKING_SOCKETS)),BLOCKING_SOCKETS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/irc.h.xml,1,59,#if,!defined(__IRC_H),__IRC_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/mode-lists.h.xml,1,24,#if,!defined(__MODE_LISTS_H),__MODE_LISTS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/modes.h.xml,1,67,#if,!defined(__MODES_H),__MODES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/netsplit.h.xml,1,43,#if,!defined(__NETSPLIT_H),__NETSPLIT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/sasl.h.xml,21,34,#if,!defined(__SASL_H),__SASL_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/servers-idle.h.xml,1,37,#if,!defined(__SERVERS_IDLE_H),__SERVERS_IDLE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/core/servers-redirect.h.xml,1,87,#if,!defined(__SERVERS_REDIRECT_H),__SERVERS_REDIRECT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc-chat.h.xml,1,40,#if,!defined(__DCC_CHAT_H),__DCC_CHAT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc-file.h.xml,1,10,#if,!defined(__DCC_FILE_H),__DCC_FILE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc-get.h.xml,1,45,#if,!defined(__DCC_GET_H),__DCC_GET_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc-queue.h.xml,1,45,#if,!defined(__DCC_QUEUE_H_),__DCC_QUEUE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc-send.c.xml,37,39,#if,!defined(GLOB_TILDE),GLOB_TILDE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc-send.h.xml,1,27,#if,!defined(__DCC_SEND_H),__DCC_SEND_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc-server.h.xml,1,29,#if,!defined(__DCC_SERVER_H),__DCC_SERVER_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/dcc/dcc.h.xml,1,67,#if,!defined(__DCC_H),__DCC_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/flood/autoignore.h.xml,1,9,#if,!defined(__AUTOIGNORE_H),__AUTOIGNORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/flood/flood.h.xml,1,7,#if,!defined(__FLOOD_H),__FLOOD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/notifylist/notify-setup.h.xml,1,9,#if,!defined(__NOTIFY_SETUP_H),__NOTIFY_SETUP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/notifylist/notifylist.h.xml,1,29,#if,!defined(__NOTIFYLIST_H),__NOTIFYLIST_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/irc/proxy/proxy.h.xml,1,36,#if,!defined(PROXY_H),PROXY_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/lib-config/iconfig.h.xml,1,158,#if,!defined(__ICONFIG_H),__ICONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/module.h.xml,3,14,#if,defined(NEED_PERL_H),NEED_PERL_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/module.h.xml,5,7,#if,(defined(NEED_PERL_H)) && (!defined(_SEM_SEMUN_UNDEFINED)),NEED_PERL_H;_SEM_SEMUN_UNDEFINED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-common.h.xml,1,80,#if,!defined(__PERL_COMMON_H),__PERL_COMMON_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-common.h.xml,29,31,#if,(!defined(__PERL_COMMON_H)) && (!defined(pTHX_)),__PERL_COMMON_H;pTHX_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-common.h.xml,33,35,#if,(!defined(__PERL_COMMON_H)) && (!defined(aTHX_)),__PERL_COMMON_H;aTHX_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-core.c.xml,84,99,#if,PERL_STATIC_LIBS == 1,PERL_STATIC_LIBS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-core.c.xml,105,107,#if,PERL_STATIC_LIBS == 1,PERL_STATIC_LIBS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-core.c.xml,127,129,#if,PERL_STATIC_LIBS == 1,PERL_STATIC_LIBS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-core.c.xml,160,169,#if,PERL_STATIC_LIBS == 1,PERL_STATIC_LIBS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-core.h.xml,1,58,#if,!defined(__PERL_CORE_H),__PERL_CORE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-signals.h.xml,1,35,#if,!defined(__PERL_SIGNALS_H),__PERL_SIGNALS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/irssi-1.0.3/_cppstats_featurelocations/perl/perl-sources.h.xml,1,14,#if,!defined(__PERL_SOURCES_H),__PERL_SOURCES_H

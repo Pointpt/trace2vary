@@ -1,7 +1,0 @@
-hypermodule Variant2
-   hyperslices:
-      Feature.Base,
-      Feature.GUI;
-   relationships:
-      mergeByName;
-end hypermodule;

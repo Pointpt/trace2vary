@@ -1,1 +1,0 @@
-int prompt(char* msg);

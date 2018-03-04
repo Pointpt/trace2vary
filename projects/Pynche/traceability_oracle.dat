@@ -1,0 +1,12 @@
+text:PyncheWidget.py
+blue:TypeinViewer.py,StripViewer.py,DetailsViewer.py
+chip:Main.py
+red:TypeinViewer.py,StripViewer.py,DetailsViewer.py
+green:TypeinViewer.py,StripViewer.py,DetailsViewer.py
+colorlist:PyncheWidget.py
+details:PyncheWidget.py
+typein:Main.py
+loadpalette:PyncheWidget.py
+about:PyncheWidget.py
+strip:Main.py
+help:PyncheWidget.py

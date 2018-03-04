@@ -1,0 +1,4 @@
+encryption:Encryption/Client/Client.cs,Encryption/Server/Server.cs
+keylogging:Keylogging/Client/Controller.cs,Keylogging/Client/KeyLogger.cs
+logging:Logging/Client/Controller.cs
+pcinfos:PCInfos/Client/Controller.cs,PCInfos/Client/ServerMessage.cs,PCInfos/Server/Controller.cs,PCInfos/Server/Device.cs,PCInfos/Server/UIMainWindow.cs

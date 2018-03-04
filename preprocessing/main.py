@@ -29,7 +29,7 @@ with open('../projects/test_set.dat', 'r') as projects_input_file:
         data_frame = project_analysis.run()
 
         print('\nStep 4: Exporting data to the CSV file...')
-        data_frame.to_csv('../projects/training/training_set' + str(file_index) + '.csv')
+        data_frame.to_csv('../projects/' + project + '/data.csv')
         data = data.append(data_frame)
 
         file_index += 1

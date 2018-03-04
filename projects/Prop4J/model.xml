@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="4">
+		<struct>
+			<and abstract="true" mandatory="true" name="Prop4JSPL">
+				<and name="Operators">
+					<feature name="And"/>
+					<feature name="Or"/>
+					<feature name="Implies"/>
+					<feature name="Negation"/>
+					<feature name="Equals"/>
+					<and abstract="true" name="extended">
+						<feature name="AtLeast"/>
+						<feature name="AtMost"/>
+						<feature name="Choose"/>
+					</and>
+				</and>
+				<and abstract="true" name="Input_Output">
+					<feature name="Node_Reader"/>
+					<feature name="Node_Writer"/>
+				</and>
+				<feature name="SatSolver"/>
+				<feature name="To_CNF"/>
+				<feature name="Tests"/>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<imp>
+					<var>SatSolver</var>
+					<var>To_CNF</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>To_CNF</var>
+					<var>extended</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>Tests</var>
+					<conj>
+						<var>To_CNF</var>
+						<var>Node_Reader</var>
+					</conj>
+				</imp>
+			</rule>
+		</constraints>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

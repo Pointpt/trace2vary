@@ -1,0 +1,521 @@
+"sep=,"
+FILENAME,LINE_START,LINE_END,TYPE,EXPRESSION,CONSTANTS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/lib/strchr.c.xml,7,9,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/lib/strchr.c.xml,14,16,#if,defined(HAVE_INDEX),HAVE_INDEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/lib/strchr.c.xml,16,21,#else,!(defined(HAVE_INDEX)),HAVE_INDEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/lib/strrchr.c.xml,6,8,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/lib/strrchr.c.xml,13,15,#if,defined(HAVE_RINDEX),HAVE_RINDEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/lib/strrchr.c.xml,15,20,#else,!(defined(HAVE_RINDEX)),HAVE_RINDEX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,43,45,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,51,55,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,55,59,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,751,753,#if,NeedFunctionPrototypes,NeedFunctionPrototypes
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,753,756,#else,!(NeedFunctionPrototypes),NeedFunctionPrototypes
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,770,772,#if,NeedFunctionPrototypes,NeedFunctionPrototypes
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,772,775,#else,!(NeedFunctionPrototypes),NeedFunctionPrototypes
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,789,791,#if,NeedFunctionPrototypes,NeedFunctionPrototypes
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SimpleMenu.c.xml,791,794,#else,!(NeedFunctionPrototypes),NeedFunctionPrototypes
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,51,52,#if,defined(X_NOT_STDC_ENV),X_NOT_STDC_ENV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,52,54,#else,!(defined(X_NOT_STDC_ENV)),X_NOT_STDC_ENV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,58,60,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,60,62,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,112,114,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,114,116,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,159,164,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,257,259,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,259,261,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,264,272,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,272,275,#else,!((XtVersion >= 11006)),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,280,289,#if,!defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,304,310,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,319,325,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,340,348,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,401,405,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,405,408,#else,!((XtVersion >= 11006)),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,415,420,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,488,498,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,525,545,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,534,536,#if,((XtVersion >= 11006)) && (defined(XAW3D)),XAW3D;XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,540,542,#if,((XtVersion >= 11006)) && (defined(XAW3D)),XAW3D;XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,554,556,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,563,565,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,592,594,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,615,617,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,707,711,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,716,720,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,730,734,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.c.xml,761,775,#if,defined(apollo),apollo
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.h.xml,44,107,#if,!defined(_SmeBSB_h),_SmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.h.xml,49,51,#if,(!defined(_SmeBSB_h)) && (defined(XAW3D)),XAW3D;_SmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.h.xml,51,53,#else,(!defined(_SmeBSB_h)) && (!(defined(XAW3D))),XAW3D;_SmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.h.xml,94,96,#if,(!defined(_SmeBSB_h)) && (!defined(XtNfontSet)),XtNfontSet;_SmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSB.h.xml,98,100,#if,(!defined(_SmeBSB_h)) && (!defined(XtCFontSet)),XtCFontSet;_SmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSBP.h.xml,37,126,#if,!defined(_XawSmeBSBP_h),_XawSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSBP.h.xml,46,48,#if,(!defined(_XawSmeBSBP_h)) && (defined(XAW3D)),XAW3D;_XawSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSBP.h.xml,48,50,#else,(!defined(_XawSmeBSBP_h)) && (!(defined(XAW3D))),XAW3D;_XawSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSBP.h.xml,68,70,#if,(!defined(_XawSmeBSBP_h)) && (defined(XAW3D)),XAW3D;_XawSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeBSBP.h.xml,114,116,#if,(!defined(_XawSmeBSBP_h)) && (defined(XAW3D)),XAW3D;_XawSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.c.xml,25,27,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.c.xml,27,29,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.c.xml,107,111,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.h.xml,20,76,#if,!defined(_SmeCascade_h),_SmeCascade_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.h.xml,25,27,#if,(!defined(_SmeCascade_h)) && (defined(XAW3D)),XAW3D;_SmeCascade_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.h.xml,27,29,#else,(!defined(_SmeCascade_h)) && (!(defined(XAW3D))),XAW3D;_SmeCascade_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.h.xml,31,33,#if,(!defined(_SmeCascade_h)) && (defined(XAW3D1_5E)),XAW3D1_5E;_SmeCascade_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascade.h.xml,33,35,#else,(!defined(_SmeCascade_h)) && (!(defined(XAW3D1_5E))),XAW3D1_5E;_SmeCascade_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascadeP.h.xml,20,97,#if,!defined(_XawSmeCascadeP_h),_XawSmeCascadeP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascadeP.h.xml,29,31,#if,(!defined(_XawSmeCascadeP_h)) && (defined(XAW3D)),XAW3D;_XawSmeCascadeP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascadeP.h.xml,31,33,#else,(!defined(_XawSmeCascadeP_h)) && (!(defined(XAW3D))),XAW3D;_XawSmeCascadeP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascadeP.h.xml,35,37,#if,(!defined(_XawSmeCascadeP_h)) && (defined(XAW3D1_5E)),XAW3D1_5E;_XawSmeCascadeP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascadeP.h.xml,37,40,#else,(!defined(_XawSmeCascadeP_h)) && (!(defined(XAW3D1_5E))),XAW3D1_5E;_XawSmeCascadeP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascadeP.h.xml,56,58,#if,(!defined(_XawSmeCascadeP_h)) && (defined(XAW3D)),XAW3D;_XawSmeCascadeP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/SmeCascadeP.h.xml,84,86,#if,(!defined(_XawSmeCascadeP_h)) && (defined(XAW3D)),XAW3D;_XawSmeCascadeP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,22,63,#if,!defined(_XFUNCS_H_),_XFUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,25,27,#if,(!defined(_XFUNCS_H_)) && (defined(HAVE_STRING_H)),HAVE_STRING_H;_XFUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,28,30,#if,(!defined(_XFUNCS_H_)) && (defined(HAVE_STRINGS_H)),HAVE_STRINGS_H;_XFUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,32,36,#if,(!defined(_XFUNCS_H_)) && (defined(X_USEBFUNCS)),X_USEBFUNCS;_XFUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,36,61,#else,(!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS))),X_USEBFUNCS;_XFUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,37,41,#if,((!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS)))) && ((__STDC__ && !defined(X_NOT_STDC_ENV) && !defined(sun) && !defined(macII)) || defined(SVR4) || defined(hpux) || defined(_IBMR2)),SVR4;X_NOT_STDC_ENV;X_USEBFUNCS;_IBMR2;_XFUNCS_H_;__STDC__;hpux;macII;sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,41,60,#else,((!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS)))) && (!((__STDC__ && !defined(X_NOT_STDC_ENV) && !defined(sun) && !defined(macII)) || defined(SVR4) || defined(hpux) || defined(_IBMR2))),SVR4;X_NOT_STDC_ENV;X_USEBFUNCS;_IBMR2;_XFUNCS_H_;__STDC__;hpux;macII;sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,42,44,#if,(((!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS)))) && (!((__STDC__ && !defined(X_NOT_STDC_ENV) && !defined(sun) && !defined(macII)) || defined(SVR4) || defined(hpux) || defined(_IBMR2)))) && (defined(sgi)),SVR4;X_NOT_STDC_ENV;X_USEBFUNCS;_IBMR2;_XFUNCS_H_;__STDC__;hpux;macII;sgi;sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,44,59,#else,(((!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS)))) && (!((__STDC__ && !defined(X_NOT_STDC_ENV) && !defined(sun) && !defined(macII)) || defined(SVR4) || defined(hpux) || defined(_IBMR2)))) && (!(defined(sgi))),SVR4;X_NOT_STDC_ENV;X_USEBFUNCS;_IBMR2;_XFUNCS_H_;__STDC__;hpux;macII;sgi;sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,45,54,#if,((((!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS)))) && (!((__STDC__ && !defined(X_NOT_STDC_ENV) && !defined(sun) && !defined(macII)) || defined(SVR4) || defined(hpux) || defined(_IBMR2)))) && (!(defined(sgi)))) && (defined(SYSV)),SVR4;SYSV;X_NOT_STDC_ENV;X_USEBFUNCS;_IBMR2;_XFUNCS_H_;__STDC__;hpux;macII;sgi;sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,47,50,#if,(((((!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS)))) && (!((__STDC__ && !defined(X_NOT_STDC_ENV) && !defined(sun) && !defined(macII)) || defined(SVR4) || defined(hpux) || defined(_IBMR2)))) && (!(defined(sgi)))) && (defined(SYSV))) && (defined(_XBCOPYFUNC) && !defined(macII)),SVR4;SYSV;X_NOT_STDC_ENV;X_USEBFUNCS;_IBMR2;_XBCOPYFUNC;_XFUNCS_H_;__STDC__;hpux;macII;sgi;sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xfuncs.h.xml,54,58,#else,((((!defined(_XFUNCS_H_)) && (!(defined(X_USEBFUNCS)))) && (!((__STDC__ && !defined(X_NOT_STDC_ENV) && !defined(sun) && !defined(macII)) || defined(SVR4) || defined(hpux) || defined(_IBMR2)))) && (!(defined(sgi)))) && (!(defined(SYSV))),SVR4;SYSV;X_NOT_STDC_ENV;X_USEBFUNCS;_IBMR2;_XFUNCS_H_;__STDC__;hpux;macII;sgi;sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,29,98,#if,!defined(_XOSDEFS_H_),_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,41,44,#if,(!defined(_XOSDEFS_H_)) && (defined(NOSTDHDRS)),NOSTDHDRS;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,46,50,#if,(!defined(_XOSDEFS_H_)) && (defined(sony)),_XOSDEFS_H_;sony
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,47,49,#if,((!defined(_XOSDEFS_H_)) && (defined(sony))) && (!defined(SYSTYPE_SYSV)),SYSTYPE_SYSV;_XOSDEFS_H_;sony
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,52,55,#if,(!defined(_XOSDEFS_H_)) && (defined(UTEK)),UTEK;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,57,59,#if,(!defined(_XOSDEFS_H_)) && (defined(CRAY)),CRAY;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,61,66,#if,(!defined(_XOSDEFS_H_)) && (defined(vax)),_XOSDEFS_H_;vax
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,62,65,#if,((!defined(_XOSDEFS_H_)) && (defined(vax))) && (!defined(ultrix)),_XOSDEFS_H_;ultrix;vax
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,68,71,#if,(!defined(_XOSDEFS_H_)) && (defined(luna)),_XOSDEFS_H_;luna
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,73,76,#if,(!defined(_XOSDEFS_H_)) && (defined(Mips)),Mips;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,78,83,#if,(!defined(_XOSDEFS_H_)) && (defined(USL)),USL;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,79,82,#if,((!defined(_XOSDEFS_H_)) && (defined(USL))) && (defined(SYSV)),SYSV;USL;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,85,90,#if,(!defined(_XOSDEFS_H_)) && (defined(SYSV386)),SYSV386;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,86,89,#if,((!defined(_XOSDEFS_H_)) && (defined(SYSV386))) && (defined(SYSV)),SYSV;SYSV386;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,92,96,#if,(!defined(_XOSDEFS_H_)) && (defined(MOTOROLA)),MOTOROLA;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/Xosdefs.h.xml,93,95,#if,((!defined(_XOSDEFS_H_)) && (defined(MOTOROLA))) && (defined(SYSV)),MOTOROLA;SYSV;_XOSDEFS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_spline.h.xml,18,27,#if,!defined(D_SPLINE_H),D_SPLINE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_subspline.h.xml,18,25,#if,!defined(D_SUBSPLINE_H),D_SUBSPLINE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,43,45,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,54,56,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,70,72,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,126,137,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,139,170,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,164,169,#if,(defined(I18N)) && (defined(I18N_USE_PREEDIT)),I18N;I18N_USE_PREEDIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,191,204,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,192,203,#if,(defined(I18N)) && (defined(I18N_USE_PREEDIT)),I18N;I18N_USE_PREEDIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,363,366,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,428,433,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,497,500,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,577,580,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,603,636,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,648,655,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,667,673,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,675,681,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,734,753,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,820,827,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,835,838,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,907,951,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,969,979,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1001,1007,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1018,1024,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1036,1040,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1048,1051,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1060,1064,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1071,1074,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1082,1093,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1133,1144,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1185,1189,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1232,1235,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1243,1247,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1271,1275,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1287,1353,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1364,1368,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1389,1393,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1446,1595,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1604,1616,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1634,1646,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1657,1727,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1807,1809,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,1861,2189,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.c.xml,2103,2187,#if,(defined(I18N)) && (defined(I18N_USE_PREEDIT)),I18N;I18N_USE_PREEDIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.h.xml,29,39,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/d_text.h.xml,36,38,#if,(defined(I18N)) && (defined(I18N_USE_PREEDIT)),I18N;I18N_USE_PREEDIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/dirstruct.h.xml,21,41,#if,!defined(DIRSTRUCT),DIRSTRUCT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/dirstruct.h.xml,25,28,#if,(!defined(DIRSTRUCT)) && (defined(HAVE_DIRENT_H)),DIRSTRUCT;HAVE_DIRENT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/dirstruct.h.xml,28,39,#else,(!defined(DIRSTRUCT)) && (!(defined(HAVE_DIRENT_H))),DIRSTRUCT;HAVE_DIRENT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/dirstruct.h.xml,29,31,#if,((!defined(DIRSTRUCT)) && (!(defined(HAVE_DIRENT_H)))) && (defined(HAVE_SYS_NDIR_H)),DIRSTRUCT;HAVE_DIRENT_H;HAVE_SYS_NDIR_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/dirstruct.h.xml,32,34,#if,((!defined(DIRSTRUCT)) && (!(defined(HAVE_DIRENT_H)))) && (defined(HAVE_SYS_DIR_H)),DIRSTRUCT;HAVE_DIRENT_H;HAVE_SYS_DIR_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/dirstruct.h.xml,35,37,#if,((!defined(DIRSTRUCT)) && (!(defined(HAVE_DIRENT_H)))) && (defined(HAVE_NDIR_H)),DIRSTRUCT;HAVE_DIRENT_H;HAVE_NDIR_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_chop.c.xml,22,24,#if,!defined(__FreeBSD__),__FreeBSD__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_chop.c.xml,304,307,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_chop.c.xml,650,654,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_chop.c.xml,865,874,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_chop.c.xml,876,899,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_chop.h.xml,18,22,#if,!defined(C_CHOP_H),C_CHOP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_convert.h.xml,18,28,#if,!defined(E_CONVERT_H),E_CONVERT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_copy.c.xml,135,138,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_copy.c.xml,168,171,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_copy.c.xml,174,177,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_delete.c.xml,172,175,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_delete.c.xml,217,220,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_delete.c.xml,223,226,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,66,68,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,260,262,#if,defined(USE_JPEG),USE_JPEG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,264,266,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,1741,1743,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,1747,1749,#if,defined(USE_JPEG),USE_JPEG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,2087,2089,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,2090,2092,#if,defined(USE_JPEG),USE_JPEG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,2131,2133,#if,defined(USE_JPEG),USE_JPEG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,2138,2140,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,2389,2392,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,2392,2394,#else,!(defined(I18N)),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.c.xml,4253,4256,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/e_edit.h.xml,18,36,#if,!defined(E_EDIT_H),E_EDIT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_load.c.xml,356,359,#if,defined(ENAMETOOLONG),ENAMETOOLONG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_neuclrtab.c.xml,53,59,#if,!defined(DEFSMPFAC),DEFSMPFAC
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_neuclrtab.c.xml,54,56,#if,(!defined(DEFSMPFAC)) && (defined(SPEED)),DEFSMPFAC;SPEED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_neuclrtab.c.xml,56,58,#else,(!defined(DEFSMPFAC)) && (!(defined(SPEED))),DEFSMPFAC;SPEED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_neuclrtab.c.xml,224,227,#if,defined(MAXERR),MAXERR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_neuclrtab.h.xml,17,51,#if,!defined(F_NEUCLRTAB_H),F_NEUCLRTAB_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_picobj.c.xml,47,49,#if,defined(USE_JPEG),USE_JPEG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_picobj.c.xml,50,52,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_picobj.c.xml,72,75,#if,defined(USE_JPEG),USE_JPEG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_picobj.c.xml,77,79,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_read.c.xml,209,212,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_read.c.xml,214,217,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_readeps.c.xml,163,168,#if,defined(GSBIT),GSBIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_readeps.c.xml,245,444,#if,defined(GSBIT),GSBIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_readpng.c.xml,131,137,#if,defined(USE_ALPHA),USE_ALPHA
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_readpng.c.xml,141,143,#if,(PNG_LIBPNG_VER_MAJOR > 1 || (PNG_LIBPNG_VER_MAJOR == 1 && (PNG_LIBPNG_VER_MINOR > 4))) || defined(png_set_quantize),PNG_LIBPNG_VER_MAJOR;PNG_LIBPNG_VER_MINOR;png_set_quantize
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_readpng.c.xml,143,145,#else,!((PNG_LIBPNG_VER_MAJOR > 1 || (PNG_LIBPNG_VER_MAJOR == 1 && (PNG_LIBPNG_VER_MINOR > 4))) || defined(png_set_quantize)),PNG_LIBPNG_VER_MAJOR;PNG_LIBPNG_VER_MINOR;png_set_quantize
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_save.c.xml,121,124,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_save.c.xml,150,153,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_save.c.xml,193,197,#if,defined(DONT_SHOW_DEPTHS),DONT_SHOW_DEPTHS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_util.c.xml,124,130,#if,defined(HAVE_GETCWD),HAVE_GETCWD
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_util.c.xml,130,136,#else,!(defined(HAVE_GETCWD)),HAVE_GETCWD
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_util.c.xml,143,145,#if,!defined(S_IWUSR),S_IWUSR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_util.c.xml,147,149,#if,!defined(S_IWGRP),S_IWGRP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_util.c.xml,151,153,#if,!defined(S_IWOTH),S_IWOTH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/f_util.c.xml,1112,1119,#if,!defined(HAVE_STRERROR),HAVE_STRERROR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,18,224,#if,!defined(FIG_H),FIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,21,23,#if,(!defined(FIG_H)) && (defined(HAVE_CONFIG_H)),FIG_H;HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,25,161,#if,(!defined(FIG_H)) && (defined(ANCIENT)),ANCIENT;FIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,30,35,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(ultrix) || defined(__bsdi__) || defined(Mips) || defined(apollo) || defined(__hpux)),ANCIENT;FIG_H;Mips;__bsdi__;__hpux;apollo;ultrix
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,31,33,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(ultrix) || defined(__bsdi__) || defined(Mips) || defined(apollo) || defined(__hpux))) && (defined(__hpux)),ANCIENT;FIG_H;Mips;__bsdi__;__hpux;apollo;ultrix
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,38,41,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(__convex__) && defined(__STDC__)),ANCIENT;FIG_H;__STDC__;__convex__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,43,47,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (!defined(SYSV)),ANCIENT;FIG_H;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,44,46,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (!defined(SYSV))) && (!defined(SVR4)),ANCIENT;FIG_H;SVR4;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,56,66,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (!defined(HAVE_STRERROR)),ANCIENT;FIG_H;HAVE_STRERROR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,58,65,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (!defined(HAVE_STRERROR))) && (!defined(__bsdi__) && !defined(__NetBSD__) && !defined(__GNU_LIBRARY__)),ANCIENT;FIG_H;HAVE_STRERROR;__GNU_LIBRARY__;__NetBSD__;__bsdi__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,61,64,#if,((((!defined(FIG_H)) && (defined(ANCIENT))) && (!defined(HAVE_STRERROR))) && (!defined(__bsdi__) && !defined(__NetBSD__) && !defined(__GNU_LIBRARY__))) && (( !(defined(BSD) && (BSD - 0 >= 199306)) && !defined(__NetBSD__) && !defined(__GNU_LIBRARY__) && !defined(__FreeBSD__) && !defined(__GLIBC__))),ANCIENT;BSD;FIG_H;HAVE_STRERROR;__FreeBSD__;__GLIBC__;__GNU_LIBRARY__;__NetBSD__;__bsdi__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,80,95,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(X_NOT_POSIX)),ANCIENT;FIG_H;X_NOT_POSIX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,82,84,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(X_NOT_POSIX))) && (defined(USL)),ANCIENT;FIG_H;USL;X_NOT_POSIX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,85,87,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(X_NOT_POSIX))) && (defined(CRAY)),ANCIENT;CRAY;FIG_H;X_NOT_POSIX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,88,90,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(X_NOT_POSIX))) && (defined(MOTOROLA)),ANCIENT;FIG_H;MOTOROLA;X_NOT_POSIX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,91,93,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(X_NOT_POSIX))) && (defined(SYSV386)),ANCIENT;FIG_H;SYSV386;X_NOT_POSIX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,95,104,#else,((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(X_NOT_POSIX))),ANCIENT;FIG_H;X_NOT_POSIX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,96,100,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(X_NOT_POSIX)))) && (!defined(_POSIX_SOURCE) && defined(macII)),ANCIENT;FIG_H;X_NOT_POSIX;_POSIX_SOURCE;macII
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,100,102,#else,(((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(X_NOT_POSIX)))) && (!(!defined(_POSIX_SOURCE) && defined(macII))),ANCIENT;FIG_H;X_NOT_POSIX;_POSIX_SOURCE;macII
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,106,123,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386)),ANCIENT;FIG_H;SYSV;SYSV386
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,107,120,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386))) && (defined(__STDC__)),ANCIENT;FIG_H;SYSV;SYSV386;__STDC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,108,110,#if,((((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386))) && (defined(__STDC__))) && (defined(ISC)),ANCIENT;FIG_H;ISC;SYSV;SYSV386;__STDC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,111,117,#if,((((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386))) && (defined(__STDC__))) && (defined(SCO)),ANCIENT;FIG_H;SCO;SYSV;SYSV386;__STDC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,112,114,#if,(((((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386))) && (defined(__STDC__))) && (defined(SCO))) && (defined(SCO324)),ANCIENT;FIG_H;SCO;SCO324;SYSV;SYSV386;__STDC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,114,116,#else,(((((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386))) && (defined(__STDC__))) && (defined(SCO))) && (!(defined(SCO324))),ANCIENT;FIG_H;SCO;SCO324;SYSV;SYSV386;__STDC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,117,119,#else,((((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386))) && (defined(__STDC__))) && (!(defined(SCO))),ANCIENT;FIG_H;SCO;SYSV;SYSV386;__STDC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,120,122,#else,(((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) && defined(SYSV386))) && (!(defined(__STDC__))),ANCIENT;FIG_H;SYSV;SYSV386;__STDC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,123,133,#else,((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(SYSV) && defined(SYSV386))),ANCIENT;FIG_H;SYSV;SYSV386
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,124,130,#if,(((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(SYSV) && defined(SYSV386)))) && (defined(X_NOT_STDC_ENV)),ANCIENT;FIG_H;SYSV;SYSV386;X_NOT_STDC_ENV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,125,129,#if,((((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(SYSV) && defined(SYSV386)))) && (defined(X_NOT_STDC_ENV))) && (defined(ultrix) || defined(sun) && !defined(sparc) || defined(titan) || (defined(ibm032) && !defined(_AIX))),ANCIENT;FIG_H;SYSV;SYSV386;X_NOT_STDC_ENV;_AIX;ibm032;sparc;sun;titan;ultrix
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,130,132,#else,(((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(SYSV) && defined(SYSV386)))) && (!(defined(X_NOT_STDC_ENV))),ANCIENT;FIG_H;SYSV;SYSV386;X_NOT_STDC_ENV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,135,143,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (defined(SYSV) || defined(SVR4)),ANCIENT;FIG_H;SVR4;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,143,148,#elif,(((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(SYSV) || defined(SVR4)))) && (defined(BSD)),ANCIENT;BSD;FIG_H;SVR4;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,148,152,#elif,((((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(SYSV) || defined(SVR4)))) && (!(defined(BSD)))) && ((defined(linux) && !defined(glibc) && !defined(__GLIBC__))),ANCIENT;BSD;FIG_H;SVR4;SYSV;__GLIBC__;glibc;linux
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,152,155,#elif,(((((!defined(FIG_H)) && (defined(ANCIENT))) && (!(defined(SYSV) || defined(SVR4)))) && (!(defined(BSD)))) && (!((defined(linux) && !defined(glibc) && !defined(__GLIBC__))))) && (!defined(__osf__) && !defined(__CYGWIN__) && !defined(linux) && !defined(__FreeBSD__) && !defined(__GLIBC__)),ANCIENT;BSD;FIG_H;SVR4;SYSV;__CYGWIN__;__FreeBSD__;__GLIBC__;__osf__;glibc;linux
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,157,159,#if,((!defined(FIG_H)) && (defined(ANCIENT))) && (!defined(frandom)),ANCIENT;FIG_H;frandom
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,161,196,#else,(!defined(FIG_H)) && (!(defined(ANCIENT))),ANCIENT;FIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,163,165,#if,((!defined(FIG_H)) && (!(defined(ANCIENT)))) && (defined(HAVE_FEATURES_H)),ANCIENT;FIG_H;HAVE_FEATURES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,168,170,#if,((!defined(FIG_H)) && (!(defined(ANCIENT)))) && (defined(HAVE_SYS_FILE_H)),ANCIENT;FIG_H;HAVE_SYS_FILE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,175,177,#if,((!defined(FIG_H)) && (!(defined(ANCIENT)))) && (defined HAVE_DECL_S_IFDIR && !HAVE_DECL_S_IFDIR),ANCIENT;FIG_H;HAVE_DECL_S_IFDIR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,178,180,#if,((!defined(FIG_H)) && (!(defined(ANCIENT)))) && (defined HAVE_DECL_S_IWRITE && !HAVE_DECL_S_IWRITE),ANCIENT;FIG_H;HAVE_DECL_S_IWRITE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,198,200,#if,(!defined(FIG_H)) && (XtSpecificationRelease > 4),FIG_H;XtSpecificationRelease
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,200,203,#else,(!defined(FIG_H)) && (!(XtSpecificationRelease > 4)),FIG_H;XtSpecificationRelease
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/fig.h.xml,205,207,#if,(!defined(FIG_H)) && (defined(I18N)),FIG_H;I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/figx.h.xml,16,70,#if,!defined(FIGX_H),FIGX_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/figx.h.xml,24,47,#if,(!defined(FIGX_H)) && (defined(XAW3D)),FIGX_H;XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/figx.h.xml,39,41,#if,((!defined(FIGX_H)) && (defined(XAW3D))) && (defined(XAW3D1_5E)),FIGX_H;XAW3D;XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/figx.h.xml,47,68,#else,(!defined(FIGX_H)) && (!(defined(XAW3D))),FIGX_H;XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,61,63,#if,defined(USE_TAB),USE_TAB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,65,67,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,316,343,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,339,342,#if,(defined(I18N)) && (defined(I18N_USE_PREEDIT)),I18N;I18N_USE_PREEDIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,462,465,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,571,574,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,759,762,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,864,872,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1117,1123,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1136,1138,#if,defined(WHEN_SAVE_YOURSELF_IS_FIXED),WHEN_SAVE_YOURSELF_IS_FIXED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1300,1302,#if,defined(SIGBUS),SIGBUS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1361,1364,#if,!defined(USE_TAB),USE_TAB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1364,1514,#else,!(!defined(USE_TAB)),USE_TAB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1440,1443,#if,(!(!defined(USE_TAB))) && (sgi),USE_TAB;sgi
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1443,1446,#else,(!(!defined(USE_TAB))) && (!(sgi)),USE_TAB;sgi
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1518,1549,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1835,1870,#if,defined(USE_XPM_ICON),USE_XPM_ICON
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/main.c.xml,1873,1875,#if,defined(USE_XPM_ICON),USE_XPM_ICON
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/mode.c.xml,134,136,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/mode.c.xml,185,187,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/mode.h.xml,20,339,#if,!defined(MODE_H),MODE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/mode.h.xml,243,245,#if,(!defined(MODE_H)) && (defined(USE_XPM)),MODE_H;USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/paintop.h.xml,18,32,#if,!defined(PAINTOP_H),PAINTOP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/resources.c.xml,86,88,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/resources.h.xml,18,425,#if,!defined(RESOURCES_H),RESOURCES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/resources.h.xml,140,143,#if,(!defined(RESOURCES_H)) && (defined(USE_XPM)),RESOURCES_H;USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/resources.h.xml,272,286,#if,(!defined(RESOURCES_H)) && (defined(I18N)),I18N;RESOURCES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/resources.h.xml,283,285,#if,((!defined(RESOURCES_H)) && (defined(I18N))) && (defined(I18N_USE_PREEDIT)),I18N;I18N_USE_PREEDIT;RESOURCES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_bound.h.xml,18,34,#if,!defined(U_BOUND_H),U_BOUND_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_create.h.xml,18,57,#if,!defined(U_CREATE_H),U_CREATE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_draw.h.xml,19,59,#if,!defined(U_DRAW_H),U_DRAW_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_elastic.h.xml,18,108,#if,!defined(U_ELASTIC_H),U_ELASTIC_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_error.c.xml,45,49,#if,defined(SIGBUS),SIGBUS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_error.c.xml,87,89,#if,defined(SIGBUS),SIGBUS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_error.c.xml,109,112,#if,defined(WHEN_SAVE_YOURSELF_IS_FIXED),WHEN_SAVE_YOURSELF_IS_FIXED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_error.c.xml,112,114,#else,!(defined(WHEN_SAVE_YOURSELF_IS_FIXED)),WHEN_SAVE_YOURSELF_IS_FIXED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_fonts.h.xml,18,67,#if,!defined(U_FONTS_H),U_FONTS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_free.c.xml,236,243,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_list.h.xml,18,100,#if,!defined(U_LIST_H),U_LIST_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_markers.h.xml,18,55,#if,!defined(U_MARKERS_H),U_MARKERS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,120,125,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,125,128,#else,!(defined(I18N)),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,169,172,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,266,274,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,274,276,#else,!(defined(I18N)),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,379,382,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,396,401,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,401,403,#else,!(defined(I18N)),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,433,438,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,438,441,#else,!(defined(I18N)),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,475,481,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,481,483,#else,!(defined(I18N)),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,630,633,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,653,657,#if,(defined(SYSV) || defined(SVR4)) && !defined(BSDLPR),BSDLPR;SVR4;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,657,662,#else,!((defined(SYSV) || defined(SVR4)) && !defined(BSDLPR)),BSDLPR;SVR4;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,667,672,#if,(defined(SYSV) || defined(SVR4)) && !defined(BSDLPR),BSDLPR;SVR4;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_print.c.xml,672,679,#else,!((defined(SYSV) || defined(SVR4)) && !defined(BSDLPR)),BSDLPR;SVR4;SYSV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_quartic.h.xml,19,24,#if,!defined(U_QUARTIC_H),U_QUARTIC_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_search.h.xml,18,43,#if,!defined(U_SEARCH_H),U_SEARCH_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_smartsearch.h.xml,1,29,#if,!defined(U_SMARTSEARCH_H),U_SMARTSEARCH_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/u_undo.h.xml,18,51,#if,!defined(U_UNDO_H),U_UNDO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,56,58,#if,defined(HAVE_SYS_TIME_H),HAVE_SYS_TIME_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,79,81,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,87,96,#if,!defined(NO_COMPKEYDB),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,98,102,#if,!defined(NO_COMPKEYDB),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,104,108,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,206,208,#if,!defined(NO_COMPKEYDB),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,239,242,#if,defined(NO_COMPKEYDB),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,242,244,#else,!(defined(NO_COMPKEYDB)),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,253,265,#if,defined(SMOOTHMOTION),SMOOTHMOTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,265,301,#else,!(defined(SMOOTHMOTION)),SMOOTHMOTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,277,281,#if,(!(defined(SMOOTHMOTION))) && (defined(REPORT_XY_ALWAYS)),REPORT_XY_ALWAYS;SMOOTHMOTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,310,319,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,325,336,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,503,507,#if,defined(NO_COMPKEYDB),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,507,514,#else,!(defined(NO_COMPKEYDB)),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,525,533,#if,defined(NO_COMPKEYDB),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,533,593,#else,!(defined(NO_COMPKEYDB)),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,536,570,#if,(!(defined(NO_COMPKEYDB))) && (defined(I18N)),I18N;NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,610,624,#if,defined(SEL_TEXT),SEL_TEXT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,674,683,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,694,725,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,735,850,#if,!defined(NO_COMPKEYDB),NO_COMPKEYDB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.c.xml,855,860,#if,defined(COMP_LED),COMP_LED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_canvas.h.xml,18,62,#if,!defined(W_CANVAS_H),W_CANVAS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,62,64,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,65,67,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,126,127,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,127,135,#else,!(defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,162,164,#if,defined(DIGITIZE),DIGITIZE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,217,221,#if,defined(FIXED_JAPANESE_PDF),FIXED_JAPANESE_PDF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,221,223,#else,!(defined(FIXED_JAPANESE_PDF)),FIXED_JAPANESE_PDF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,310,316,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,351,357,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,378,381,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,381,383,#else,!(!defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,435,439,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,439,442,#else,!(!defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,468,543,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,582,586,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,583,585,#if,(defined(I18N)) && (defined(I18N_USE_PREEDIT)),I18N;I18N_USE_PREEDIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,905,908,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,1300,1364,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,1664,1667,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_cmdpanel.c.xml,1678,1697,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_color.h.xml,17,93,#if,!defined(W_COLOR_H),W_COLOR_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_dir.h.xml,50,77,#if,!defined(W_DIR_H),W_DIR_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,141,143,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,165,167,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,252,256,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,327,329,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,343,345,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,370,376,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,483,492,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,1589,1591,#if,defined(CLIP_LINE),CLIP_LINE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,1599,1603,#if,defined(CLIP_LINE),CLIP_LINE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.c.xml,1603,1605,#else,!(defined(CLIP_LINE)),CLIP_LINE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.h.xml,18,135,#if,!defined(W_DRAWPRIM_H),W_DRAWPRIM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_drawprim.h.xml,114,116,#if,(!defined(W_DRAWPRIM_H)) && (!defined(MAXNUMPTS)),MAXNUMPTS;W_DRAWPRIM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_fontpanel.c.xml,268,289,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_help.c.xml,49,56,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_i18n.c.xml,705,730,#if,!defined(HAVE_SETLOCALE),HAVE_SETLOCALE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_icons.c.xml,3027,3225,#if,defined(USE_XPM_ICON),USE_XPM_ICON
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_icons.c.xml,3232,3234,#if,defined(USE_XPM),USE_XPM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_icons.h.xml,17,176,#if,!defined(W_ICONS_H),W_ICONS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_icons.h.xml,170,172,#if,(!defined(W_ICONS_H)) && (defined(USE_XPM)),USE_XPM;W_ICONS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,81,85,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,265,288,#if,defined(ARROWS4TO14),ARROWS4TO14
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,302,325,#if,defined(ARROWS4TO14),ARROWS4TO14
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,552,557,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,566,571,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,594,599,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,609,614,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,624,629,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,723,729,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,959,1034,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,1055,1057,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,1066,1103,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.c.xml,1141,1145,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_indpanel.h.xml,17,189,#if,!defined(W_INDPANEL_H),W_INDPANEL_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_intersect.h.xml,19,64,#if,!defined(W_INTERSECT_H),W_INTERSECT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_keyboard.c.xml,21,23,#if,!defined(__FreeBSD__),__FreeBSD__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_keyboard.c.xml,142,144,#if,1,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_keyboard.c.xml,144,152,#else,!(1),
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_keyboard.c.xml,239,249,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_keyboard.h.xml,19,34,#if,!defined(W_KEYBOARD_H),W_KEYBOARD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,71,75,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,158,164,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,175,181,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,192,198,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,235,241,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,276,282,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,322,327,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,357,359,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,749,788,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_layers.c.xml,788,896,#else,!(defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,54,56,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,84,86,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,241,243,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,282,285,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1022,1024,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1024,1026,#else,!(!defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1032,1040,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1043,1049,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1049,1052,#else,!(!defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1054,1061,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1061,1063,#else,!(!defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1066,1069,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1072,1075,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1075,1078,#else,!(!defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1082,1085,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1087,1090,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_library.c.xml,1090,1093,#else,!(!defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidget.c.xml,24,26,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidget.c.xml,33,35,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidget.c.xml,35,37,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidget.h.xml,18,33,#if,!defined(_FigList_h),_FigList_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidget.h.xml,21,23,#if,(!defined(_FigList_h)) && (defined(XAW3D)),XAW3D;_FigList_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidget.h.xml,23,25,#else,(!defined(_FigList_h)) && (!(defined(XAW3D))),XAW3D;_FigList_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidgetP.h.xml,26,80,#if,!defined(_FigListP_h),_FigListP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidgetP.h.xml,30,32,#if,(!defined(_FigListP_h)) && (defined(XAW3D)),XAW3D;_FigListP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_listwidgetP.h.xml,32,34,#else,(!defined(_FigListP_h)) && (!(defined(XAW3D))),XAW3D;_FigListP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,23,25,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,30,32,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,32,34,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,101,106,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,136,138,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,141,143,#if,defined(XAW3D),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,143,145,#else,!(defined(XAW3D)),XAW3D
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,150,158,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,158,161,#else,!((XtVersion >= 11006)),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,184,195,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,195,199,#else,!((XtVersion >= 11006)),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,203,214,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,214,218,#else,!((XtVersion >= 11006)),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,228,236,#if,(XtVersion >= 11006),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.c.xml,236,239,#else,!((XtVersion >= 11006)),XtVersion
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.h.xml,22,58,#if,!defined(_FigSmeBSB_h),_FigSmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.h.xml,25,27,#if,(!defined(_FigSmeBSB_h)) && (defined(XAW3D)),XAW3D;_FigSmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.h.xml,27,29,#else,(!defined(_FigSmeBSB_h)) && (!(defined(XAW3D))),XAW3D;_FigSmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.h.xml,31,33,#if,(!defined(_FigSmeBSB_h)) && (defined(XAW3D1_5E)),XAW3D1_5E;_FigSmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentry.h.xml,33,35,#else,(!defined(_FigSmeBSB_h)) && (!(defined(XAW3D1_5E))),XAW3D1_5E;_FigSmeBSB_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentryP.h.xml,22,98,#if,!defined(_FigSmeBSBP_h),_FigSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentryP.h.xml,31,33,#if,(!defined(_FigSmeBSBP_h)) && (defined(XAW3D)),XAW3D;_FigSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentryP.h.xml,33,35,#else,(!defined(_FigSmeBSBP_h)) && (!(defined(XAW3D))),XAW3D;_FigSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentryP.h.xml,56,58,#if,(!defined(_FigSmeBSBP_h)) && (defined(XAW3D)),XAW3D;_FigSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_menuentryP.h.xml,85,87,#if,(!defined(_FigSmeBSBP_h)) && (defined(XAW3D)),XAW3D;_FigSmeBSBP_h
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_modepanel.c.xml,129,133,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_modepanel.c.xml,414,420,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_modepanel.c.xml,425,427,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_modepanel.c.xml,474,495,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_modepanel.c.xml,495,578,#else,!(defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_modepanel.c.xml,603,610,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_mousefun.c.xml,57,61,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_mousefun.c.xml,88,90,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_mousefun.c.xml,90,96,#else,!(defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_mousefun.c.xml,116,126,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_mousefun.c.xml,126,198,#else,!(defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_mousefun.h.xml,17,47,#if,!defined(W_MOUSEFUN_H),W_MOUSEFUN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,33,38,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,45,47,#if,!defined(CACHE_SIZE_LIMIT),CACHE_SIZE_LIMIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,55,59,#if,!defined(CACHE_XIMAGES),CACHE_XIMAGES
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,56,58,#if,(!defined(CACHE_XIMAGES)) && (!defined(CACHE_BITMAPS)),CACHE_BITMAPS;CACHE_XIMAGES
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,393,400,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,468,545,#if,!defined(X11R3),X11R3
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,561,563,#if,defined(CACHE_XIMAGES),CACHE_XIMAGES
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,636,653,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,711,718,#if,defined(CACHE_FID),CACHE_FID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,718,725,#else,!(defined(CACHE_FID)),CACHE_FID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,754,763,#if,defined(CACHE_FID),CACHE_FID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,809,828,#if,defined(CACHE_XIMAGES),CACHE_XIMAGES
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,913,917,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,957,961,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,987,992,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1125,1137,#if,defined(CACHE_BITMAPS),CACHE_BITMAPS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1162,1169,#if,defined(CACHE_BITMAPS),CACHE_BITMAPS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1169,1182,#else,!(defined(CACHE_BITMAPS)),CACHE_BITMAPS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1215,1219,#if,defined(CACHE_FID),CACHE_FID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1272,1274,#if,defined(CACHE_BITMAPS),CACHE_BITMAPS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1274,1276,#else,!(defined(CACHE_BITMAPS)),CACHE_BITMAPS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1465,1469,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.c.xml,1487,1490,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.h.xml,20,91,#if,!defined(W_ROTTEXT_H),W_ROTTEXT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.h.xml,23,88,#if,(!defined(W_ROTTEXT_H)) && (!defined(_XVERTEXT_INCLUDED_)),W_ROTTEXT_H;_XVERTEXT_INCLUDED_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.h.xml,54,72,#if,((!defined(W_ROTTEXT_H)) && (!defined(_XVERTEXT_INCLUDED_))) && (defined(__cplusplus) || defined(c_plusplus)),W_ROTTEXT_H;_XVERTEXT_INCLUDED_;__cplusplus;c_plusplus
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rottext.h.xml,72,83,#else,((!defined(W_ROTTEXT_H)) && (!defined(_XVERTEXT_INCLUDED_))) && (!(defined(__cplusplus) || defined(c_plusplus))),W_ROTTEXT_H;_XVERTEXT_INCLUDED_;__cplusplus;c_plusplus
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rulers.c.xml,133,137,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rulers.c.xml,375,381,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rulers.c.xml,385,387,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rulers.c.xml,392,414,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_rulers.c.xml,414,510,#else,!(defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_setup.h.xml,18,76,#if,!defined(W_SETUP_H),W_SETUP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_setup.h.xml,42,44,#if,(!defined(W_SETUP_H)) && (!defined(MAX_TOPRULER_WD)),MAX_TOPRULER_WD;W_SETUP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_setup.h.xml,45,47,#if,(!defined(W_SETUP_H)) && (!defined(MAX_SIDERULER_HT)),MAX_SIDERULER_HT;W_SETUP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_snap.c.xml,35,37,#if,!defined(__FreeBSD__),__FreeBSD__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_snap.c.xml,813,823,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_snap.h.xml,19,70,#if,!defined(W_SNAP_H),W_SNAP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,40,42,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,154,160,#if,defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,160,165,#else,!(defined(XAW3D1_5E)),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,354,356,#if,!defined(XAW3D1_5E),XAW3D1_5E
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,1447,1450,#if,defined(I18N),I18N
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,1975,1977,#if,defined(USE_XPM_SPLASH),USE_XPM_SPLASH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,1984,1998,#if,defined(USE_XPM_SPLASH),USE_XPM_SPLASH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,1998,2000,#else,!(defined(USE_XPM_SPLASH)),USE_XPM_SPLASH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.c.xml,2147,2151,#if,defined(USE_XPM_SPLASH),USE_XPM_SPLASH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_util.h.xml,18,179,#if,!defined(W_UTIL_H),W_UTIL_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/xfig-3.2.6/_cppstats_featurelocations/src/w_zoom.h.xml,17,30,#if,!defined(W_ZOOM_H),W_ZOOM_H

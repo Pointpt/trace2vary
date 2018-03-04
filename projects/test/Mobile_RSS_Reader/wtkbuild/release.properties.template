@@ -1,5 +1,0 @@
-#Used to turn D${RELEASE}TEST to DNOTEST
-RELEASE = NO
-EMULATOR = false
-obfuscate = yes
-need.rim = true

@@ -1,0 +1,975 @@
+"sep=,"
+FILENAME,LINE_START,LINE_END,TYPE,EXPRESSION,CONSTANTS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/array.c.xml,345,393,#if,defined(DEBUG_ARRAY),DEBUG_ARRAY
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/array.h.xml,1,177,#if,!defined(ARRAY_H),ARRAY_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/array.h.xml,4,6,#if,(!defined(ARRAY_H)) && (defined(HAVE_CONFIG_H)),ARRAY_H;HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/array.h.xml,8,10,#if,(!defined(ARRAY_H)) && (defined(HAVE_PCRE_H)),ARRAY_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/array.h.xml,129,132,#if,(!defined(ARRAY_H)) && (defined(HAVE_PCRE_H)),ARRAY_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,1,657,#if,!defined(_BASE_H_),_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,4,6,#if,(!defined(_BASE_H_)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,15,17,#if,(!defined(_BASE_H_)) && (defined(HAVE_STDINT_H)),HAVE_STDINT_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,19,21,#if,(!defined(_BASE_H_)) && (defined(HAVE_INTTYPES_H)),HAVE_INTTYPES_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,33,39,#if,(!defined(_BASE_H_)) && (defined HAVE_LIBSSL && defined HAVE_OPENSSL_SSL_H),HAVE_LIBSSL;HAVE_OPENSSL_SSL_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,36,38,#if,((!defined(_BASE_H_)) && (defined HAVE_LIBSSL && defined HAVE_OPENSSL_SSL_H)) && (! defined OPENSSL_NO_TLSEXT && ! defined SSL_CTRL_SET_TLSEXT_HOSTNAME),HAVE_LIBSSL;HAVE_OPENSSL_SSL_H;OPENSSL_NO_TLSEXT;SSL_CTRL_SET_TLSEXT_HOSTNAME;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,41,43,#if,(!defined(_BASE_H_)) && (defined(HAVE_FAM_H)),HAVE_FAM_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,45,47,#if,(!defined(_BASE_H_)) && (!defined(O_BINARY)),O_BINARY;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,49,51,#if,(!defined(_BASE_H_)) && (!defined(O_LARGEFILE)),O_LARGEFILE;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,53,59,#if,(!defined(_BASE_H_)) && (!defined(SIZE_MAX)),SIZE_MAX;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,54,56,#if,((!defined(_BASE_H_)) && (!defined(SIZE_MAX))) && (defined(SIZE_T_MAX)),SIZE_MAX;SIZE_T_MAX;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,56,58,#else,((!defined(_BASE_H_)) && (!defined(SIZE_MAX))) && (!(defined(SIZE_T_MAX))),SIZE_MAX;SIZE_T_MAX;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,61,63,#if,(!defined(_BASE_H_)) && (!defined(SSIZE_MAX)),SSIZE_MAX;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,65,68,#if,(!defined(_BASE_H_)) && (defined(__APPLE__)),_BASE_H_;__APPLE__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,68,70,#else,(!defined(_BASE_H_)) && (!(defined(__APPLE__))),_BASE_H_;__APPLE__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,73,75,#if,(!defined(_BASE_H_)) && (!defined(HAVE_SOCKLEN_T)),HAVE_SOCKLEN_T;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,78,80,#if,(!defined(_BASE_H_)) && ((!defined(HAVE_STDINT_H)) && (!defined(HAVE_INTTYPES_H)) && (!defined(uint32_t))),HAVE_INTTYPES_H;HAVE_STDINT_H;_BASE_H_;uint32_t
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,83,85,#if,(!defined(_BASE_H_)) && (!defined(SHUT_WR)),SHUT_WR;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,129,131,#if,(!defined(_BASE_H_)) && (defined(HAVE_IPV6)),HAVE_IPV6;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,133,135,#if,(!defined(_BASE_H_)) && (defined(HAVE_SYS_UN_H)),HAVE_SYS_UN_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,219,221,#if,(!defined(_BASE_H_)) && (defined(HAVE_LSTAT)),HAVE_LSTAT;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,223,225,#if,(!defined(_BASE_H_)) && (defined(HAVE_FAM_H)),HAVE_FAM_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,234,239,#if,(!defined(_BASE_H_)) && (defined(HAVE_FAM_H)),HAVE_FAM_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,321,327,#if,(!defined(_BASE_H_)) && (defined(USE_OPENSSL)),USE_OPENSSL;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,440,446,#if,(!defined(_BASE_H_)) && (defined(USE_OPENSSL)),USE_OPENSSL;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,442,444,#if,((!defined(_BASE_H_)) && (defined(USE_OPENSSL))) && (!defined(OPENSSL_NO_TLSEXT)),OPENSSL_NO_TLSEXT;USE_OPENSSL;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,460,470,#if,(!defined(_BASE_H_)) && (defined(HAVE_IPV6)),HAVE_IPV6;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,523,525,#if,(!defined(_BASE_H_)) && (defined(HAVE_FAM_H)),HAVE_FAM_H;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,540,542,#if,(!defined(_BASE_H_)) && (defined(USE_OPENSSL)),USE_OPENSSL;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,593,595,#if,(!defined(_BASE_H_)) && (defined(HAVE_IPV6)),HAVE_IPV6;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/base.h.xml,648,650,#if,(!defined(_BASE_H_)) && (defined(USE_OPENSSL)),USE_OPENSSL;_BASE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/bitset.h.xml,1,19,#if,!defined(_BITSET_H_),_BITSET_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.c.xml,10,12,#if,defined HAVE_STDINT_H,HAVE_STDINT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.c.xml,12,14,#elif,(!(defined HAVE_STDINT_H)) && (defined HAVE_INTTYPES_H),HAVE_INTTYPES_H;HAVE_STDINT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.c.xml,146,153,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.c.xml,342,390,#if,!defined(SIZEOF_LONG) || (SIZEOF_LONG != SIZEOF_OFF_T),SIZEOF_LONG;SIZEOF_OFF_T
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.c.xml,557,560,#if,1,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.c.xml,560,564,#else,!(1),
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.c.xml,944,952,#if,defined(__WIN32) || defined(__CYGWIN__),__CYGWIN__;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.h.xml,1,135,#if,!defined(_BUFFER_H_),_BUFFER_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.h.xml,4,6,#if,(!defined(_BUFFER_H_)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;_BUFFER_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.h.xml,68,71,#if,(!defined(_BUFFER_H_)) && (defined(SIZEOF_LONG) && (SIZEOF_LONG == SIZEOF_OFF_T)),SIZEOF_LONG;SIZEOF_OFF_T;_BUFFER_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/buffer.h.xml,71,74,#else,(!defined(_BUFFER_H_)) && (!(defined(SIZEOF_LONG) && (SIZEOF_LONG == SIZEOF_OFF_T))),SIZEOF_LONG;SIZEOF_OFF_T;_BUFFER_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/chunk.h.xml,1,71,#if,!defined(_CHUNK_H_),_CHUNK_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile-glue.c.xml,214,216,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile-glue.c.xml,216,218,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile-glue.c.xml,317,320,#if,defined USE_OPENSSL && ! defined OPENSSL_NO_TLSEXT,OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile-glue.c.xml,362,369,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile-glue.c.xml,369,375,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile-glue.c.xml,479,502,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile-glue.c.xml,485,487,#if,(defined(HAVE_PCRE_H)) && (!defined(elementsof)),HAVE_PCRE_H;elementsof
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,55,57,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,57,62,#else,!(defined(HAVE_LSTAT)),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,189,191,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,227,229,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,280,283,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,289,291,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,317,319,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,341,344,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,346,348,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,415,418,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,421,423,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,440,443,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,513,549,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,911,916,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1020,1022,#if,defined(PATH_MAX),PATH_MAX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1022,1024,#else,!(defined(PATH_MAX)),PATH_MAX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1105,1107,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1107,1109,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1233,1235,#if,defined(USE_LINUX_EPOLL),USE_LINUX_EPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1236,1238,#if,defined(USE_POLL),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1239,1241,#if,defined(USE_SELECT),USE_SELECT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1242,1244,#if,defined(USE_LIBEV),USE_LIBEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1245,1247,#if,defined(USE_SOLARIS_DEVPOLL),USE_SOLARIS_DEVPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1248,1250,#if,defined(USE_SOLARIS_PORT),USE_SOLARIS_PORT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1251,1254,#if,defined(USE_FREEBSD_KQUEUE),USE_FREEBSD_KQUEUE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.c.xml,1367,1372,#if,!defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configfile.h.xml,1,30,#if,!defined(_CONFIG_PARSER_H_),_CONFIG_PARSER_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,44,46,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,48,51,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,123,125,#if,!defined(INTERFACE),INTERFACE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,304,307,#if,defined(YYFALLBACK),YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,340,344,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,346,372,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,364,371,#if,(!defined(NDEBUG)) && (0),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,374,391,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,393,438,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,444,456,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,446,452,#if,(0) && (!defined(NDEBUG)),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,452,454,#else,(0) && (!(!defined(NDEBUG))),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,577,583,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,637,649,#if,defined(YYFALLBACK),YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,641,646,#if,(defined(YYFALLBACK)) && (!defined(NDEBUG)),NDEBUG;YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,700,704,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,715,724,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,793,799,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1257,1287,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1287,1292,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1419,1423,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1457,1461,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1512,1516,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1532,1536,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1537,1590,#if,defined(YYERRORSYMBOL),YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1562,1567,#if,(defined(YYERRORSYMBOL)) && (!defined(NDEBUG)),NDEBUG;YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/configparser.c.xml,1590,1609,#else,!(defined(YYERRORSYMBOL)),YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,28,31,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,33,35,#if,defined(HAVE_SYS_FILIO_H),HAVE_SYS_FILIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,64,70,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,106,112,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,117,119,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,121,126,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,130,135,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,135,140,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,143,146,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,154,196,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,199,324,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,324,328,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,348,356,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,356,370,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,408,410,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,682,684,#if,defined USE_OPENSSL && ! defined OPENSSL_NO_TLSEXT,OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,748,750,#if,defined USE_OPENSSL && ! defined OPENSSL_NO_TLSEXT,OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,820,822,#if,defined USE_OPENSSL && ! defined OPENSSL_NO_TLSEXT,OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1201,1208,#if,defined(USE_LINUX_SIGIO),USE_LINUX_SIGIO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1208,1210,#else,!(defined(USE_LINUX_SIGIO)),USE_LINUX_SIGIO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1215,1218,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1283,1285,#if,EWOULDBLOCK != EAGAIN,EAGAIN;EWOULDBLOCK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1304,1307,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1314,1316,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1330,1350,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1358,1360,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1529,1532,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1543,1562,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1635,1640,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1658,1712,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.c.xml,1716,1720,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/connections.h.xml,1,19,#if,!defined(_CONNECTIONS_H_),_CONNECTIONS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/crc32.h.xml,1,18,#if,!defined(__crc32cr_table_h__),__crc32cr_table_h__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/crc32.h.xml,4,6,#if,(!defined(__crc32cr_table_h__)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;__crc32cr_table_h__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/crc32.h.xml,10,12,#if,(!defined(__crc32cr_table_h__)) && (defined HAVE_STDINT_H),HAVE_STDINT_H;__crc32cr_table_h__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/crc32.h.xml,12,14,#elif,((!defined(__crc32cr_table_h__)) && (!(defined HAVE_STDINT_H))) && (defined HAVE_INTTYPES_H),HAVE_INTTYPES_H;HAVE_STDINT_H;__crc32cr_table_h__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/data_config.c.xml,29,32,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/etag.c.xml,4,6,#if,defined HAVE_STDINT_H,HAVE_STDINT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/etag.c.xml,6,8,#elif,(!(defined HAVE_STDINT_H)) && (defined HAVE_INTTYPES_H),HAVE_INTTYPES_H;HAVE_STDINT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/etag.h.xml,1,17,#if,!defined(ETAG_H),ETAG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fastcgi.h.xml,15,135,#if,!defined(_FASTCGI_H),_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.c.xml,204,207,#if,defined(FD_CLOEXEC),FD_CLOEXEC
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.c.xml,207,209,#else,!(defined(FD_CLOEXEC)),FD_CLOEXEC
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.c.xml,215,217,#if,defined(O_NONBLOCK),O_NONBLOCK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.c.xml,217,219,#else,!(defined(O_NONBLOCK)),O_NONBLOCK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,1,205,#if,!defined(_FDEVENT_H_),_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,4,6,#if,(!defined(_FDEVENT_H_)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,11,13,#if,(!defined(_FDEVENT_H_)) && (defined HAVE_STDINT_H),HAVE_STDINT_H;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,13,15,#elif,((!defined(_FDEVENT_H_)) && (!(defined HAVE_STDINT_H))) && (defined HAVE_INTTYPES_H),HAVE_INTTYPES_H;HAVE_STDINT_H;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,21,23,#if,(!defined(_FDEVENT_H_)) && (defined(HAVE_EPOLL_CTL) && defined(HAVE_SYS_EPOLL_H)),HAVE_EPOLL_CTL;HAVE_SYS_EPOLL_H;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,27,29,#if,(!defined(_FDEVENT_H_)) && (defined HAVE_POLL && (defined(HAVE_SYS_POLL_H) || defined(HAVE_POLL_H))),HAVE_POLL;HAVE_POLL_H;HAVE_SYS_POLL_H;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,31,39,#if,(!defined(_FDEVENT_H_)) && (defined HAVE_SELECT),HAVE_SELECT;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,32,34,#if,((!defined(_FDEVENT_H_)) && (defined HAVE_SELECT)) && (defined(__WIN32)),HAVE_SELECT;_FDEVENT_H_;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,36,38,#if,((!defined(_FDEVENT_H_)) && (defined HAVE_SELECT)) && (defined(HAVE_SYS_SELECT_H)),HAVE_SELECT;HAVE_SYS_SELECT_H;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,41,43,#if,(!defined(_FDEVENT_H_)) && (defined HAVE_SYS_DEVPOLL_H && defined(__sun)),HAVE_SYS_DEVPOLL_H;_FDEVENT_H_;__sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,45,48,#if,(!defined(_FDEVENT_H_)) && (defined HAVE_PORT_H && defined HAVE_PORT_CREATE && defined(__sun)),HAVE_PORT_CREATE;HAVE_PORT_H;_FDEVENT_H_;__sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,50,52,#if,(!defined(_FDEVENT_H_)) && (defined HAVE_SYS_EVENT_H && defined HAVE_KQUEUE),HAVE_KQUEUE;HAVE_SYS_EVENT_H;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,54,56,#if,(!defined(_FDEVENT_H_)) && (defined HAVE_LIBEV),HAVE_LIBEV;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,121,124,#if,(!defined(_FDEVENT_H_)) && (defined(USE_LINUX_EPOLL)),USE_LINUX_EPOLL;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,125,132,#if,(!defined(_FDEVENT_H_)) && (defined(USE_POLL)),USE_POLL;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,133,143,#if,(!defined(_FDEVENT_H_)) && (defined(USE_SELECT)),USE_SELECT;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,144,147,#if,(!defined(_FDEVENT_H_)) && (defined(USE_SOLARIS_DEVPOLL)),USE_SOLARIS_DEVPOLL;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,148,150,#if,(!defined(_FDEVENT_H_)) && (defined(USE_SOLARIS_PORT)),USE_SOLARIS_PORT;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,151,154,#if,(!defined(_FDEVENT_H_)) && (defined(USE_FREEBSD_KQUEUE)),USE_FREEBSD_KQUEUE;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,155,157,#if,(!defined(_FDEVENT_H_)) && (defined(USE_SOLARIS_PORT)),USE_SOLARIS_PORT;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent.h.xml,158,160,#if,(!defined(_FDEVENT_H_)) && (defined(USE_LIBEV)),USE_LIBEV;_FDEVENT_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_freebsd_kqueue.c.xml,15,217,#if,defined(USE_FREEBSD_KQUEUE),USE_FREEBSD_KQUEUE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_freebsd_kqueue.c.xml,217,226,#else,!(defined(USE_FREEBSD_KQUEUE)),USE_FREEBSD_KQUEUE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_libev.c.xml,7,171,#if,defined(USE_LIBEV),USE_LIBEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_libev.c.xml,171,180,#else,!(defined(USE_LIBEV)),USE_LIBEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_linux_sysepoll.c.xml,15,150,#if,defined(USE_LINUX_EPOLL),USE_LINUX_EPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_linux_sysepoll.c.xml,103,106,#if,(defined(USE_LINUX_EPOLL)) && (0),USE_LINUX_EPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_linux_sysepoll.c.xml,150,159,#else,!(defined(USE_LINUX_EPOLL)),USE_LINUX_EPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_poll.c.xml,15,192,#if,defined(USE_POLL),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_poll.c.xml,17,19,#if,(defined(USE_POLL)) && (defined(HAVE_POLL_H)),HAVE_POLL_H;USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_poll.c.xml,19,21,#else,(defined(USE_POLL)) && (!(defined(HAVE_POLL_H))),HAVE_POLL_H;USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_poll.c.xml,63,74,#if,(defined(USE_POLL)) && (0),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_poll.c.xml,118,120,#if,(defined(USE_POLL)) && (0),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_poll.c.xml,192,201,#else,!(defined(USE_POLL)),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_select.c.xml,16,127,#if,defined(USE_SELECT),USE_SELECT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_select.c.xml,127,133,#else,!(defined(USE_SELECT)),USE_SELECT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_solaris_devpoll.c.xml,15,160,#if,defined(USE_SOLARIS_DEVPOLL),USE_SOLARIS_DEVPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_solaris_devpoll.c.xml,160,169,#else,!(defined(USE_SOLARIS_DEVPOLL)),USE_SOLARIS_DEVPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_solaris_port.c.xml,15,163,#if,defined(USE_SOLARIS_PORT),USE_SOLARIS_PORT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/fdevent_solaris_port.c.xml,163,172,#else,!(defined(USE_SOLARIS_PORT)),USE_SOLARIS_PORT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,40,70,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,41,69,#if,(defined(HAVE_IPV6)) && (!defined(SA_LEN)),HAVE_IPV6;SA_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,42,44,#if,((defined(HAVE_IPV6)) && (!defined(SA_LEN))) && (defined(HAVE_SOCKADDR_SA_LEN)),HAVE_IPV6;HAVE_SOCKADDR_SA_LEN;SA_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,44,68,#else,((defined(HAVE_IPV6)) && (!defined(SA_LEN))) && (!(defined(HAVE_SOCKADDR_SA_LEN))),HAVE_IPV6;HAVE_SOCKADDR_SA_LEN;SA_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,45,65,#if,(((defined(HAVE_IPV6)) && (!defined(SA_LEN))) && (!(defined(HAVE_SOCKADDR_SA_LEN)))) && (defined(HAVE_STRUCT_SOCKADDR_STORAGE)),HAVE_IPV6;HAVE_SOCKADDR_SA_LEN;HAVE_STRUCT_SOCKADDR_STORAGE;SA_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,49,52,#if,((((defined(HAVE_IPV6)) && (!defined(SA_LEN))) && (!(defined(HAVE_SOCKADDR_SA_LEN)))) && (defined(HAVE_STRUCT_SOCKADDR_STORAGE))) && (defined(AF_INET)),AF_INET;HAVE_IPV6;HAVE_SOCKADDR_SA_LEN;HAVE_STRUCT_SOCKADDR_STORAGE;SA_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,54,57,#if,((((defined(HAVE_IPV6)) && (!defined(SA_LEN))) && (!(defined(HAVE_SOCKADDR_SA_LEN)))) && (defined(HAVE_STRUCT_SOCKADDR_STORAGE))) && (defined(AF_INET6)),AF_INET6;HAVE_IPV6;HAVE_SOCKADDR_SA_LEN;HAVE_STRUCT_SOCKADDR_STORAGE;SA_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,65,67,#else,(((defined(HAVE_IPV6)) && (!defined(SA_LEN))) && (!(defined(HAVE_SOCKADDR_SA_LEN)))) && (!(defined(HAVE_STRUCT_SOCKADDR_STORAGE))),HAVE_IPV6;HAVE_SOCKADDR_SA_LEN;HAVE_STRUCT_SOCKADDR_STORAGE;SA_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,133,135,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http-header-glue.c.xml,154,173,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,7,9,#if,defined(HAVE_CRYPT_H),HAVE_CRYPT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,9,12,#elif,(!(defined(HAVE_CRYPT_H))) && (defined(__linux__)),HAVE_CRYPT_H;__linux__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,14,16,#if,defined(HAVE_LIBCRYPT),HAVE_LIBCRYPT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,32,34,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,343,345,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,602,630,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,675,679,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,681,697,#if,defined(HAVE_CRYPT),HAVE_CRYPT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.c.xml,704,836,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.h.xml,1,74,#if,!defined(_HTTP_AUTH_H_),_HTTP_AUTH_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.h.xml,7,10,#if,(!defined(_HTTP_AUTH_H_)) && (defined(HAVE_LDAP_H) && defined(HAVE_LBER_H) && defined(HAVE_LIBLDAP) && defined(HAVE_LIBLBER)),HAVE_LBER_H;HAVE_LDAP_H;HAVE_LIBLBER;HAVE_LIBLDAP;_HTTP_AUTH_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.h.xml,46,51,#if,(!defined(_HTTP_AUTH_H_)) && (defined(USE_LDAP)),USE_LDAP;_HTTP_AUTH_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_auth.h.xml,60,62,#if,(!defined(_HTTP_AUTH_H_)) && (defined(USE_LDAP)),USE_LDAP;_HTTP_AUTH_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/http_chunk.h.xml,1,12,#if,!defined(_HTTP_CHUNK_H_),_HTTP_CHUNK_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/inet_ntop_cache.c.xml,10,48,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/inet_ntop_cache.c.xml,48,51,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/inet_ntop_cache.h.xml,1,7,#if,!defined(_INET_NTOP_CACHE_H_),_INET_NTOP_CACHE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/joblist.h.xml,1,13,#if,!defined(_JOB_LIST_H_),_JOB_LIST_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.c.xml,333,338,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.c.xml,342,381,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.c.xml,381,386,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.c.xml,390,403,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.h.xml,1,136,#if,!defined(_KEY_VALUE_H_),_KEY_VALUE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.h.xml,4,6,#if,(!defined(_KEY_VALUE_H_)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;_KEY_VALUE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.h.xml,8,10,#if,(!defined(_KEY_VALUE_H_)) && (defined(HAVE_PCRE_H)),HAVE_PCRE_H;_KEY_VALUE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/keyvalue.h.xml,81,84,#if,(!defined(_KEY_VALUE_H_)) && (defined(HAVE_PCRE_H)),HAVE_PCRE_H;_KEY_VALUE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,15,17,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,19,21,#if,defined(HAVE_STDINT_H),HAVE_STDINT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,22,24,#if,defined(HAVE_INTTYPES_H),HAVE_INTTYPES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,36,40,#if,!defined(__WIN32__),__WIN32__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,37,39,#if,(!defined(__WIN32__)) && (defined(_WIN32) || defined(WIN32)),WIN32;_WIN32;__WIN32__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,42,44,#if,__GNUC__ > 2,__GNUC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,44,46,#else,!(__GNUC__ > 2),__GNUC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,51,53,#if,defined(TEST),TEST
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,53,55,#else,!(defined(TEST)),TEST
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,69,71,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,71,73,#else,!(!defined(NDEBUG)),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,1941,1944,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,2635,2668,#if,defined(TEST),TEST
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,2729,2733,#if,defined(TEST),TEST
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,2759,2761,#if,defined(__WIN32__),__WIN32__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lemon.c.xml,2761,2763,#else,!(defined(__WIN32__)),__WIN32__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,21,23,#if,!defined(INTERFACE),INTERFACE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,122,126,#if,defined(YYFALLBACK),YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,159,163,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,165,191,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,183,190,#if,(!defined(NDEBUG)) && (0),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,193,199,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,201,207,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,213,225,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,215,221,#if,(0) && (!defined(NDEBUG)),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,221,223,#else,(0) && (!(!defined(NDEBUG))),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,283,289,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,343,355,#if,defined(YYFALLBACK),YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,347,352,#if,(defined(YYFALLBACK)) && (!defined(NDEBUG)),NDEBUG;YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,406,410,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,422,431,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,461,467,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,498,502,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,533,537,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,589,593,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,609,613,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,614,667,#if,defined(YYERRORSYMBOL),YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,639,644,#if,(defined(YYERRORSYMBOL)) && (!defined(NDEBUG)),NDEBUG;YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/lempar.c.xml,667,686,#else,!(defined(YYERRORSYMBOL)),YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,17,19,#if,defined(HAVE_SYSLOG_H),HAVE_SYSLOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,21,23,#if,defined(HAVE_VALGRIND_VALGRIND_H),HAVE_VALGRIND_VALGRIND_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,25,27,#if,!defined(O_LARGEFILE),O_LARGEFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,39,42,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,42,44,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,56,114,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,83,91,#if,(defined(HAVE_FORK)) && (!defined(FD_CLOEXEC)),FD_CLOEXEC;HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,114,116,#else,!(defined(HAVE_FORK)),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,145,148,#if,defined(HAVE_SYSLOG_H),HAVE_SYSLOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,223,225,#if,defined(HAVE_SYSLOG_H),HAVE_SYSLOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.c.xml,250,252,#if,defined(HAVE_SYSLOG_H),HAVE_SYSLOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/log.h.xml,1,19,#if,!defined(_LOG_H_),_LOG_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,26,28,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,30,336,#if,!defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,59,61,#if,(!defined(USE_OPENSSL)) && (defined(HAVE_MEMCPY)),HAVE_MEMCPY;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,61,63,#else,(!defined(USE_OPENSSL)) && (!(defined(HAVE_MEMCPY))),HAVE_MEMCPY;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,64,66,#if,(!defined(USE_OPENSSL)) && (defined(HAVE_MEMSET)),HAVE_MEMSET;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,66,68,#else,(!defined(USE_OPENSSL)) && (!(defined(HAVE_MEMSET))),HAVE_MEMSET;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,315,324,#if,(!defined(USE_OPENSSL)) && (!defined(HAVE_MEMCPY)),HAVE_MEMCPY;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.c.xml,327,335,#if,(!defined(USE_OPENSSL)) && (!defined(HAVE_MEMSET)),HAVE_MEMSET;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.h.xml,26,28,#if,defined(HAVE_STDINT_H),HAVE_STDINT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/md5.h.xml,29,31,#if,defined(HAVE_INTTYPES_H),HAVE_INTTYPES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,24,26,#if,defined(HAVE_SYSLOG_H),HAVE_SYSLOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,540,557,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,562,565,#if,defined(HAVE_STRUCT_TM_GMTOFF),HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,565,567,#else,!(defined(HAVE_STRUCT_TM_GMTOFF)),HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,710,712,#if,defined(HAVE_STRUCT_TM_GMTOFF),HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,715,739,#if,defined(HAVE_STRUCT_TM_GMTOFF),HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,716,719,#if,(defined(HAVE_STRUCT_TM_GMTOFF)) && (defined(HAVE_LOCALTIME_R)),HAVE_LOCALTIME_R;HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,719,721,#else,(defined(HAVE_STRUCT_TM_GMTOFF)) && (!(defined(HAVE_LOCALTIME_R))),HAVE_LOCALTIME_R;HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,739,747,#else,!(defined(HAVE_STRUCT_TM_GMTOFF)),HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,740,743,#if,(!(defined(HAVE_STRUCT_TM_GMTOFF))) && (defined(HAVE_GMTIME_R)),HAVE_GMTIME_R;HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,743,745,#else,(!(defined(HAVE_STRUCT_TM_GMTOFF))) && (!(defined(HAVE_GMTIME_R))),HAVE_GMTIME_R;HAVE_STRUCT_TM_GMTOFF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_accesslog.c.xml,911,916,#if,defined(HAVE_SYSLOG_H),HAVE_SYSLOG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,38,40,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,54,56,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,79,84,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,117,121,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,151,153,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,158,161,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,393,397,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,438,453,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,581,645,#if,defined(USE_LDAP),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,583,589,#if,(defined(USE_LDAP)) && (0),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_auth.c.xml,645,649,#else,!(defined(USE_LDAP)),USE_LDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,13,15,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,15,21,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,35,37,#if,defined(HAVE_SYS_FILIO_H),HAVE_SYS_FILIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,346,348,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,348,355,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,508,510,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,529,612,#if,!defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,563,565,#if,(!defined(__WIN32)) && (0),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,596,598,#if,(!defined(__WIN32)) && (0),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,642,644,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,693,695,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,704,706,#if,1,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,741,743,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,749,1194,#if,!defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,825,831,#if,(!defined(__WIN32)) && (defined(HAVE_IPV6)),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,831,833,#else,(!defined(__WIN32)) && (!(defined(HAVE_IPV6))),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,843,845,#if,(!defined(__WIN32)) && (defined(HAVE_IPV6)),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,845,847,#else,(!defined(__WIN32)) && (!(defined(HAVE_IPV6))),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,852,863,#if,(!defined(__WIN32)) && (defined(HAVE_IPV6)),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,863,867,#else,(!defined(__WIN32)) && (!(defined(HAVE_IPV6))),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,890,901,#if,(!defined(__WIN32)) && (defined(HAVE_IPV6)),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,901,905,#else,(!defined(__WIN32)) && (!(defined(HAVE_IPV6))),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,913,915,#if,(!defined(__WIN32)) && (defined(HAVE_IPV6)),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,915,917,#else,(!defined(__WIN32)) && (!(defined(HAVE_IPV6))),HAVE_IPV6;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,940,945,#if,(!defined(__WIN32)) && (defined(__CYGWIN__)),__CYGWIN__;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1194,1196,#else,!(!defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1277,1326,#if,!defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1285,1287,#if,(!defined(__WIN32)) && (0),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1305,1307,#if,(!defined(__WIN32)) && (0),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1343,1345,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1353,1421,#if,!defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1421,1423,#else,!(!defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cgi.c.xml,1435,1437,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.c.xml,52,54,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.c.xml,96,98,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.c.xml,112,127,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.c.xml,127,131,#else,!(defined(HAVE_MEMCACHE_H)),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.c.xml,145,147,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.c.xml,166,168,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.h.xml,1,43,#if,!defined(_MOD_CACHE_H_),_MOD_CACHE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.h.xml,11,13,#if,(!defined(_MOD_CACHE_H_)) && (defined(HAVE_MEMCACHE_H)),HAVE_MEMCACHE_H;_MOD_CACHE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml.h.xml,22,24,#if,(!defined(_MOD_CACHE_H_)) && (defined(HAVE_MEMCACHE_H)),HAVE_MEMCACHE_H;_MOD_CACHE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_funcs.c.xml,26,28,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_funcs.c.xml,28,30,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_funcs.c.xml,33,297,#if,defined(HAVE_LUA_H),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_funcs.c.xml,186,295,#if,(defined(HAVE_LUA_H)) && (defined(HAVE_MEMCACHE_H)),HAVE_LUA_H;HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_funcs.h.xml,1,21,#if,!defined(_MOD_CML_FUNCS_H_),_MOD_CML_FUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_funcs.h.xml,4,6,#if,(!defined(_MOD_CML_FUNCS_H_)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;_MOD_CML_FUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_funcs.h.xml,8,20,#if,(!defined(_MOD_CML_FUNCS_H_)) && (defined(HAVE_LUA_H)),HAVE_LUA_H;_MOD_CML_FUNCS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_lua.c.xml,18,20,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_lua.c.xml,20,22,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_lua.c.xml,25,455,#if,defined(HAVE_LUA_H),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_lua.c.xml,145,206,#if,(defined(HAVE_LUA_H)) && (0),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_lua.c.xml,234,249,#if,(defined(HAVE_LUA_H)) && (defined(HAVE_MEMCACHE_H)),HAVE_LUA_H;HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_cml_lua.c.xml,455,464,#else,!(defined(HAVE_LUA_H)),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,24,27,#if,defined HAVE_ZLIB_H && defined HAVE_LIBZ,HAVE_LIBZ;HAVE_ZLIB_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,29,34,#if,defined HAVE_BZLIB_H && defined HAVE_LIBBZ2,HAVE_BZLIB_H;HAVE_LIBBZ2
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,47,49,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,192,203,#if,defined(USE_ZLIB),USE_ZLIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,204,209,#if,defined(USE_BZ2LIB),USE_BZ2LIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,214,216,#if,defined(USE_ZLIB),USE_ZLIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,217,219,#if,defined(USE_BZ2LIB),USE_BZ2LIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,242,363,#if,defined(USE_ZLIB),USE_ZLIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,365,412,#if,defined(USE_BZ2LIB),USE_BZ2LIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,469,471,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,481,483,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,497,511,#if,defined(USE_MMAP),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,511,527,#else,!(defined(USE_MMAP)),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,531,539,#if,defined(USE_ZLIB),USE_ZLIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,540,545,#if,defined(USE_BZ2LIB),USE_BZ2LIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,559,561,#if,defined(USE_MMAP),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,561,563,#else,!(defined(USE_MMAP)),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,605,612,#if,defined(USE_MMAP),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,612,621,#else,!(defined(USE_MMAP)),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,624,632,#if,defined(USE_ZLIB),USE_ZLIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,633,638,#if,defined(USE_BZ2LIB),USE_BZ2LIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,644,646,#if,defined(USE_MMAP),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,646,648,#else,!(defined(USE_MMAP)),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,758,762,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,811,816,#if,defined(USE_ZLIB),USE_ZLIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_compress.c.xml,817,820,#if,defined(USE_BZ2LIB),USE_BZ2LIB
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,26,28,#if,defined(HAVE_SYS_SYSLIMITS_H),HAVE_SYS_SYSLIMITS_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,30,32,#if,defined(HAVE_ATTR_ATTRIBUTES_H),HAVE_ATTR_ATTRIBUTES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,39,41,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,90,128,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,128,133,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,137,147,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,224,227,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,227,230,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,647,650,#if,defined(HAVE_XATTR),HAVE_XATTR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,651,653,#if,defined(HAVE_LOCALTIME_R),HAVE_LOCALTIME_R
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,659,668,#if,defined(HAVE_PATHCONF),HAVE_PATHCONF
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,662,664,#if,(defined(HAVE_PATHCONF)) && (defined(NAME_MAX)),HAVE_PATHCONF;NAME_MAX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,664,666,#else,(defined(HAVE_PATHCONF)) && (!(defined(NAME_MAX))),HAVE_PATHCONF;NAME_MAX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,668,670,#elif,(!(defined(HAVE_PATHCONF))) && (defined __WIN32),HAVE_PATHCONF;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,670,672,#else,(!(defined(HAVE_PATHCONF))) && (!(defined __WIN32)),HAVE_PATHCONF;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,720,749,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,800,803,#if,defined(HAVE_LOCALTIME_R),HAVE_LOCALTIME_R
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,803,805,#else,!(defined(HAVE_LOCALTIME_R)),HAVE_LOCALTIME_R
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,823,833,#if,defined(HAVE_XATTR),HAVE_XATTR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,855,858,#if,defined(HAVE_LOCALTIME_R),HAVE_LOCALTIME_R
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_dirlisting.c.xml,858,860,#else,!(defined(HAVE_LOCALTIME_R)),HAVE_LOCALTIME_R
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_evasive.c.xml,150,152,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_evasive.c.xml,171,175,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,10,12,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,307,352,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,315,324,#if,(defined(HAVE_IPV6)) && (!defined(AI_NUMERICSERV)),AI_NUMERICSERV;HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,361,363,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,367,368,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,400,406,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,406,408,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,439,441,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_extforward.c.xml,441,444,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,28,30,#if,defined(HAVE_FASTCGI_FASTCGI_H),HAVE_FASTCGI_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,30,36,#else,!(defined(HAVE_FASTCGI_FASTCGI_H)),HAVE_FASTCGI_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,31,33,#if,(!(defined(HAVE_FASTCGI_FASTCGI_H))) && (defined(HAVE_FASTCGI_H)),HAVE_FASTCGI_FASTCGI_H;HAVE_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,33,35,#else,(!(defined(HAVE_FASTCGI_FASTCGI_H))) && (!(defined(HAVE_FASTCGI_H))),HAVE_FASTCGI_FASTCGI_H;HAVE_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,40,42,#if,defined(HAVE_SYS_FILIO_H),HAVE_SYS_FILIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,46,48,#if,defined(HAVE_SYS_UIO_H),HAVE_SYS_UIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,49,51,#if,defined(HAVE_SYS_WAIT_H),HAVE_SYS_WAIT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,375,377,#if,defined(SIGTTOU),SIGTTOU
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,378,380,#if,defined(SIGTTIN),SIGTTIN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,381,383,#if,defined(SIGTSTP),SIGTSTP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,854,856,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,862,864,#if,!defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,874,896,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,884,886,#if,(defined(HAVE_SYS_UN_H)) && (defined(SUN_LEN)),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,886,889,#else,(defined(HAVE_SYS_UN_H)) && (!(defined(SUN_LEN))),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,896,900,#else,!(defined(HAVE_SYS_UN_H)),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,999,1147,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1664,1666,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1676,1700,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1687,1689,#if,(defined(HAVE_SYS_UN_H)) && (defined(SUN_LEN)),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1689,1692,#else,(defined(HAVE_SYS_UN_H)) && (!(defined(SUN_LEN))),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1700,1702,#else,!(defined(HAVE_SYS_UN_H)),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1845,1847,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1893,1899,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1899,1901,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1908,1910,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1910,1912,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1928,1930,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,1930,1932,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,2794,2798,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_fastcgi.c.xml,3801,3807,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_magnet.c.xml,19,1114,#if,defined(HAVE_LUA_H),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_magnet.c.xml,1114,1120,#else,!(defined(HAVE_LUA_H)),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_magnet_cache.c.xml,8,137,#if,defined(HAVE_LUA_H),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_magnet_cache.h.xml,1,33,#if,!defined(_MOD_MAGNET_CACHE_H_),_MOD_MAGNET_CACHE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_magnet_cache.h.xml,7,32,#if,(!defined(_MOD_MAGNET_CACHE_H_)) && (defined(HAVE_LUA_H)),HAVE_LUA_H;_MOD_MAGNET_CACHE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,7,9,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,11,13,#if,defined(HAVE_MYSQL),HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,19,21,#if,defined(DEBUG_MOD_MYSQL_VHOST),DEBUG_MOD_MYSQL_VHOST
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,35,455,#if,defined(HAVE_MYSQL),HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,87,90,#if,(defined(HAVE_MYSQL)) && (defined(DEBUG)),DEBUG;HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,129,132,#if,(defined(HAVE_MYSQL)) && (defined(DEBUG)),DEBUG;HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,152,155,#if,(defined(HAVE_MYSQL)) && (defined(DEBUG)),DEBUG;HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,256,259,#if,(defined(HAVE_MYSQL)) && (MYSQL_VERSION_ID >= 50013),HAVE_MYSQL;MYSQL_VERSION_ID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,263,267,#if,(defined(HAVE_MYSQL)) && (MYSQL_VERSION_ID >= 40100),HAVE_MYSQL;MYSQL_VERSION_ID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,267,270,#else,(defined(HAVE_MYSQL)) && (!(MYSQL_VERSION_ID >= 40100)),HAVE_MYSQL;MYSQL_VERSION_ID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,294,296,#if,(defined(HAVE_MYSQL)) && (defined(HAVE_MYSQL)),HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,377,379,#if,(defined(HAVE_MYSQL)) && (MYSQL_VERSION_ID >= 40100),HAVE_MYSQL;MYSQL_VERSION_ID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,413,415,#if,(defined(HAVE_MYSQL)) && (MYSQL_VERSION_ID >= 40100),HAVE_MYSQL;MYSQL_VERSION_ID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,422,427,#if,(defined(HAVE_MYSQL)) && (defined(DEBUG)),DEBUG;HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,432,434,#if,(defined(HAVE_MYSQL)) && (MYSQL_VERSION_ID >= 40100),HAVE_MYSQL;MYSQL_VERSION_ID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_mysql_vhost.c.xml,455,464,#else,!(defined(HAVE_MYSQL)),HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_proxy.c.xml,29,31,#if,defined(HAVE_SYS_FILIO_H),HAVE_SYS_FILIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_proxy.c.xml,365,367,#if,defined(HAVE_IPV6) && defined(HAVE_INET_PTON),HAVE_INET_PTON;HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_proxy.c.xml,375,384,#if,defined(HAVE_IPV6) && defined(HAVE_INET_PTON),HAVE_INET_PTON;HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_proxy.c.xml,694,697,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_proxy.c.xml,714,716,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_proxy.c.xml,775,782,#if,defined(HAVE_IPV6) && defined(HAVE_INET_PTON),HAVE_INET_PTON;HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_redirect.c.xml,138,170,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_redirect.c.xml,172,266,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_redirect.c.xml,266,270,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,12,200,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,200,211,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,239,246,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,246,248,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,252,259,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,267,269,#if,!defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,281,486,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rewrite.c.xml,493,502,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rrdtool.c.xml,19,22,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rrdtool.c.xml,83,86,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rrdtool.c.xml,95,181,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_rrdtool.c.xml,181,183,#else,!(defined(HAVE_FORK)),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,28,30,#if,defined(HAVE_SYS_FILIO_H),HAVE_SYS_FILIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,34,36,#if,defined(HAVE_SYS_UIO_H),HAVE_SYS_UIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,38,40,#if,defined(HAVE_SYS_WAIT_H),HAVE_SYS_WAIT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,336,338,#if,defined(SIGTTOU),SIGTTOU
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,339,341,#if,defined(SIGTTIN),SIGTTIN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,342,344,#if,defined(SIGTSTP),SIGTSTP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,651,653,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,659,661,#if,!defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,671,689,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,681,683,#if,(defined(HAVE_SYS_UN_H)) && (defined(SUN_LEN)),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,683,686,#else,(defined(HAVE_SYS_UN_H)) && (!(defined(SUN_LEN))),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,689,693,#else,!(defined(HAVE_SYS_UN_H)),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,783,905,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1334,1336,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1346,1364,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1357,1359,#if,(defined(HAVE_SYS_UN_H)) && (defined(SUN_LEN)),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1359,1362,#else,(defined(HAVE_SYS_UN_H)) && (!(defined(SUN_LEN))),HAVE_SYS_UN_H;SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1364,1366,#else,!(defined(HAVE_SYS_UN_H)),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1476,1478,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1519,1525,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1525,1527,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1534,1536,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1536,1538,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1554,1556,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1556,1558,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1631,1635,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1939,1941,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,1997,2002,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,2002,2004,#else,!(0),
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,2069,2074,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,2074,2076,#else,!(0),
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,2126,2130,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_scgi.c.xml,3093,3099,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_secure_download.c.xml,17,19,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_secure_download.c.xml,19,21,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,27,29,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,31,33,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,35,37,#if,defined(HAVE_SYS_FILIO_H),HAVE_SYS_FILIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,82,84,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,98,101,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,130,138,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,138,142,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,243,245,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,254,260,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,260,262,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,267,269,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,269,271,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,435,441,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,441,443,#else,!(defined(HAVE_PWD_H)),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,729,821,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,821,824,#else,!(defined(HAVE_FORK)),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,950,955,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.c.xml,1042,1065,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.h.xml,1,44,#if,!defined(_MOD_SSI_H_),_MOD_SSI_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.h.xml,10,12,#if,(!defined(_MOD_SSI_H_)) && (defined(HAVE_PCRE_H)),HAVE_PCRE_H;_MOD_SSI_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi.h.xml,24,26,#if,(!defined(_MOD_SSI_H_)) && (defined(HAVE_PCRE_H)),HAVE_PCRE_H;_MOD_SSI_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_expr.c.xml,317,322,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_expr.h.xml,1,31,#if,!defined(_MOD_SSI_EXPR_H_),_MOD_SSI_EXPR_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,28,30,#if,!defined(INTERFACE),INTERFACE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,177,180,#if,defined(YYFALLBACK),YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,213,217,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,219,245,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,237,244,#if,(!defined(NDEBUG)) && (0),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,247,257,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,259,280,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,286,298,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,288,294,#if,(0) && (!defined(NDEBUG)),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,294,296,#else,(0) && (!(!defined(NDEBUG))),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,371,377,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,431,443,#if,defined(YYFALLBACK),YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,435,440,#if,(defined(YYFALLBACK)) && (!defined(NDEBUG)),NDEBUG;YYFALLBACK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,494,498,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,509,518,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,563,569,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,759,763,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,797,801,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,852,856,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,872,876,#if,!defined(NDEBUG),NDEBUG
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,877,930,#if,defined(YYERRORSYMBOL),YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,902,907,#if,(defined(YYERRORSYMBOL)) && (!defined(NDEBUG)),NDEBUG;YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_ssi_exprparser.c.xml,930,949,#else,!(defined(YYERRORSYMBOL)),YYERRORSYMBOL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_staticfile.c.xml,422,434,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,682,684,#if,defined(USE_LINUX_EPOLL),USE_LINUX_EPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,685,687,#if,defined(USE_POLL),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,688,690,#if,defined(USE_SELECT),USE_SELECT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,691,693,#if,defined(USE_LIBEV),USE_LIBEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,694,696,#if,defined(USE_SOLARIS_DEVPOLL),USE_SOLARIS_DEVPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,697,699,#if,defined(USE_SOLARIS_PORT),USE_SOLARIS_PORT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,700,702,#if,defined(USE_FREEBSD_KQUEUE),USE_FREEBSD_KQUEUE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,721,723,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_status.c.xml,723,725,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,14,16,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,18,20,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,22,24,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,42,45,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,46,48,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,50,52,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,102,105,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,106,108,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,109,111,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,150,153,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,177,186,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,187,210,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,213,228,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,228,232,#else,!(defined(HAVE_MEMCACHE_H)),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,236,240,#if,(!defined(HAVE_GDBM_H) && !defined(HAVE_MEMCACHE_H)) || !defined(HAVE_PCRE_H),HAVE_GDBM_H;HAVE_MEMCACHE_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,252,254,#if,defined(HAVE_GDBM),HAVE_GDBM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,255,258,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,263,265,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,280,282,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,284,286,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,288,290,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,300,302,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,316,517,#if,defined(HAVE_PCRE_H),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,329,331,#if,(defined(HAVE_PCRE_H)) && (!defined(HAVE_GDBM_H) && !defined(HAVE_MEMCACHE_H)),HAVE_GDBM_H;HAVE_MEMCACHE_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,331,338,#elif,((defined(HAVE_PCRE_H)) && (!(!defined(HAVE_GDBM_H) && !defined(HAVE_MEMCACHE_H)))) && (defined(HAVE_GDBM_H) && defined(HAVE_MEMCACHE_H)),HAVE_GDBM_H;HAVE_MEMCACHE_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,338,340,#elif,(((defined(HAVE_PCRE_H)) && (!(!defined(HAVE_GDBM_H) && !defined(HAVE_MEMCACHE_H)))) && (!(defined(HAVE_GDBM_H) && defined(HAVE_MEMCACHE_H)))) && (defined(HAVE_GDBM_H)),HAVE_GDBM_H;HAVE_MEMCACHE_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,340,342,#else,(((defined(HAVE_PCRE_H)) && (!(!defined(HAVE_GDBM_H) && !defined(HAVE_MEMCACHE_H)))) && (!(defined(HAVE_GDBM_H) && defined(HAVE_MEMCACHE_H)))) && (!(defined(HAVE_GDBM_H))),HAVE_GDBM_H;HAVE_MEMCACHE_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,367,383,#if,(defined(HAVE_PCRE_H)) && (defined(HAVE_GDBM_H)),HAVE_GDBM_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,384,406,#if,(defined(HAVE_PCRE_H)) && (defined(HAVE_MEMCACHE_H)),HAVE_MEMCACHE_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,418,467,#if,(defined(HAVE_PCRE_H)) && (defined(HAVE_GDBM_H)),HAVE_GDBM_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,469,514,#if,(defined(HAVE_PCRE_H)) && (defined(HAVE_MEMCACHE_H)),HAVE_MEMCACHE_H;HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,517,521,#else,!(defined(HAVE_PCRE_H)),HAVE_PCRE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,526,573,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_trigger_b4_dl.c.xml,585,587,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_userdir.c.xml,14,16,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_userdir.c.xml,180,182,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_userdir.c.xml,213,215,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_userdir.c.xml,249,251,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,26,32,#if,defined(HAVE_LIBXML_H) && defined(HAVE_SQLITE3_H),HAVE_LIBXML_H;HAVE_SQLITE3_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,34,37,#if,defined(HAVE_LIBXML_H) && defined(HAVE_SQLITE3_H) && defined(HAVE_UUID_UUID_H),HAVE_LIBXML_H;HAVE_SQLITE3_H;HAVE_UUID_UUID_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,58,74,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,126,143,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,202,364,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,364,367,#else,!(defined(USE_PROPPATCH)),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,384,400,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,420,436,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,549,569,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,569,571,#else,!(defined(USE_PROPPATCH)),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,628,647,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,707,731,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,731,733,#else,!(defined(USE_PROPPATCH)),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,783,809,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,900,929,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,989,1093,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,1095,1150,#if,defined(USE_LOCKS),USE_LOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,1161,1201,#if,defined(USE_LOCKS),USE_LOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,1201,1206,#else,!(defined(USE_LOCKS)),USE_LOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,1253,1341,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,1982,2021,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,2063,2186,#if,defined(USE_PROPPATCH),USE_PROPPATCH
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,2219,2425,#if,defined(USE_LOCKS),USE_LOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,2425,2428,#else,!(defined(USE_LOCKS)),USE_LOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,2430,2482,#if,defined(USE_LOCKS),USE_LOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/mod_webdav.c.xml,2482,2485,#else,!(defined(USE_LOCKS)),USE_LOCKS
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,24,38,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,28,30,#if,(defined(USE_OPENSSL)) && (!defined(OPENSSL_NO_DH)),OPENSSL_NO_DH;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,33,37,#if,(defined(USE_OPENSSL)) && (OPENSSL_VERSION_NUMBER >= 0x0090800fL),OPENSSL_VERSION_NUMBER;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,34,36,#if,((defined(USE_OPENSSL)) && (OPENSSL_VERSION_NUMBER >= 0x0090800fL)) && (!defined(OPENSSL_NO_ECDH)),OPENSSL_NO_ECDH;OPENSSL_VERSION_NUMBER;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,40,49,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,86,157,#if,defined USE_OPENSSL && ! defined OPENSSL_NO_TLSEXT,OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,95,99,#if,(defined USE_OPENSSL && ! defined OPENSSL_NO_TLSEXT) && (0),OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,170,183,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,230,238,#if,defined(HAVE_SYS_UN_H),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,238,242,#else,!(defined(HAVE_SYS_UN_H)),HAVE_SYS_UN_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,245,254,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,277,319,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,362,364,#if,defined(SUN_LEN),SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,364,367,#else,!(defined(SUN_LEN)),SUN_LEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,423,428,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,428,434,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,435,441,#if,defined(TCP_DEFER_ACCEPT),TCP_DEFER_ACCEPT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,443,453,#if,defined(SO_ACCEPTFILTER),SO_ACCEPTFILTER
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,525,612,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,587,597,#if,(defined(USE_OPENSSL)) && (defined(OPENSSL_NO_TLSEXT)),OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,619,624,#if,OPENSSL_VERSION_NUMBER >= 0x0090800fL,OPENSSL_VERSION_NUMBER
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,620,623,#if,(OPENSSL_VERSION_NUMBER >= 0x0090800fL) && (!defined(OPENSSL_NO_ECDH)),OPENSSL_NO_ECDH;OPENSSL_VERSION_NUMBER
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,626,670,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,627,629,#if,(defined(USE_OPENSSL)) && (!defined(OPENSSL_NO_DH)),OPENSSL_NO_DH;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,677,679,#if,defined USE_LINUX_SENDFILE,USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,680,682,#if,defined USE_FREEBSD_SENDFILE,USE_FREEBSD_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,683,685,#if,defined USE_SOLARIS_SENDFILEV,USE_SOLARIS_SENDFILEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,686,688,#if,defined USE_WRITEV,USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,693,924,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,697,699,#if,(defined(USE_OPENSSL)) && (!defined(SSL_OP_NO_COMPRESSION)),SSL_OP_NO_COMPRESSION;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,719,726,#if,(defined(USE_OPENSSL)) && (defined(OPENSSL_NO_TLSEXT)),OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,756,758,#if,(defined(USE_OPENSSL)) && (defined(SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS)),SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,758,762,#else,(defined(USE_OPENSSL)) && (!(defined(SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS))),SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,799,833,#if,(defined(USE_OPENSSL)) && (!defined(OPENSSL_NO_DH)),OPENSSL_NO_DH;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,833,837,#else,(defined(USE_OPENSSL)) && (!(!defined(OPENSSL_NO_DH))),OPENSSL_NO_DH;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,839,862,#if,(defined(USE_OPENSSL)) && (OPENSSL_VERSION_NUMBER >= 0x0090800fL),OPENSSL_VERSION_NUMBER;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,840,861,#if,((defined(USE_OPENSSL)) && (OPENSSL_VERSION_NUMBER >= 0x0090800fL)) && (!defined(OPENSSL_NO_ECDH)),OPENSSL_NO_ECDH;OPENSSL_VERSION_NUMBER;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,915,922,#if,(defined(USE_OPENSSL)) && (!defined(OPENSSL_NO_TLSEXT)),OPENSSL_NO_TLSEXT;USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,938,940,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,969,973,#if,defined(USE_WRITEV),USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,974,978,#if,defined(USE_LINUX_SENDFILE),USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,979,983,#if,defined(USE_FREEBSD_SENDFILE),USE_FREEBSD_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,984,988,#if,defined(USE_SOLARIS_SENDFILEV),USE_SOLARIS_SENDFILEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,1039,1041,#if,defined(TCP_CORK),TCP_CORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,1074,1082,#if,defined(TCP_CORK),TCP_CORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,1085,1087,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.c.xml,1097,1102,#if,defined(TCP_CORK),TCP_CORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network.h.xml,1,13,#if,!defined(_NETWORK_H_),_NETWORK_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,1,64,#if,!defined(_NETWORK_BACKENDS_H_),_NETWORK_BACKENDS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,4,6,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined(HAVE_CONFIG_H)),HAVE_CONFIG_H;_NETWORK_BACKENDS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,12,16,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined HAVE_SYS_SENDFILE_H && defined HAVE_SENDFILE && (!defined _LARGEFILE_SOURCE || defined HAVE_SENDFILE64) && defined HAVE_WRITEV && defined(__linux__) && !defined HAVE_SENDFILE_BROKEN),HAVE_SENDFILE;HAVE_SENDFILE64;HAVE_SENDFILE_BROKEN;HAVE_SYS_SENDFILE_H;HAVE_WRITEV;_LARGEFILE_SOURCE;_NETWORK_BACKENDS_H_;__linux__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,18,21,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined HAVE_SYS_UIO_H && defined HAVE_SENDFILE && defined HAVE_WRITEV && (defined(__FreeBSD__) || defined(__DragonFly__))),HAVE_SENDFILE;HAVE_SYS_UIO_H;HAVE_WRITEV;_NETWORK_BACKENDS_H_;__DragonFly__;__FreeBSD__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,23,27,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined HAVE_SYS_SENDFILE_H && defined HAVE_SENDFILEV && defined HAVE_WRITEV && defined(__sun)),HAVE_SENDFILEV;HAVE_SYS_SENDFILE_H;HAVE_WRITEV;_NETWORK_BACKENDS_H_;__sun
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,29,32,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined HAVE_SYS_UIO_H && defined HAVE_WRITEV),HAVE_SYS_UIO_H;HAVE_WRITEV;_NETWORK_BACKENDS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,34,41,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined HAVE_SYS_MMAN_H && defined HAVE_MMAP && defined ENABLE_MMAP),ENABLE_MMAP;HAVE_MMAP;HAVE_SYS_MMAN_H;_NETWORK_BACKENDS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,38,40,#if,((!defined(_NETWORK_BACKENDS_H_)) && (defined HAVE_SYS_MMAN_H && defined HAVE_MMAP && defined ENABLE_MMAP)) && (!defined(MAP_FAILED)),ENABLE_MMAP;HAVE_MMAP;HAVE_SYS_MMAN_H;MAP_FAILED;_NETWORK_BACKENDS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,43,45,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined HAVE_SYS_UIO_H && defined HAVE_WRITEV && defined HAVE_SEND_FILE && defined(__aix)),HAVE_SEND_FILE;HAVE_SYS_UIO_H;HAVE_WRITEV;_NETWORK_BACKENDS_H_;__aix
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_backends.h.xml,60,62,#if,(!defined(_NETWORK_BACKENDS_H_)) && (defined(USE_OPENSSL)),USE_OPENSSL;_NETWORK_BACKENDS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_freebsd_sendfile.c.xml,3,219,#if,defined(USE_FREEBSD_SENDFILE),USE_FREEBSD_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_freebsd_sendfile.c.xml,27,32,#if,(defined(USE_FREEBSD_SENDFILE)) && (!defined(UIO_MAXIOV)),UIO_MAXIOV;USE_FREEBSD_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_freebsd_sendfile.c.xml,28,31,#if,((defined(USE_FREEBSD_SENDFILE)) && (!defined(UIO_MAXIOV))) && (defined(__FreeBSD__) || defined(__DragonFly__)),UIO_MAXIOV;USE_FREEBSD_SENDFILE;__DragonFly__;__FreeBSD__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_linux_sendfile.c.xml,3,244,#if,defined(USE_LINUX_SENDFILE),USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_linux_sendfile.c.xml,145,153,#if,(defined(USE_LINUX_SENDFILE)) && (defined(HAVE_POSIX_FADVISE)),HAVE_POSIX_FADVISE;USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_linux_sendfile.c.xml,194,208,#if,(defined(USE_LINUX_SENDFILE)) && (defined(HAVE_POSIX_FADVISE)),HAVE_POSIX_FADVISE;USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_linux_sendfile.c.xml,195,207,#if,((defined(USE_LINUX_SENDFILE)) && (defined(HAVE_POSIX_FADVISE))) && (0),HAVE_POSIX_FADVISE;USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_linux_sendfile.c.xml,245,249,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_openssl.c.xml,3,291,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_openssl.c.xml,293,297,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_solaris_sendfilev.c.xml,3,213,#if,defined(USE_SOLARIS_SENDFILEV),USE_SOLARIS_SENDFILEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_solaris_sendfilev.c.xml,27,29,#if,(defined(USE_SOLARIS_SENDFILEV)) && (!defined(UIO_MAXIOV)),UIO_MAXIOV;USE_SOLARIS_SENDFILEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,19,21,#if,defined(HAVE_SYS_FILIO_H),HAVE_SYS_FILIO_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,23,25,#if,defined(HAVE_SYS_RESOURCE_H),HAVE_SYS_RESOURCE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,48,55,#if,defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,55,72,#else,!(defined(__WIN32)),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,85,87,#if,defined(USE_MMAP),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,117,147,#if,defined(USE_MMAP),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,147,187,#else,!(defined(USE_MMAP)),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,162,169,#if,(!(defined(USE_MMAP))) && (defined(__WIN32)),USE_MMAP;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,169,186,#else,(!(defined(USE_MMAP))) && (!(defined(__WIN32))),USE_MMAP;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_write.c.xml,216,220,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,3,333,#if,defined(USE_WRITEV),USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,29,31,#if,(defined(USE_WRITEV)) && (0),USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,33,35,#if,(defined(USE_WRITEV)) && (defined(UIO_MAXIOV)),UIO_MAXIOV;USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,35,38,#elif,((defined(USE_WRITEV)) && (!(defined(UIO_MAXIOV)))) && (defined(IOV_MAX)),IOV_MAX;UIO_MAXIOV;USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,38,41,#elif,(((defined(USE_WRITEV)) && (!(defined(UIO_MAXIOV)))) && (!(defined(IOV_MAX)))) && (defined(_XOPEN_IOV_MAX)),IOV_MAX;UIO_MAXIOV;USE_WRITEV;_XOPEN_IOV_MAX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,41,43,#else,(((defined(USE_WRITEV)) && (!(defined(UIO_MAXIOV)))) && (!(defined(IOV_MAX)))) && (!(defined(_XOPEN_IOV_MAX))),IOV_MAX;UIO_MAXIOV;USE_WRITEV;_XOPEN_IOV_MAX
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,244,246,#if,(defined(USE_WRITEV)) && (defined(LOCAL_BUFFERING)),LOCAL_BUFFERING;USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,246,257,#else,(defined(USE_WRITEV)) && (!(defined(LOCAL_BUFFERING))),LOCAL_BUFFERING;USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,247,256,#if,((defined(USE_WRITEV)) && (!(defined(LOCAL_BUFFERING)))) && (defined(HAVE_MADVISE)),HAVE_MADVISE;LOCAL_BUFFERING;USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,277,279,#if,(defined(USE_WRITEV)) && (defined(LOCAL_BUFFERING)),LOCAL_BUFFERING;USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/network_writev.c.xml,279,281,#else,(defined(USE_WRITEV)) && (!(defined(LOCAL_BUFFERING))),LOCAL_BUFFERING;USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,9,11,#if,defined(HAVE_VALGRIND_VALGRIND_H),HAVE_VALGRIND_VALGRIND_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,13,15,#if,!defined(__WIN32),__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,62,64,#if,defined(HAVE_VALGRIND_VALGRIND_H),HAVE_VALGRIND_VALGRIND_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,66,74,#if,!defined(LIGHTTPD_STATIC),LIGHTTPD_STATIC
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,68,70,#if,(!defined(LIGHTTPD_STATIC)) && (defined(__WIN32)),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,70,72,#else,(!defined(LIGHTTPD_STATIC)) && (!(defined(__WIN32))),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,102,118,#if,defined(LIGHTTPD_STATIC),LIGHTTPD_STATIC
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,118,230,#else,!(defined(LIGHTTPD_STATIC)),LIGHTTPD_STATIC
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,140,142,#if,(!(defined(LIGHTTPD_STATIC))) && (defined(__WIN32) || defined(__CYGWIN__)),LIGHTTPD_STATIC;__CYGWIN__;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,142,144,#else,(!(defined(LIGHTTPD_STATIC))) && (!(defined(__WIN32) || defined(__CYGWIN__))),LIGHTTPD_STATIC;__CYGWIN__;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,147,167,#if,(!(defined(LIGHTTPD_STATIC))) && (defined(__WIN32)),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,167,177,#else,(!(defined(LIGHTTPD_STATIC))) && (!(defined(__WIN32))),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,182,202,#if,(!(defined(LIGHTTPD_STATIC))) && (defined(__WIN32)),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,202,215,#else,(!(defined(LIGHTTPD_STATIC))) && (!(defined(__WIN32))),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,203,205,#if,((!(defined(LIGHTTPD_STATIC))) && (!(defined(__WIN32)))) && (1),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,205,207,#else,((!(defined(LIGHTTPD_STATIC))) && (!(defined(__WIN32)))) && (!(1)),LIGHTTPD_STATIC;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,222,224,#if,(!(defined(LIGHTTPD_STATIC))) && (0),LIGHTTPD_STATIC
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.c.xml,321,354,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/plugin.h.xml,1,92,#if,!defined(_PLUGIN_H_),_PLUGIN_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,9,12,#if,defined(WIN32),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,12,15,#else,!(defined(WIN32)),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,18,44,#if,defined(WIN32),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,44,65,#else,!(defined(WIN32)),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,71,73,#if,defined(WIN32),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,133,211,#if,defined(WIN32),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,211,276,#else,!(defined(WIN32)),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,334,405,#if,defined(DEBUG_PROC_OPEN),DEBUG_PROC_OPEN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,365,367,#if,(defined(DEBUG_PROC_OPEN)) && (defined(WIN32)),DEBUG_PROC_OPEN;WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.c.xml,367,369,#else,(defined(DEBUG_PROC_OPEN)) && (!(defined(WIN32))),DEBUG_PROC_OPEN;WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.h.xml,4,8,#if,defined(WIN32),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/proc_open.h.xml,8,11,#else,!(defined(WIN32)),WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/request.c.xml,211,213,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/request.c.xml,1007,1012,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/request.h.xml,1,9,#if,!defined(_REQUEST_H_),_REQUEST_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,83,88,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,88,90,#else,!(0),
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,134,212,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,327,331,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,436,470,#if,defined(__WIN32) || defined(__CYGWIN__),__CYGWIN__;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,576,588,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,597,599,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,599,601,#else,!(defined(HAVE_LSTAT)),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.c.xml,690,702,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/response.h.xml,1,20,#if,!defined(_RESPONSE_H_),_RESPONSE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,34,36,#if,defined(HAVE_GETOPT_H),HAVE_GETOPT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,38,40,#if,defined(HAVE_VALGRIND_VALGRIND_H),HAVE_VALGRIND_VALGRIND_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,42,44,#if,defined(HAVE_SYS_WAIT_H),HAVE_SYS_WAIT_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,46,49,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,51,53,#if,defined(HAVE_SYS_RESOURCE_H),HAVE_SYS_RESOURCE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,55,57,#if,defined(HAVE_SYS_PRCTL_H),HAVE_SYS_PRCTL_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,59,61,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,63,66,#if,!defined(__sgi),__sgi
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,68,77,#if,defined(HAVE_GETUID),HAVE_GETUID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,69,76,#if,(defined(HAVE_GETUID)) && (!defined(HAVE_ISSETUGID)),HAVE_GETUID;HAVE_ISSETUGID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,85,131,#if,defined(HAVE_SIGACTION) && defined(SA_SIGINFO),HAVE_SIGACTION;SA_SIGINFO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,131,145,#elif,(!(defined(HAVE_SIGACTION) && defined(SA_SIGINFO))) && (defined(HAVE_SIGNAL) || defined(HAVE_SIGACTION)),HAVE_SIGACTION;HAVE_SIGNAL;SA_SIGINFO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,147,168,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,149,151,#if,(defined(HAVE_FORK)) && (defined(SIGTTOU)),HAVE_FORK;SIGTTOU
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,152,154,#if,(defined(HAVE_FORK)) && (defined(SIGTTIN)),HAVE_FORK;SIGTTIN
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,155,157,#if,(defined(HAVE_FORK)) && (defined(SIGTSTP)),HAVE_FORK;SIGTSTP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,290,292,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,315,320,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,346,353,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,359,361,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,361,363,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,374,376,#if,defined(USE_SELECT),USE_SELECT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,376,378,#else,!(defined(USE_SELECT)),USE_SELECT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,379,381,#if,defined(USE_POLL),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,381,383,#else,!(defined(USE_POLL)),USE_POLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,384,386,#if,defined(USE_LINUX_SIGIO),USE_LINUX_SIGIO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,386,388,#else,!(defined(USE_LINUX_SIGIO)),USE_LINUX_SIGIO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,389,391,#if,defined(USE_LINUX_EPOLL),USE_LINUX_EPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,391,393,#else,!(defined(USE_LINUX_EPOLL)),USE_LINUX_EPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,394,396,#if,defined(USE_SOLARIS_DEVPOLL),USE_SOLARIS_DEVPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,396,398,#else,!(defined(USE_SOLARIS_DEVPOLL)),USE_SOLARIS_DEVPOLL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,399,401,#if,defined(USE_SOLARIS_PORT),USE_SOLARIS_PORT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,401,403,#else,!(defined(USE_SOLARIS_PORT)),USE_SOLARIS_PORT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,404,406,#if,defined(USE_FREEBSD_KQUEUE),USE_FREEBSD_KQUEUE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,406,408,#else,!(defined(USE_FREEBSD_KQUEUE)),USE_FREEBSD_KQUEUE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,409,411,#if,defined(USE_LIBEV),USE_LIBEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,411,413,#else,!(defined(USE_LIBEV)),USE_LIBEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,415,417,#if,defined USE_LINUX_SENDFILE,USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,417,419,#else,!(defined USE_LINUX_SENDFILE),USE_LINUX_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,420,422,#if,defined USE_FREEBSD_SENDFILE,USE_FREEBSD_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,422,424,#else,!(defined USE_FREEBSD_SENDFILE),USE_FREEBSD_SENDFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,425,427,#if,defined USE_SOLARIS_SENDFILEV,USE_SOLARIS_SENDFILEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,427,429,#else,!(defined USE_SOLARIS_SENDFILEV),USE_SOLARIS_SENDFILEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,430,432,#if,defined USE_WRITEV,USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,432,434,#else,!(defined USE_WRITEV),USE_WRITEV
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,436,438,#if,defined(USE_MMAP),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,438,440,#else,!(defined(USE_MMAP)),USE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,442,444,#if,defined(HAVE_IPV6),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,444,446,#else,!(defined(HAVE_IPV6)),HAVE_IPV6
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,447,449,#if,defined HAVE_ZLIB_H && defined HAVE_LIBZ,HAVE_LIBZ;HAVE_ZLIB_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,449,451,#else,!(defined HAVE_ZLIB_H && defined HAVE_LIBZ),HAVE_LIBZ;HAVE_ZLIB_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,452,454,#if,defined HAVE_BZLIB_H && defined HAVE_LIBBZ2,HAVE_BZLIB_H;HAVE_LIBBZ2
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,454,456,#else,!(defined HAVE_BZLIB_H && defined HAVE_LIBBZ2),HAVE_BZLIB_H;HAVE_LIBBZ2
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,457,459,#if,defined(HAVE_LIBCRYPT),HAVE_LIBCRYPT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,459,461,#else,!(defined(HAVE_LIBCRYPT)),HAVE_LIBCRYPT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,462,464,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,464,466,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,467,469,#if,defined(HAVE_LIBPCRE),HAVE_LIBPCRE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,469,471,#else,!(defined(HAVE_LIBPCRE)),HAVE_LIBPCRE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,472,474,#if,defined(HAVE_MYSQL),HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,474,476,#else,!(defined(HAVE_MYSQL)),HAVE_MYSQL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,477,479,#if,defined(HAVE_LDAP_H) && defined(HAVE_LBER_H) && defined(HAVE_LIBLDAP) && defined(HAVE_LIBLBER),HAVE_LBER_H;HAVE_LDAP_H;HAVE_LIBLBER;HAVE_LIBLDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,479,481,#else,!(defined(HAVE_LDAP_H) && defined(HAVE_LBER_H) && defined(HAVE_LIBLDAP) && defined(HAVE_LIBLBER)),HAVE_LBER_H;HAVE_LDAP_H;HAVE_LIBLBER;HAVE_LIBLDAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,482,484,#if,defined(HAVE_MEMCACHE_H),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,484,486,#else,!(defined(HAVE_MEMCACHE_H)),HAVE_MEMCACHE_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,487,489,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,489,491,#else,!(defined(HAVE_FAM_H)),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,492,494,#if,defined(HAVE_LUA_H),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,494,496,#else,!(defined(HAVE_LUA_H)),HAVE_LUA_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,497,499,#if,defined(HAVE_LIBXML_H),HAVE_LIBXML_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,499,501,#else,!(defined(HAVE_LIBXML_H)),HAVE_LIBXML_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,502,504,#if,defined(HAVE_SQLITE3_H),HAVE_SQLITE3_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,504,506,#else,!(defined(HAVE_SQLITE3_H)),HAVE_SQLITE3_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,507,509,#if,defined(HAVE_GDBM_H),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,509,511,#else,!(defined(HAVE_GDBM_H)),HAVE_GDBM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,518,520,#if,defined(USE_OPENSSL),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,520,522,#else,!(defined(USE_OPENSSL)),USE_OPENSSL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,550,552,#if,defined(HAVE_SIGACTION),HAVE_SIGACTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,553,555,#if,defined(HAVE_GETRLIMIT),HAVE_GETRLIMIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,557,564,#if,defined(USE_ALARM),USE_ALARM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,578,580,#if,defined(HAVE_GETUID),HAVE_GETUID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,580,582,#else,!(defined(HAVE_GETUID)),HAVE_GETUID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,656,666,#if,defined(HAVE_GETUID),HAVE_GETUID
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,732,734,#if,defined(HAVE_VALGRIND_VALGRIND_H),HAVE_VALGRIND_VALGRIND_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,736,769,#if,defined(HAVE_GETRLIMIT),HAVE_GETRLIMIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,781,809,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,817,835,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,836,849,#if,defined(HAVE_CHROOT),HAVE_CHROOT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,850,858,#if,defined(HAVE_PWD_H),HAVE_PWD_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,859,866,#if,defined(HAVE_SYS_PRCTL_H) && defined(PR_SET_DUMPABLE),HAVE_SYS_PRCTL_H;PR_SET_DUMPABLE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,869,905,#if,defined(HAVE_GETRLIMIT),HAVE_GETRLIMIT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,947,950,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,953,973,#if,defined(HAVE_SIGACTION),HAVE_SIGACTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,958,962,#if,(defined(HAVE_SIGACTION)) && (defined(SA_SIGINFO)),HAVE_SIGACTION;SA_SIGINFO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,962,966,#else,(defined(HAVE_SIGACTION)) && (!(defined(SA_SIGINFO))),HAVE_SIGACTION;SA_SIGINFO
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,973,982,#elif,(!(defined(HAVE_SIGACTION))) && (defined(HAVE_SIGNAL)),HAVE_SIGACTION;HAVE_SIGNAL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,984,994,#if,defined(USE_ALARM),USE_ALARM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1072,1148,#if,defined(HAVE_FORK),HAVE_FORK
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1157,1159,#if,defined(HAVE_SIGACTION),HAVE_SIGACTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1159,1161,#elif,(!(defined(HAVE_SIGACTION))) && (defined(HAVE_SIGNAL)),HAVE_SIGACTION;HAVE_SIGNAL
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1183,1198,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1191,1193,#if,(defined(HAVE_FAM_H)) && (defined(HAVE_FAMNOEXISTS)),HAVE_FAMNOEXISTS;HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1241,1247,#if,defined(HAVE_SIGACTION),HAVE_SIGACTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1247,1250,#else,!(defined(HAVE_SIGACTION)),HAVE_SIGACTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1257,1260,#if,defined(USE_ALARM),USE_ALARM
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1302,1305,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1312,1315,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1324,1329,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1370,1380,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1476,1481,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1497,1500,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1557,1563,#if,defined(HAVE_SIGACTION),HAVE_SIGACTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.c.xml,1563,1566,#else,!(defined(HAVE_SIGACTION)),HAVE_SIGACTION
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/server.h.xml,1,17,#if,!defined(_SERVER_H_),_SERVER_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/settings.h.xml,1,63,#if,!defined(_LIGHTTPD_SETTINGS_H_),_LIGHTTPD_SETTINGS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/settings.h.xml,4,6,#if,(!defined(_LIGHTTPD_SETTINGS_H_)) && (!defined(_GNU_SOURCE)),_GNU_SOURCE;_LIGHTTPD_SETTINGS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/settings.h.xml,8,10,#if,(!defined(_LIGHTTPD_SETTINGS_H_)) && (!defined(__USE_GNU)),_LIGHTTPD_SETTINGS_H_;__USE_GNU
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/settings.h.xml,12,14,#if,(!defined(_LIGHTTPD_SETTINGS_H_)) && (defined(__GNUC__)),_LIGHTTPD_SETTINGS_H_;__GNUC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/settings.h.xml,14,16,#else,(!defined(_LIGHTTPD_SETTINGS_H_)) && (!(defined(__GNUC__))),_LIGHTTPD_SETTINGS_H_;__GNUC__
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/settings.h.xml,55,57,#if,(!defined(_LIGHTTPD_SETTINGS_H_)) && (defined(TRUE)),TRUE;_LIGHTTPD_SETTINGS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/settings.h.xml,59,61,#if,(!defined(_LIGHTTPD_SETTINGS_H_)) && (defined(FALSE)),FALSE;_LIGHTTPD_SETTINGS_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/splaytree.c.xml,189,209,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/splaytree.h.xml,1,24,#if,!defined(_SPLAY_TREE_H_),_SPLAY_TREE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,17,19,#if,defined(HAVE_ATTR_ATTRIBUTES_H),HAVE_ATTR_ATTRIBUTES_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,21,23,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,28,30,#if,!defined(MAP_FAILED),MAP_FAILED
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,32,34,#if,!defined(O_LARGEFILE),O_LARGEFILE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,36,38,#if,!defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,40,43,#if,0,
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,69,77,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,92,101,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,111,113,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,115,117,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,145,168,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,186,209,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,213,227,#if,defined(HAVE_XATTR),HAVE_XATTR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,242,328,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,330,342,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,354,358,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,365,367,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,386,390,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,393,396,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,428,434,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,437,471,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,499,501,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,507,522,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,540,590,#if,defined(HAVE_LSTAT),HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,547,550,#if,(defined(HAVE_LSTAT)) && (defined(DEBUG_STAT_CACHE)),DEBUG_STAT_CACHE;HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,569,571,#if,(defined(HAVE_LSTAT)) && (defined(DEBUG_STAT_CACHE)),DEBUG_STAT_CACHE;HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,574,577,#if,(defined(HAVE_LSTAT)) && (defined(DEBUG_STAT_CACHE)),DEBUG_STAT_CACHE;HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,580,583,#if,(defined(HAVE_LSTAT)) && (defined(DEBUG_STAT_CACHE)),DEBUG_STAT_CACHE;HAVE_LSTAT
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,595,599,#if,defined(HAVE_XATTR),HAVE_XATTR
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,622,667,#if,defined(HAVE_FAM_H),HAVE_FAM_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,722,726,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.c.xml,730,739,#if,defined(DEBUG_STAT_CACHE),DEBUG_STAT_CACHE
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stat_cache.h.xml,1,13,#if,!defined(_FILE_CACHE_H_),_FILE_CACHE_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/status_counter.h.xml,1,14,#if,!defined(_STATUS_COUNTER_H_),_STATUS_COUNTER_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,11,13,#if,!defined(O_BINARY),O_BINARY
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,17,19,#if,defined(HAVE_MMAP),HAVE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,19,22,#elif,(!(defined(HAVE_MMAP))) && (defined __WIN32),HAVE_MMAP;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,32,45,#if,defined(HAVE_MMAP),HAVE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,45,87,#elif,(!(defined(HAVE_MMAP))) && (defined __WIN32),HAVE_MMAP;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,87,89,#else,(!(defined(HAVE_MMAP))) && (!(defined __WIN32)),HAVE_MMAP;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,95,97,#if,defined(HAVE_MMAP),HAVE_MMAP
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.c.xml,97,99,#elif,(!(defined(HAVE_MMAP))) && (defined(__WIN32)),HAVE_MMAP;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/stream.h.xml,1,14,#if,!defined(_STREAM_H_),_STREAM_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/sys-mmap.h.xml,1,24,#if,!defined(WIN32_MMAP_H),WIN32_MMAP_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/sys-mmap.h.xml,4,16,#if,(!defined(WIN32_MMAP_H)) && (defined(__WIN32)),WIN32_MMAP_H;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/sys-mmap.h.xml,16,22,#else,(!defined(WIN32_MMAP_H)) && (!(defined(__WIN32))),WIN32_MMAP_H;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/sys-mmap.h.xml,19,21,#if,((!defined(WIN32_MMAP_H)) && (!(defined(__WIN32)))) && (!defined(MAP_FAILED)),MAP_FAILED;WIN32_MMAP_H;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/sys-socket.h.xml,1,25,#if,!defined(WIN32_SOCKET_H),WIN32_SOCKET_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/sys-socket.h.xml,4,14,#if,(!defined(WIN32_SOCKET_H)) && (defined(__WIN32)),WIN32_SOCKET_H;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/sys-socket.h.xml,14,23,#else,(!defined(WIN32_SOCKET_H)) && (!(defined(__WIN32))),WIN32_SOCKET_H;__WIN32
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/version.h.xml,1,12,#if,!defined(_VERSION_H_),_VERSION_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/version.h.xml,4,6,#if,(!defined(_VERSION_H_)) && (defined(HAVE_VERSION_H)),HAVE_VERSION_H;_VERSION_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/src/version.h.xml,6,8,#else,(!defined(_VERSION_H_)) && (!(defined(HAVE_VERSION_H))),HAVE_VERSION_H;_VERSION_H_
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/tests/fcgi-auth.c.xml,1,3,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/tests/fcgi-auth.c.xml,4,6,#if,defined(HAVE_FASTCGI_FASTCGI_H),HAVE_FASTCGI_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/tests/fcgi-auth.c.xml,6,8,#else,!(defined(HAVE_FASTCGI_FASTCGI_H)),HAVE_FASTCGI_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/tests/fcgi-responder.c.xml,1,3,#if,defined(HAVE_CONFIG_H),HAVE_CONFIG_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/tests/fcgi-responder.c.xml,4,6,#if,defined(HAVE_FASTCGI_FASTCGI_H),HAVE_FASTCGI_FASTCGI_H
+/Users/tassiovale/Dropbox/PhD Thesis/preprocessor systems/projects/lighttpd-1.4.35/_cppstats_featurelocations/tests/fcgi-responder.c.xml,6,8,#else,!(defined(HAVE_FASTCGI_FASTCGI_H)),HAVE_FASTCGI_FASTCGI_H

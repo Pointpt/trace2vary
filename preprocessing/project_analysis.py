@@ -93,7 +93,7 @@ class ProjectAnalysis:
 
                 for document in pre_processor.get_documents().keys():
 
-                    pool = ThreadPool(processes=1)
+                    pool = ThreadPool(processes=6)
 
                     # Frequency of the term in the document
                     document_frequency_result = pool.apply_async(
@@ -131,6 +131,8 @@ class ProjectAnalysis:
                     neural_network_value = neural_network_result.get()
                     extended_boolean_value = extended_boolean_result.get()
                     bm25_value = bm25_result.get()
+
+                    pool.close()
 
                     traced = 0
                     if feature_name in traces and document in traces[feature_name]:

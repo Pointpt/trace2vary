@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE annotations SYSTEM "annotations.dtd">
-<annotations><key name="//CompilationUnit[org.prevayler.implementation.PrevalentSystemGuard]:types/TypeDeclaration:PrevalentSystemGuard:bodyDeclarations/MethodDeclaration:void:takeSnapshot:[GenericSnapshotManager]" features="5"/><key name="//CompilationUnit[org.prevayler.implementation.PrevalentSystemGuard]:imports/ImportDeclaration:org.prevayler.implementation.snapshot.GenericSnapshotManager" features="5"/></annotations>

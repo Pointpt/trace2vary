@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE annotations SYSTEM "annotations.dtd">
-<annotations><key name="//CompilationUnit[org.prevayler.implementation.replication.ServerConnection]" features="1"/><key name="//CompilationUnit[org.prevayler.implementation.replication.ServerConnection]:imports/ImportDeclaration:org.prevayler.foundation.network.ObjectSocket" features="1"/></annotations>

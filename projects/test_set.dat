@@ -1,11 +1,6 @@
-../projects/test/
-BankAccountv2 java featurehouse 95
+../projects/
 BattleOfTanks java antenna 1975
 Chat_HyperJ java hyperj 758
-DesktopSearcher java ahead 3779
-Elevator_C c featurehouse 877
-Elevator_Java java featurehouse 1046
-EmailSystem_C c featurehouse 258
 EmailSystem_Java java featurehouse 1233
 Email_JML java featurehouse 1233
 FAME_DBMS cpp cide 5000
@@ -15,14 +10,8 @@ MinePump_C c featurehouse 279
 MinePump_Java java featurehouse 580
 Mobile_Media java cide 5700
 Mobile_RSS_Reader java cide 20000
-NetBot cs featurehouse 1579
-Prevayler java cide 80000
-Prop4J java featurehouse 2051
 Pynche python cide 2400
 sylpheed-3.5.1 c preprocessor 119488
 subversion-1.9.5 c preprocessor 156778
 vim-7.4 c preprocessor 304992
 gimp-2.8.22 c preprocessor 705635
-glibc-2.25 c preprocessor 876996
-php-7.1.6 c preprocessor 1246119
-linux-4.12 c preprocessor 15562649

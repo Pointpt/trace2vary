@@ -1,4 +1,12 @@
-../projects/training/
+../projects/
+BankAccountv2 java featurehouse 95
+NetBot cs featurehouse 1579
+Prevayler java cide 80000
+Prop4J java featurehouse 2051
+EmailSystem_C c featurehouse 258
+DesktopSearcher java ahead 3779
+Elevator_C c featurehouse 877
+Elevator_Java java featurehouse 1046
 privoxy-3.0.26 c preprocessor 30687
 lighttpd-1.4.35 c preprocessor 40035
 xfig-3.2.6 c preprocessor 73143

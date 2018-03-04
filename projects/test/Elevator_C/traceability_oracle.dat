@@ -1,5 +1,0 @@
-empty:features/empty/Elevator.c
-executivefloor:features/executivefloor/Elevator.c,features/executivefloor/Elevator.h
-overloaded:features/overloaded/Elevator.c,features/overloaded/Elevator.h
-twothirdsfull:features/twothirdsfull/Elevator.c
-weight:features/weight/Elevator.c,features/weight/Elevator.h

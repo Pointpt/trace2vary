@@ -1,0 +1,7 @@
+keys:key,publickey,privatekey,keypair
+encrypt:encryption,encrypted
+autoresponder:autorespond,autoresponse
+addressbook:address,book
+sign:signed,signature
+forward:forwarding
+verify:verified

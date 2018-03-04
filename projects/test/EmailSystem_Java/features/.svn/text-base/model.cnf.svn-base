@@ -1,6 +1,0 @@
-
-((not encrypt or decrypt) and (not decrypt or encrypt)) and
-(not encrypt or keys) and
-((not sign or verify) and (not verify or sign)) and
-(not sign or keys) and
-(base)

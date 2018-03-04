@@ -1,0 +1,3 @@
+encryption:src/feature/encryption/EncryptionAlgorithm.java,src/feature/encryption/Rot13.java,src/feature/encryption/TextMessageImpl.java
+history:src/feature/history/HistoryImpl.java,src/feature/history/HistoryAspect.java
+ui:src/feature/ui/gui/Client.java,src/feature/ui/gui/GuiImpl.java

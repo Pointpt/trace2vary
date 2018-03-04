@@ -1,6 +1,0 @@
-highwatersensor:features/highWaterSensor/MinePumpSystem/Environment.java,features/highWaterSensor/MinePumpSystem/MinePump.java
-lowwatersensor:features/lowWaterSensor/MinePumpSystem/Environment.java,features/highWaterSensor/MinePumpSystem/MinePump.java
-methanealarm:features/methaneAlarm/MinePumpSystem/MinePump.java
-methanequery:features/methaneQuery/MinePumpSystem/MinePump.java
-startcommand:features/startCommand/MinePumpSystem/MinePump.java
-stopcommand:features/stopCommand/MinePumpSystem/MinePump.java

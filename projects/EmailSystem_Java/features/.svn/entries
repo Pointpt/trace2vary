@@ -1,0 +1,89 @@
+10
+
+dir
+661
+https://svn.infosun.fim.uni-passau.de/cl/project/splverifier/Java/JavaSPLVerifier/ProductLines/EmailProductLine/features
+https://svn.infosun.fim.uni-passau.de/cl/project
+
+
+
+2012-03-09T07:49:41.715743Z
+658
+rhein
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6e6f1f7-7cc9-431b-af74-4d3237fc58f8
+
+addressbook
+dir
+
+sign
+dir
+
+encrypt
+dir
+
+forward
+dir
+
+verify
+dir
+
+model.cnf
+file
+
+
+
+
+2012-01-24T09:40:54.341998Z
+d92127e738d173beaaabe9612f8a88f4
+2011-03-18T15:58:52.884125Z
+383
+rhein
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+168
+
+autoresponder
+dir
+
+base
+dir
+
+decrypt
+dir
+
+keys
+dir
+
