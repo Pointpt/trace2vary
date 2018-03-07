@@ -4,7 +4,7 @@ from learning.trace_recovery.sgd import run_sgd
 from learning.trace_recovery.kernel_approximation import run_kernel_approximation
 # from learning.trace_recovery.auto_learning import run_auto_learning
 
-config_file = '../projects/training_set.dat'
+config_file = '../../projects/training_set.dat'
 
 # Support Vector Machine method
 run_svm(config_file)
