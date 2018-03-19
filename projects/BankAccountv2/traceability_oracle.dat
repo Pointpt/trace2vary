@@ -1,8 +1,0 @@
-bankaccount:BankAccountTP/features/BankAccount/Account.java,BankAccountTP/features/BankAccount/Application.java,BankAccountTests/features/BankAccount/Account.java,BankAccountTests/features/BankAccount/AccountTest.java,BankAccountTests/features/BankAccount/Application.java
-creditworthiness:BankAccountTP/features/CreditWorthiness/Account.java,BankAccountTests/features/CreditWorthiness/AccountTest.java,BankAccountTests/features/CreditWorthiness/Account.java
-dailylimit:BankAccountTP/features/DailyLimit/Account.java,BankAccountTP/features/DailyLimit/Application.java,BankAccountTests/features/DailyLimit/Account.java,BankAccountTests/features/DailyLimit/AccountTest.java,BankAccountTests/features/DailyLimit/Application.java
-interest:BankAccountTP/features/Interest/Account.java,BankAccountTP/features/Interest/Application.java,BankAccountTests/features/Interest/Account.java,BankAccountTests/features/Interest/AccountTest.java,BankAccountTests/features/Interest/Application.java
-interestestimation:BankAccountTP/features/InterestEstimation/Account.java,BankAccountTP/features/Account.java,BankAccountTests/features/InterestEstimation/AccountTest.java
-lock:BankAccountTP/features/Lock/Account.java,BankAccountTests/features/Lock/Account.java
-overdraft:BankAccountTP/features/Overdraft/Account.java,BankAccountTests/features/Overdraft/Account.java,BankAccountTests/features/Overdraft/AccountTest.java
-transaction:BankAccountTP/features/Transaction/Transaction.java,BankAccountTests/features/Transaction/Transaction.java,BankAccountTests/features/Transaction/Transaction_Thread.java,BankAccountTests/features/Transaction/TransactionTest.java

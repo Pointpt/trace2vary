@@ -1,17 +1,12 @@
-../../projects/
-BattleOfTanks java antenna 1975
-Chat_HyperJ java hyperj 758
-EmailSystem_Java java featurehouse 1233
-Email_JML java featurehouse 1233
-FAME_DBMS cpp cide 5000
-Graph_Product_Line java featurehouse 1350
-Lampiro java cide 45000
-MinePump_C c featurehouse 279
-MinePump_Java java featurehouse 580
-Mobile_Media java cide 5700
-Mobile_RSS_Reader java cide 20000
-Pynche python cide 2400
-sylpheed-3.5.1 c preprocessor 119488
-subversion-1.9.5 c preprocessor 156778
-vim-7.4 c preprocessor 304992
-gimp-2.8.22 c preprocessor 705635
+projects/
+sylpheed-3.5.1 c preprocessor 303 119488 296
+subversion-1.9.5 c preprocessor 809 156778 280
+vim-7.4 c preprocessor 177 304992 1050
+irssi-1.0.3 c preprocessor 319 55138 159
+libxml2-2.9.3 c preprocessor 159 242524 2171
+lynx-2.8.9 c preprocessor 214 132804 912
+openldap-2.4.45 c preprocessor 668 285946 951
+parrot-4.6.2 c preprocessor 241 101507 413
+sendmail-8.15.2 c preprocessor 245 93613 961
+gnumeric-1.8.4 c preprocessor 539 248311 506
+openvpn-2.4.3 c preprocessor 206 79189 466

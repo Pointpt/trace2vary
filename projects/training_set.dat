@@ -1,27 +1,11 @@
-../../projects/
-BankAccountv2 java featurehouse 95
-NetBot cs featurehouse 1579
-Prevayler java cide 80000
-Prop4J java featurehouse 2051
-EmailSystem_C c featurehouse 258
-DesktopSearcher java ahead 3779
-Elevator_C c featurehouse 877
-Elevator_Java java featurehouse 1046
-privoxy-3.0.26 c preprocessor 30687
-lighttpd-1.4.35 c preprocessor 40035
-xfig-3.2.6 c preprocessor 73143
-xterm-3.3.0 c preprocessor 71817
-cherokee-1.2.103 c preprocessor 61182
-emacs-25.2 c preprocessor 50294
-openvpn-2.4.3 c preprocessor 79189
-berkeley_db-5.3.21 c preprocessor 137037
-dia_0.97.3 c preprocessor 154962
-gnumeric-1.8.4 c preprocessor 248311
-gnuplot-4.4.2 c preprocessor 79123
-irssi-1.0.3 c preprocessor 55138
-libxml2-2.9.3 c preprocessor 242524
-lynx-2.8.9 c preprocessor 132804
-openldap-2.4.45 c preprocessor 285946
-parrot-4.6.2 c preprocessor 101507
-sendmail-8.15.2 c preprocessor 93613
-sqlite-3.19.3 c preprocessor 267156
+projects/
+privoxy-3.0.26 c preprocessor 69 30687 168
+lighttpd-1.4.35 c preprocessor 133 40035 216
+xfig-3.2.6 c preprocessor 246 73143 162
+xterm-3.3.0 c preprocessor 66 71817 551
+cherokee-1.2.103 c preprocessor 340 61182 432
+emacs-25.2 c preprocessor 206 50294 374
+berkeley_db-5.3.21 c preprocessor 408 137037 361
+dia_0.97.3 c preprocessor 590 154962 291
+gnuplot-4.4.2 c preprocessor 173 79123 490
+sqlite-3.19.3 c preprocessor 11 267156 571

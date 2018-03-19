@@ -1,5 +1,0 @@
-empty:features/empty/ElevatorSystem/Elevator.java,features/empty/ElevatorSystem/Environment.java
-executivefloor:features/executivefloor/Specifications/Specification_ExecutiveFloor.aj,features/executivefloor/ElevatorSystem/Elevator.java
-overloaded:features/overloaded/ElevatorSystem/Elevator.java
-twothirdsfull:features/twothirdsfull/ElevatorSystem/Elevator.java
-weight:features/weight/Specifications/Specification_Overloaded.aj,features/weight/Specifications/Specification_TwoThirdsFull.aj,features/weight/ElevatorSystem/Elevator.java

@@ -1,0 +1,22 @@
+projects/
+sylpheed-3.5.1 c preprocessor 303 119488 296
+subversion-1.9.5 c preprocessor 809 156778 280
+vim-7.4 c preprocessor 177 304992 1050
+irssi-1.0.3 c preprocessor 319 55138 159
+libxml2-2.9.3 c preprocessor 159 242524 2171
+lynx-2.8.9 c preprocessor 214 132804 912
+openldap-2.4.45 c preprocessor 668 285946 951
+parrot-4.6.2 c preprocessor 241 101507 413
+sendmail-8.15.2 c preprocessor 245 93613 961
+sqlite-3.19.3 c preprocessor 11 267156 571
+privoxy-3.0.26 c preprocessor 69 30687 168
+lighttpd-1.4.35 c preprocessor 133 40035 216
+xfig-3.2.6 c preprocessor 246 73143 162
+xterm-3.3.0 c preprocessor 66 71817 551
+cherokee-1.2.103 c preprocessor 340 61182 432
+emacs-25.2 c preprocessor 206 50294 374
+openvpn-2.4.3 c preprocessor 206 79189 466
+berkeley_db-5.3.21 c preprocessor 408 137037 361
+dia_0.97.3 c preprocessor 590 154962 291
+gnumeric-1.8.4 c preprocessor 539 248311 506
+gnuplot-4.4.2 c preprocessor 173 79123 490

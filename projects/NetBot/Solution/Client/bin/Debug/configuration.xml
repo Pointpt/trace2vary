@@ -1,1 +1,0 @@
-<configuration><communication><targetIP>127.0.0.1</targetIP><targetPort>2000</targetPort></communication><connectType><AutoAnmeldung>True</AutoAnmeldung></connectType></configuration>

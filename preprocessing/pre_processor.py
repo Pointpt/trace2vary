@@ -44,7 +44,7 @@ class SPLProjectPreProcessor:
         and requests the processing of all term frequencies per document.
         """
 
-        stop_word_file = open('stopwords_' + language + '.dat', "r")
+        stop_word_file = open('preprocessing/stopwords_' + language + '.dat', "r")
         self.stop_words = set([line.strip() for line in stop_word_file])
         stop_word_file.close()
 

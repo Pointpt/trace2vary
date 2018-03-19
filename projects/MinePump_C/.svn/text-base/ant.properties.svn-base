@@ -1,7 +1,0 @@
-projectHome.dir=.
-base.dir=.
-src.dir=src
-bin.dir=bin
-featureHouse.jar=${projectHome.dir}/../../external/FeatureHouse.jar
-destinationFeature.dir=${projectHome.dir}/features/minepump
-antcontrib.jar=${util.dir}/ant-contrib.jar

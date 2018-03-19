@@ -45,18 +45,20 @@ pass
 
 class ProjectAnalysis:
 
-    def __init__(self, project, language, variability_impl_technology, loc, data):
+    def __init__(self, project, language, variability_impl_technology, files, loc, features, data):
         self.project = project
         self.language = language
         self.variability_impl_technology = variability_impl_technology
+        self.files = files
         self.loc = loc
+        self.features = features
         self.data = data
 
     def run(self):
 
         data_frame = pd.DataFrame()
 
-        with open('../information_retrieval/bm25_constants.dat', "r") as bm25_constants_file:
+        with open('information_retrieval/bm25_constants.dat', 'r') as bm25_constants_file:
 
             # Reading BM25 method constants
             k1_const = int(bm25_constants_file.readline())
@@ -142,6 +144,9 @@ class ProjectAnalysis:
                         {
                             'Feature': feature_name,
                             'Document': document,
+                            'Files': self.files,
+                            'LOC': self.loc,
+                            'Features amount': self.features,
                             'Term frequency': doc_frequency_value,
                             'TF-IDF': tfidf_value,
                             'Classic vector': classic_vector_value,
