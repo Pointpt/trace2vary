@@ -1,0 +1,158 @@
+#loading library#
+require("ggplot2")#
+#
+# selecting the current directory#
+setwd("<directory>")#
+#
+# read csv file#
+data <- read.csv("<output_file_name>")#
+setEPS()#
+postscript("<eps_image_file_name>")#
+#
+chart <- ggplot() + #
+    ggtitle("IR methods - precision x recall") +#
+    labs(x="Precision", y="Recall") +#
+    theme(axis.title.y = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.title.x = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.text = element_text(size=16, family="Trebuchet MS")) +#
+    theme(plot.title = element_text(size=26, family="Trebuchet MS", face="bold", hjust=0, color="#666666"))#
+#
+# convert factor to numeric for convenience #
+data$method_index <- as.numeric(data$method)#
+n_methods <- max(data$method_index)#
+colors <- rainbow(n_methods)#
+#
+for (i in 1:n_methods) { #
+  method <- subset(data, method_index==i)#
+  chart <- chart + geom_line(data = method, aes(x = method$recall, y = method$precision, color = colors[i]))#
+}#
+#
+dev.off()
+#loading library#
+require("ggplot2")#
+#
+# selecting the current directory#
+setwd("<directory>")#
+#
+# read csv file#
+data <- read.csv("<output_file_name>")#
+setEPS()#
+postscript("<eps_image_file_name>")#
+#
+chart <- ggplot() + #
+    geom_line(color="#aa0022", size=1.75) +#
+    geom_point(color="#aa0022", size=3.5) +   #
+    ggtitle("IR methods - precision x recall") +#
+    labs(x="Precision", y="Recall") +#
+    theme(axis.title.y = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.title.x = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.text = element_text(size=16, family="Trebuchet MS")) +#
+    theme(plot.title = element_text(size=26, family="Trebuchet MS", face="bold", hjust=0, color="#666666"))#
+#
+# convert factor to numeric for convenience #
+data$method_index <- as.numeric(data$method)#
+n_methods <- max(data$method_index)#
+colors <- rainbow(n_methods)#
+#
+for (i in 1:n_methods) { #
+  method <- subset(data, method_index==i)#
+  chart <- chart + geom_line(data = method, aes(x = method$recall, y = method$precision, color = colors[i]))#
+}#
+#
+postscript(file = paste("image.eps", '.eps', sep=""))#
+print(gplot)#
+#
+dev.off()
+#loading library#
+require("ggplot2")#
+#
+# selecting the current directory#
+setwd("<directory>")#
+#
+# read csv file#
+data <- read.csv("<output_file_name>")#
+setEPS()#
+postscript("<eps_image_file_name>")#
+#
+chart <- ggplot() + #
+    geom_line(color="#aa0022", size=1.75) +#
+    geom_point(color="#aa0022", size=3.5) +   #
+    ggtitle("IR methods - precision x recall") +#
+    labs(x="Precision", y="Recall") +#
+    theme(axis.title.y = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.title.x = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.text = element_text(size=16, family="Trebuchet MS")) +#
+    theme(plot.title = element_text(size=26, family="Trebuchet MS", face="bold", hjust=0, color="#666666"))#
+#
+# convert factor to numeric for convenience #
+data$method_index <- as.numeric(data$method)#
+n_methods <- max(data$method_index)#
+colors <- rainbow(n_methods)#
+#
+for (i in 1:n_methods) { #
+  method <- subset(data, method_index==i)#
+  chart <- chart + geom_line(data = method, aes(x = method$recall, y = method$precision, color = colors[i]))#
+}#
+#
+ggsave(paste("image", '.pdf', sep=""), chart)#
+postscript(file = paste("image.eps", '.eps', sep=""))#
+print(gplot)#
+#
+dev.off()
+#loading library#
+require("ggplot2")#
+#
+# selecting the current directory#
+setwd("<directory>")#
+#
+# read csv file#
+data <- read.csv("file.csv")#
+setEPS()#
+postscript("image.eps")#
+#
+chart <- ggplot() + #
+    geom_line(color="#aa0022", size=1.75) +#
+    geom_point(color="#aa0022", size=3.5) +   #
+    ggtitle("IR methods - precision x recall") +#
+    labs(x="Precision", y="Recall") +#
+    theme(axis.title.y = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.title.x = element_text(size=14, family="Trebuchet MS", color="#666666")) +#
+    theme(axis.text = element_text(size=16, family="Trebuchet MS")) +#
+    theme(plot.title = element_text(size=26, family="Trebuchet MS", face="bold", hjust=0, color="#666666"))#
+#
+# convert factor to numeric for convenience #
+data$method_index <- as.numeric(data$method)#
+n_methods <- max(data$method_index)#
+colors <- rainbow(n_methods)#
+#
+for (i in 1:n_methods) { #
+  method <- subset(data, method_index==i)#
+  chart <- chart + geom_line(data = method, aes(x = method$recall, y = method$precision, color = colors[i]))#
+}#
+#
+ggsave(paste("image", '.pdf', sep=""), chart)#
+#
+dev.off()
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/learning/trace_recovery/results/2018-03-15_20h05m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/learning/trace_recovery/results/2018-03-15_20h05m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/learning/trace_recovery/results/2018-03-15_21h50m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/learning/trace_recovery/results/2018-03-15_22h01m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/learning/trace_recovery/results/2018-03-15_22h01m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/learning/trace_recovery/results/2018-03-15_22h08m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-16_17h07m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-16_17h07m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-16_17h15m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-16_17h15m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-17_21h14m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-17_21h14m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_fmeasure_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_performanceavg_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_fmeasure_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_performanceavg_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_precision_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_precisionrecall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_recall_script.R")
+source("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/2018-03-18_21h56m_variances_script.R")

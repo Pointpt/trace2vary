@@ -1,0 +1,247 @@
+F-MEASURE TESTS
+
+Applying the Shapiro-Wilk normality test
+
+    Shapiro-Wilk normality test
+
+data:  data$fmeasure
+W = 0.9452, p-value = 0.005674
+
+The sample has a normal distribution!
+
+1) ANOVA:
+            Df Sum Sq Mean Sq F value Pr(>F)    
+method       5 2.6170  0.5234    53.9 <2e-16 ***
+Residuals   60 0.5826  0.0097                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+    Pairwise comparisons using t tests with pooled SD 
+
+data:  data$fmeasure and data$method 
+
+                     BM25    Classic vector model Extended boolean Neural networks SGD    
+Classic vector model 0.32813 -                    -                -               -      
+Extended boolean     2.9e-08 6.6e-10              -                -               -      
+Neural networks      0.01766 0.00106              0.00105          -               -      
+SGD                  < 2e-16 < 2e-16              4.2e-07          1.1e-13         -      
+SVM                  0.00058 2.0e-05              0.02434          0.32813         1.2e-11
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = fmeasure ~ method, data = data)
+
+$method
+                                             diff           lwr          upr     p adj
+Classic vector model-BM25             -0.04142705 -0.1651205743  0.082266469 0.9206762
+Extended boolean-BM25                  0.29254171  0.1688481914  0.416235235 0.0000000
+Neural networks-BM25                   0.12432160  0.0006280768  0.248015120 0.0481437
+SGD-BM25                               0.55528477  0.4315912473  0.678978290 0.0000000
+SVM-BM25                               0.17747620  0.0537826735  0.301169717 0.0011215
+Extended boolean-Classic vector model  0.33396877  0.2102752441  0.457662287 0.0000000
+Neural networks-Classic vector model   0.16574865  0.0420551295  0.289442173 0.0027870
+SGD-Classic vector model               0.59671182  0.4730183000  0.720405343 0.0000000
+SVM-Classic vector model               0.21890325  0.0952097262  0.342596769 0.0000350
+Neural networks-Extended boolean      -0.16822011 -0.2919136362 -0.044526593 0.0023078
+SGD-Extended boolean                   0.26274306  0.1390495343  0.386436577 0.0000007
+SVM-Extended boolean                  -0.11506552 -0.2387590395  0.008628004 0.0824663
+SGD-Neural networks                    0.43096317  0.3072696489  0.554656692 0.0000000
+SVM-Neural networks                    0.05315460 -0.0705389249  0.176848118 0.8025191
+SVM-SGD                               -0.37780857 -0.5015020954 -0.254115052 0.0000000
+
+
+
+
+PRECISION TESTS
+
+Applying the Shapiro-Wilk normality test
+
+    Shapiro-Wilk normality test
+
+data:  data$precision
+W = 0.88805, p-value = 2.251e-05
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+            Df Sum Sq Mean Sq F value Pr(>F)    
+method       5 2.9130  0.5826   70.97 <2e-16 ***
+Residuals   60 0.4925  0.0082                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+    Pairwise comparisons using t tests with pooled SD 
+
+data:  data$precision and data$method 
+
+                     BM25    Classic vector model Extended boolean Neural networks SGD    
+Classic vector model 0.70439 -                    -                -               -      
+Extended boolean     9.3e-09 2.3e-09              -                -               -      
+Neural networks      0.00708 0.00370              0.00105          -               -      
+SGD                  < 2e-16 < 2e-16              9.5e-11          < 2e-16         -      
+SVM                  0.00211 0.00079              0.00434          0.70439         2.6e-16
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = precision ~ method, data = data)
+
+$method
+                                             diff          lwr         upr     p adj
+Classic vector model-BM25             -0.01472729 -0.128452148  0.09899756 0.9989012
+Extended boolean-BM25                  0.27908907  0.165364215  0.39281392 0.0000000
+Neural networks-BM25                   0.12267865  0.008953798  0.23640351 0.0272553
+SGD-BM25                               0.60525253  0.491527680  0.71897739 0.0000000
+SVM-BM25                               0.14643487  0.032710020  0.26015973 0.0045302
+Extended boolean-Classic vector model  0.29381636  0.180091509  0.40754122 0.0000000
+Neural networks-Classic vector model   0.13740595  0.023681092  0.25113080 0.0092208
+SGD-Classic vector model               0.61997983  0.506254974  0.73370468 0.0000000
+SVM-Classic vector model               0.16116217  0.047437314  0.27488702 0.0013327
+Neural networks-Extended boolean      -0.15641042 -0.270135271 -0.04268556 0.0019938
+SGD-Extended boolean                   0.32616346  0.212438611  0.43988832 0.0000000
+SVM-Extended boolean                  -0.13265420 -0.246379049 -0.01892934 0.0132229
+SGD-Neural networks                    0.48257388  0.368849028  0.59629874 0.0000000
+SVM-Neural networks                    0.02375622 -0.089968632  0.13748108 0.9895325
+SVM-SGD                               -0.45881766 -0.572542514 -0.34509281 0.0000000
+
+
+
+
+RECALL TESTS
+
+Applying the Shapiro-Wilk normality test
+
+    Shapiro-Wilk normality test
+
+data:  data$recall
+W = 0.92072, p-value = 0.0004306
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+            Df Sum Sq Mean Sq F value  Pr(>F)    
+method       5 1.3366 0.26732   22.64 1.1e-12 ***
+Residuals   60 0.7086 0.01181                    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+    Pairwise comparisons using t tests with pooled SD 
+
+data:  data$recall and data$method 
+
+                     BM25    Classic vector model Extended boolean Neural networks SGD    
+Classic vector model 6.5e-12 -                    -                -               -      
+Extended boolean     0.00116 3.3e-05              -                -               -      
+Neural networks      2.7e-08 0.14353              0.02692          -               -      
+SGD                  0.10561 6.0e-08              0.28773          0.00016         -      
+SVM                  0.05286 2.1e-07              0.36300          0.00047         0.73522
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = recall ~ method, data = data)
+
+$method
+                                             diff         lwr          upr     p adj
+Classic vector model-BM25             -0.42693630 -0.56334577 -0.290526836 0.0000000
+Extended boolean-BM25                 -0.18811553 -0.32452500 -0.051706066 0.0019243
+Neural networks-BM25                  -0.32747063 -0.46388010 -0.191061166 0.0000000
+SGD-BM25                              -0.10973023 -0.24613969  0.026679237 0.1841515
+SVM-BM25                              -0.12547424 -0.26188370  0.010935227 0.0885767
+Extended boolean-Classic vector model  0.23882077  0.10241130  0.375230234 0.0000430
+Neural networks-Classic vector model   0.09946567 -0.03694379  0.235875135 0.2781978
+SGD-Classic vector model               0.31720607  0.18079661  0.453615538 0.0000001
+SVM-Classic vector model               0.30146206  0.16505260  0.437871528 0.0000003
+Neural networks-Extended boolean      -0.13935510 -0.27576456 -0.002945634 0.0425151
+SGD-Extended boolean                   0.07838530 -0.05802416  0.214794768 0.5426140
+SVM-Extended boolean                   0.06264129 -0.07376817  0.199050759 0.7549406
+SGD-Neural networks                    0.21774040  0.08133094  0.354149867 0.0002201
+SVM-Neural networks                    0.20199639  0.06558693  0.338405858 0.0007117
+SVM-SGD                               -0.01574401 -0.15215347  0.120665456 0.9993710
+
+
+
+
+PERFORMANCE TESTS
+
+Applying the Shapiro-Wilk normality test
+
+    Shapiro-Wilk normality test
+
+data:  data$performance
+W = 0.74376, p-value = 2.117e-09
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+            Df    Sum Sq   Mean Sq F value   Pr(>F)    
+method       5 5.360e+09 1.072e+09   5.331 0.000405 ***
+Residuals   60 1.207e+10 2.011e+08                     
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+    Pairwise comparisons using t tests with pooled SD 
+
+data:  data$performance and data$method 
+
+                     BM25   Classic vector model Extended boolean Neural networks SGD   
+Classic vector model 0.9949 -                    -                -               -     
+Extended boolean     0.7173 0.7173               -                -               -     
+Neural networks      0.7173 0.7173               0.9949           -               -     
+SGD                  0.2535 0.2535               0.0076           0.0076          -     
+SVM                  0.2535 0.2535               0.0087           0.0087          0.9949
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = performance ~ method, data = data)
+
+$method
+                                              diff        lwr       upr     p adj
+Classic vector model-BM25                 38.81512 -17761.058 17838.688 1.0000000
+Extended boolean-BM25                   8319.96637  -9479.907 26119.840 0.7409911
+Neural networks-BM25                    8254.12862  -9545.745 26054.002 0.7473167
+SGD-BM25                              -13837.43357 -31637.307  3962.440 0.2148908
+SVM-BM25                              -13300.65882 -31100.532  4499.214 0.2532154
+Extended boolean-Classic vector model   8281.15125  -9518.722 26081.024 0.7447272
+Neural networks-Classic vector model    8215.31350  -9584.560 26015.187 0.7510193
+SGD-Classic vector model              -13876.24868 -31676.122  3923.625 0.2122846
+SVM-Classic vector model              -13339.47394 -31139.347  4460.399 0.2503015
+Neural networks-Extended boolean         -65.83775 -17865.711 17734.035 1.0000000
+SGD-Extended boolean                  -22157.39994 -39957.273 -4357.527 0.0066732
+SVM-Extended boolean                  -21620.62519 -39420.498 -3820.752 0.0087166
+SGD-Neural networks                   -22091.56219 -39891.435 -4291.689 0.0068972
+SVM-Neural networks                   -21554.78744 -39354.661 -3754.914 0.0090039
+SVM-SGD                                  536.77475 -17263.098 18336.648 0.9999992
