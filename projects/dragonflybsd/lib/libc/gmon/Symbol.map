@@ -1,0 +1,10 @@
+DF404.0 {
+    _mcleanup;
+    monstartup;
+    moncontrol;
+    mexitcount;
+};
+
+DFprivate_1.0 {
+    _gmonparam;
+};

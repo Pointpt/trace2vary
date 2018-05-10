@@ -1,0 +1,199 @@
+# Makefile.usr - installed as /usr/Makefile
+#
+# Provides simple targets to download and maintain /usr/src, /usr/dports etc.
+
+GITHOST?=git.dragonflybsd.org
+GITHOST_DPORTS?=mirror-master.dragonflybsd.org
+
+DPTBALL=/tmp/dports.tar.gz
+PKGBALL=/tmp/pkgboot.tar.xz
+DPDLURL=https://api.github.com/repos/DragonFlyBSD/DPorts/tarball/
+PKGBOOT_VERSION=02
+PKGBOOT_x86_64=bootstrap_pkg_${PKGBOOT_VERSION}_x86-64.tar.xz
+PKGBOOT=http://mirror-master.dragonflybsd.org/dports/bootstraps/${PKGBOOT_${MACHINE_ARCH}}
+ERRPKG="Error: Bootstrap not necessary, ${.CURDIR}/local/sbin/pkg already exists"
+WSTARS="***************************************************************"
+WARNPS="  Warning: Delete or move ${.CURDIR}/pkg before building any dport!"
+LPATT="   make %-23s- %s\n"
+
+help all:
+	@echo "HELP:"
+	@echo
+.if exists(${.CURDIR}/dports/.git)
+	@printf ${LPATT} "dports-update"         "update your dports repository from the net"
+.else
+.  if exists(${.CURDIR}/dports)
+	@printf ${LPATT} "dports-replace"        "Replace dports with latest tarball (Github)"
+.  else
+	@printf ${LPATT} "dports-create"         "fetch initial dports repository from the net"
+	@printf ${LPATT} "dports-create-shallow" "fetch initial history-free dports repository"
+	@printf ${LPATT} "dports-download"       "download & install dports tarball (Github)"
+.  endif
+.endif
+	@printf ${LPATT} "pkg-bootstrap"	"Use pre-built pkg to install dports packages"
+	@printf ${LPATT} "pkg-bootstrap-force"	"Force it (pkg.conf will be overwritten)"
+	@echo
+
+.if exists(${.CURDIR}/src/.git)
+.if exists(${.CURDIR}/src/Makefile)
+	@printf ${LPATT} "src-update"         "update your src repository from the net"
+.else
+	@printf ${LPATT} "src-checkout"       "Initial checkout of src repository"
+.endif
+.else
+	@printf ${LPATT} "src-create"         "fetch initial src repository from the net"
+	@printf ${LPATT} "src-create-shallow" "fetch initial history-free src repository"
+	@printf ${LPATT} "src-create-repo"    "fetch src repository only, no checkout"
+.endif
+	@echo
+.if exists(${.CURDIR}/src-sys.tar.bz2)
+	@printf ${LPATT} "release-sys-extract" "extract the pre-packaged sys-only sources"
+	@echo
+.endif
+	@echo "If automating please feel free to run git pull's from cron."
+	@echo "We prefer once a day but you can run them more often if you desire"
+
+git-check:
+	@/usr/bin/which -s git || \
+		(echo "git must be present on the system to use this option."; /usr/bin/false)
+
+src-check: git-check
+	@/bin/test ! -d ${.CURDIR}/src/.git || \
+		(echo "Error: ${.CURDIR}/src already exists"; /usr/bin/false)
+
+src-check-hasdir: git-check
+	@/bin/test -d ${.CURDIR}/src/.git || \
+		(echo "Error: ${.CURDIR}/src does not exist"; /usr/bin/false)
+
+src-create-repo: src-check
+	@echo "If problems occur you may have to rm -rf src and try again."
+	@echo
+	@mkdir -p ${.CURDIR}/src
+	@cd ${.CURDIR}/src && git init
+	@cd ${.CURDIR}/src && \
+		git remote add origin git://${GITHOST}/dragonfly.git
+	cd ${.CURDIR}/src && git fetch origin
+	cd ${.CURDIR}/src && git branch master origin/master
+
+src-create: src-create-repo
+	cd ${.CURDIR}/src && git checkout master
+	cd ${.CURDIR}/src && git pull
+
+src-create-shallow: src-check
+	@echo "If problems occur you may have to rm -rf src and try again."
+	@echo
+	@mkdir -p ${.CURDIR}/src
+	cd ${.CURDIR}/src && git init
+	cd ${.CURDIR}/src && \
+	    git remote add origin git://${GITHOST}/dragonfly.git
+	cd ${.CURDIR}/src && git fetch --depth=1 origin
+	cd ${.CURDIR}/src && git branch master origin/master
+	cd ${.CURDIR}/src && git checkout master
+	cd ${.CURDIR}/src && git pull
+
+src-checkout: src-check-hasdir
+	cd ${.CURDIR}/src && git checkout master
+
+src-update: src-check-hasdir
+	cd ${.CURDIR}/src && git pull
+
+release-sys-extract:
+	cd ${.CURDIR} && tar xvpjf src-sys.tar.bz2
+
+dports-check: git-check
+	@/bin/test ! -d ${.CURDIR}/dports/.git || \
+		   (echo "Error: ${.CURDIR}/dports already exists"; /usr/bin/false)
+
+dports-download-check:
+	@/bin/test ! -d ${.CURDIR}/dports || \
+		   (echo "Error: ${.CURDIR}/dports already exists"; /usr/bin/false)
+	@/bin/test ! -d ${.CURDIR}/DragonFlyBSD-DPorts-* || \
+		   (echo "Error: ${.CURDIR}/DragonFlyBSD-DPorts-* already exists"; /usr/bin/false)
+
+dports-check-hasdir: git-check
+	@/bin/test -d ${.CURDIR}/dports || \
+		   (echo "Error: ${.CURDIR}/dports does not exist"; /usr/bin/false)
+
+dports-update: dports-check-hasdir
+	cd ${.CURDIR}/dports && git pull
+
+dports-create: dports-check
+	@echo "If problems occur you may have to rm -rf dports and try again."
+	@echo
+	git clone git://${GITHOST_DPORTS}/dports.git ${.CURDIR}/dports
+.if exists(${.CURDIR}/pkg)
+	@echo ${WSTARS}
+	@echo ${WARNPS}
+	@echo ${WSTARS}
+.endif
+
+dports-create-shallow: dports-check
+	@echo "If problems occur you may have to rm -rf dports and try again."
+	@echo
+	git clone --depth=1 git://${GITHOST_DPORTS}/dports.git \
+	   ${.CURDIR}/dports
+.if exists(${.CURDIR}/pkg)
+	@echo ${WSTARS}
+	@echo ${WARNPS}
+	@echo ${WSTARS}
+.endif
+
+dports-download: dports-download-check
+	rm -f ${DPTBALL}
+	fetch -o ${DPTBALL} ${DPDLURL}
+	tar -xf ${DPTBALL} -C ${.CURDIR}
+	mv /usr/DragonFlyBSD-DPorts-* ${.CURDIR}/dports
+	rm -f ${DPTBALL}
+.if exists(${.CURDIR}/pkg)
+	@echo ${WSTARS}
+	@echo ${WARNPS}
+	@echo ${WSTARS}
+.endif
+
+dports-replace: dports-check-hasdir
+.if exists(${.CURDIR}/dports/.git)
+	@echo "Error: this is git repository currently."
+	@echo "Remove ${.CURDIR}/dports and execute \"make dports-download\" if you want"
+	@echo "to convert to a non-git version."
+	@/usr/bin/false
+.else
+	rm -f ${DPTBALL}
+	fetch -o ${DPTBALL} ${DPDLURL}
+	rm -rf ${.CURDIR}/dports
+	tar -xf ${DPTBALL} -C ${.CURDIR}
+	mv /usr/DragonFlyBSD-DPorts-* ${.CURDIR}/dports
+	rm -f ${DPTBALL}
+.endif
+
+# NOTE: In force mode we also have to remove any old pkg.conf
+#	which might interfere with the newer pkg bootstrap.
+#
+pkg-bootstrap-force:
+	@rm -f /usr/local/etc/pkg.conf
+	@fetch -o ${PKGBALL} ${PKGBOOT}
+	@tar -xJf ${PKGBALL} -C ${.CURDIR}/local
+	@rm -f ${PKGBALL}
+.if defined(ABIVERS)
+	ABI=${ABIVERS} ${.CURDIR}/local/sbin/pkg-static install -y -f pkg
+.else
+	${.CURDIR}/local/sbin/pkg-static install -y -f pkg
+.endif
+
+pkg-bootstrap:
+.if exists(${.CURDIR}/local/sbin/pkg)
+	@echo ${ERRPKG}
+	@/usr/bin/false
+.elif exists(${.CURDIR}/local/etc/pkg.conf)
+	@echo "Error: ${.CURDIR}/local/etc/pkg.conf will be overwritten"
+	@echo "Please move this file and rerun 'make pkg-bootstrap'"
+	@/usr/bin/false
+.else
+	@fetch -o ${PKGBALL} ${PKGBOOT}
+	@tar -xJf ${PKGBALL} -C ${.CURDIR}/local
+	@rm -f ${PKGBALL}
+.if defined(ABIVERS)
+	ABI=${ABIVERS} ${.CURDIR}/local/sbin/pkg-static install -y pkg
+.else
+	${.CURDIR}/local/sbin/pkg-static install -y pkg
+.endif
+.endif

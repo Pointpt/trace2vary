@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 import numpy
-import threading
-import time
 
 """SPLTrac: SPL Traceability Experimental Suite
 
@@ -131,7 +129,7 @@ def create_neural_network(pre_processor, features):
                 neural_network.add_node(document, 0.0)
                 neural_network.update_edge(term_node_object, document, wiq * wij, wij)
 
-    with open('../information_retrieval/neural_network_iterations.dat', "r") as iterations_file:
+    with open('information_retrieval/neural_network_iterations.dat', "r") as iterations_file:
         iterations = int(iterations_file.readline())
         iterations_file.close()
 

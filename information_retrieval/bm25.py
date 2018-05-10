@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 import numpy
-import threading
-import time
 
 """SPLTrac: SPL Traceability Experimental Suite
 

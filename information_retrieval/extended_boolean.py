@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 import numpy
-import threading
-import time
 
 """SPLTrac: SPL Traceability Experimental Suite
 
@@ -16,7 +14,7 @@ def extended_boolean_calculation(pre_processor, features, document):
     for a given feature (and related synonyms)."""
 
     # reading p-norm value
-    with open('../information_retrieval/extended_boolean_p_norm.dat', "r") as p_norm_file:
+    with open('information_retrieval/extended_boolean_p_norm.dat', "r") as p_norm_file:
         p_norm = int(p_norm_file.readline())
         p_norm_file.close()
 

@@ -23,10 +23,10 @@ class TraceabilityOracle:
             for line in oracle_file:
                 if ':' in line:
                     terms = line.strip().split(':')
-                    if terms[-1] is 'none':
-                        self.true_traces[key_feature] += ()
+                    key_feature = terms[0]
+                    if terms[-1] == 'none':
+                        self.true_traces[key_feature] = ()
                     else:
-                        key_feature = terms[0]
                         synonyms = terms[-1].split(',')
                         for document in synonyms:
                             if key_feature in self.true_traces:

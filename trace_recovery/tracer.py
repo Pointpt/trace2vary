@@ -6,24 +6,23 @@ from preprocessing.merge_features_data import get_features_data_frame_per_projec
 # from learning.trace_recovery.auto_learning import auto_learning_fit, auto_learning_load, auto_learning_predict
 import time
 import config
+import json
 
 
-def fit_machine_learning_models(method):
+def fit_machine_learning_models(only_sgd):
 
-    print("===== METHODS FITTING PROCESS =====")
+    print("===== METHODS FITTING PROCESS =====\n")
 
-    if method == config.svm:
-        # Support Vector Machine method
-        svm_fit(config.training_set_file)
-    elif method == config.sgd:
-        # Stochastic Gradient Descent method
-        sgd_fit(config.training_set_file)
-    # else:
-        # Auto Learning method
-        # auto_learning_fit()
+    # Stochastic Gradient Descent method
+    sgd_fit(config.training_set_file)
+
+    if not only_sgd:
+        print("\n")
+        svm_fit(config.training_set_file)  # Support Vector Machine method
+        # auto_learning_fit()  # Auto Learning method
 
 
-def recover_traces(method):
+def recover_traces(only_sgd):
 
     print("===== TRACE RECOVERY PROCESS =====")
 
@@ -36,14 +35,10 @@ def recover_traces(method):
             print("1/3 - Loading machine learning models")
             projects_base_path = projects_input_file.readline().strip('\n')
 
-            svm = svm_load()
             sgd = sgd_load()
 
-            # if method == config.svm:
-                # estimator = svm_load()
-            # elif method == config.sgd:
-                # estimator = sgd_load()
-            # else:
+            if not only_sgd:
+                svm = svm_load()
                 # estimator = auto_learning_load()
 
             print("2/3 - Predicting traces for projects\n")
@@ -64,17 +59,14 @@ def recover_traces(method):
 
                 project_data_frame = get_features_data_frame_per_project(projects_base_path, project)
 
-                performance = time.time()
-                svm_result = svm_predict(svm, project_data_frame)
-                performance = time.time() - performance
-                svm_traces = extract_method_traces(project, project_data_frame, svm_result)
-                evaluation_results.add_method_results(project, 'SVM', svm_traces, performance)
+                apply_machine_learning_method(
+                    sgd, project_data_frame, project, projects_base_path, 'sgd', evaluation_results
+                )
 
-                performance = time.time()
-                sgd_result = sgd_predict(sgd, project_data_frame)
-                performance = time.time() - performance
-                sgd_traces = extract_method_traces(project, project_data_frame, sgd_result)
-                evaluation_results.add_method_results(project, 'SGD', sgd_traces, performance)
+                if not only_sgd:
+                    apply_machine_learning_method(
+                        svm, project_data_frame, project, projects_base_path, 'svm', evaluation_results
+                    )
 
             print("\n3/3 - Consolidating project results")
             evaluation_results.export_results()
@@ -83,6 +75,18 @@ def recover_traces(method):
 
         except FileNotFoundError:
             print("ERROR: machine learning models are not available. Aborting trace recovery...")
+
+
+def apply_machine_learning_method(
+        method, project_data_frame, project, projects_base_path, method_name, evaluation_results
+):
+    performance = time.time()
+    result = sgd_predict(method, project_data_frame)
+    performance = time.time() - performance
+    traces = extract_method_traces(project, project_data_frame, result)
+    with open(projects_base_path + project + '/' + method_name + '_traces.json', 'w') as result_file:
+        result_file.write(json.dumps(traces))
+    evaluation_results.add_method_results(project, method_name.upper(), traces, performance)
 
 
 def extract_method_traces(project, project_data_frame, result):

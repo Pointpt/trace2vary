@@ -30,7 +30,7 @@ def add_feature_names_from_macro(macro, symbol):
     return line
 
 
-config_file_name='../files/projects_preprocessor.dat'
+config_file_name = '../files/projects_preprocessor.dat'
 
 config_file = open(config_file_name, 'r')
 projects_base_path = config_file.readline()
@@ -59,7 +59,7 @@ for line in config_file:
                     traces_dictionary[macro.lower()].append(file_name)
 
     # print(traces_dictionary)
-    oracle_file_name = '../preprocessor_projects/' + project + '/traceability_oracle.dat'
+    oracle_file_name = '../projects/' + project + '/traceability_oracle.dat'
     with open(oracle_file_name, 'w') as oracle_file:
         line_str = ''
         for macro in traces_dictionary.keys():
@@ -70,8 +70,7 @@ for line in config_file:
                 line_str = line_str[:-1] + "\n"
                 oracle_file.write(line_str)
 
-
-    thesaurus_file_name = '../preprocessor_projects/' + project + '/thesaurus.dat'
+    thesaurus_file_name = '../projects/' + project + '/thesaurus.dat'
     with open(thesaurus_file_name, 'w') as thesaurus_file:
         for macro in traces_dictionary.keys():
             if macro:

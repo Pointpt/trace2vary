@@ -1,0 +1,73 @@
+#!/bin/sh
+#
+# $FreeBSD: src/etc/rc.d/wpa_supplicant,v 1.2 2005/10/19 22:26:47 jkim Exp $
+#
+
+# PROVIDE: wpa_supplicant
+# REQUIRE: mountcritremote
+# KEYWORD: nojail nostart
+
+. /etc/rc.subr
+. /etc/network.subr
+
+name="wpa_supplicant"
+rcvar=
+command="/usr/sbin/wpa_supplicant"
+conf_file="/etc/wpa_supplicant.conf"
+
+start_precmd="wpa_supplicant_precmd"
+wpa_supplicant_precmd()
+{
+	ifconfig $ifn up
+}
+start_postcmd="wpa_supplicant_postcmd"
+wpa_supplicant_postcmd()
+{
+# don't wait for wpa_supplicant to associate
+#	while ! ifconfig $ifn | grep -qw "status: associated"; do
+#		sleep 1
+#	done
+	if [ "${command}" = "/usr/sbin/wpa_supplicant" ];
+	then
+		cat << EOF
+         ==============================================================
+         =              WARNING  *  SECURITY  *  WARNING              =
+         ==============================================================
+
+The base wpa_supplicant is running.  This version is several releases behind
+and is not patched for security vulnerabilities.  It is highly recommended
+that the DPorts version be run instead.  Instructions to switch here:
+
+http://www.dragonflybsd.org/docs/docs/newhandbook/WirelessNetwork/#index1h2
+
+EOF
+		sleep 10
+	fi
+}
+
+ifn="$2"
+if [ -z "$ifn" ]; then
+	return 1
+fi
+
+is_ndis_interface()
+{
+	case `sysctl -n net.wlan.${1#wlan}.%parent 2>/dev/null` in
+		ndis*) true ;;
+		*) false ;;
+	esac
+}
+
+if is_ndis_interface ${ifn}; then
+	driver="ndis"
+else
+	driver="bsd"
+fi
+
+load_rc_config $name
+
+pid_file="/var/run/${name}/${ifn}.pid"
+command_args="-B -q -i $ifn -c $conf_file -D $driver -P $pid_file"
+required_files=$conf_file
+
+run_rc_command "$1"

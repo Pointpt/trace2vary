@@ -2,7 +2,6 @@
 from nltk.tokenize import RegexpTokenizer
 from collections import Counter
 import glob
-import json
 
 """SPLTrac: SPL Traceability Experimental Suite
 
