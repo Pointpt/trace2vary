@@ -2,7 +2,7 @@
 setwd("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/")
 
 # read csv file
-data <- read.csv("2018-05-09_17h37m_output.csv")
+data <- read.csv("results_output.csv")
 
 cat("\n\n\n")
 cat("F-MEASURE TESTS\n\n")

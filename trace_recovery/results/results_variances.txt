@@ -1,0 +1,221 @@
+F-MEASURE TESTS
+
+Applying the Shapiro-Wilk normality test
+
+  Shapiro-Wilk normality test
+
+data:  data$fmeasure
+W = 0.95144, p-value = 0.005988
+
+The sample has a normal distribution!
+
+1) ANOVA:
+            Df Sum Sq Mean Sq F value Pr(>F)    
+method       4 2.5891  0.6473   63.07 <2e-16 ***
+Residuals   70 0.7184  0.0103                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+  Pairwise comparisons using t tests with pooled SD 
+
+data:  data$fmeasure and data$method 
+
+                     BM25    Classic vector model Extended boolean Neural networks
+Classic vector model 0.22339 -                    -                -              
+Extended boolean     2.3e-08 1.5e-10              -                -              
+Neural networks      0.00477 0.00016              0.00190          -              
+trace2vary           < 2e-16 < 2e-16              5.2e-07          2.5e-13        
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = fmeasure ~ method, data = data)
+
+$method
+                                             diff         lwr         upr     p adj
+Classic vector model-BM25             -0.04544389 -0.14902796  0.05814017 0.7348859
+Extended boolean-BM25                  0.24894738  0.14536331  0.35253144 0.0000000
+Neural networks-BM25                   0.11660136  0.01301729  0.22018542 0.0195712
+trace2vary-BM25                        0.46826870  0.36468463  0.57185276 0.0000000
+Extended boolean-Classic vector model  0.29439127  0.19080721  0.39797533 0.0000000
+Neural networks-Classic vector model   0.16204525  0.05846119  0.26562932 0.0003824
+trace2vary-Classic vector model        0.51371259  0.41012853  0.61729665 0.0000000
+Neural networks-Extended boolean      -0.13234602 -0.23593008 -0.02876195 0.0055573
+trace2vary-Extended boolean            0.21932132  0.11573726  0.32290538 0.0000010
+trace2vary-Neural networks             0.35166734  0.24808327  0.45525140 0.0000000
+
+
+
+
+PRECISION TESTS
+
+Applying the Shapiro-Wilk normality test
+
+  Shapiro-Wilk normality test
+
+data:  data$precision
+W = 0.90752, p-value = 4.437e-05
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+            Df Sum Sq Mean Sq F value Pr(>F)    
+method       4 3.0240  0.7560   87.78 <2e-16 ***
+Residuals   70 0.6029  0.0086                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+  Pairwise comparisons using t tests with pooled SD 
+
+data:  data$precision and data$method 
+
+                     BM25    Classic vector model Extended boolean Neural networks
+Classic vector model 0.56391 -                    -                -              
+Extended boolean     1.3e-09 1.4e-10              -                -              
+Neural networks      0.00117 0.00033              0.00103          -              
+trace2vary           < 2e-16 < 2e-16              5.1e-11          < 2e-16        
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = precision ~ method, data = data)
+
+$method
+                                             diff         lwr         upr     p adj
+Classic vector model-BM25             -0.01964758 -0.11453472  0.07523955 0.9776311
+Extended boolean-BM25                  0.24968966  0.15480253  0.34457680 0.0000000
+Neural networks-BM25                   0.12207748  0.02719035  0.21696462 0.0051434
+trace2vary-BM25                        0.52814944  0.43326231  0.62303658 0.0000000
+Extended boolean-Classic vector model  0.26933724  0.17445011  0.36422438 0.0000000
+Neural networks-Classic vector model   0.14172506  0.04683793  0.23661220 0.0007641
+trace2vary-Classic vector model        0.54779702  0.45290989  0.64268416 0.0000000
+Neural networks-Extended boolean      -0.12761218 -0.22249931 -0.03272504 0.0030652
+trace2vary-Extended boolean            0.27845978  0.18357265  0.37334692 0.0000000
+trace2vary-Neural networks             0.40607196  0.31118483  0.50095910 0.0000000
+
+
+
+
+RECALL TESTS
+
+Applying the Shapiro-Wilk normality test
+
+  Shapiro-Wilk normality test
+
+data:  data$recall
+W = 0.9536, p-value = 0.007899
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+method       4  1.190 0.29760   19.74 6.47e-11 ***
+Residuals   70  1.055 0.01507                     
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+  Pairwise comparisons using t tests with pooled SD 
+
+data:  data$recall and data$method 
+
+                     BM25    Classic vector model Extended boolean Neural networks
+Classic vector model 1.3e-10 -                    -                -              
+Extended boolean     0.0002  0.0037               -                -              
+Neural networks      4.5e-08 0.1907               0.0971           -              
+trace2vary           0.0093  4.6e-05              0.1907           0.0040         
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = recall ~ method, data = data)
+
+$method
+                                             diff         lwr         upr     p adj
+Classic vector model-BM25             -0.36184464 -0.48737624 -0.23631304 0.0000000
+Extended boolean-BM25                 -0.20099485 -0.32652645 -0.07546325 0.0002650
+Neural networks-BM25                  -0.29886788 -0.42439947 -0.17333628 0.0000000
+trace2vary-BM25                       -0.14175544 -0.26728703 -0.01622384 0.0190290
+Extended boolean-Classic vector model  0.16084979  0.03531819  0.28638139 0.0053822
+Neural networks-Classic vector model   0.06297676 -0.06255483  0.18850836 0.6266887
+trace2vary-Classic vector model        0.22008920  0.09455761  0.34562080 0.0000554
+Neural networks-Extended boolean      -0.09787303 -0.22340463  0.02765857 0.1981697
+trace2vary-Extended boolean            0.05923941 -0.06629218  0.18477101 0.6789246
+trace2vary-Neural networks             0.15711244  0.03158084  0.28264404 0.0069591
+
+
+
+
+PERFORMANCE TESTS
+
+Applying the Shapiro-Wilk normality test
+
+  Shapiro-Wilk normality test
+
+data:  data$performance
+W = 0.57296, p-value = 1.945e-13
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+            Df    Sum Sq   Mean Sq F value Pr(>F)
+method       4 1.057e+11 2.642e+10   1.592  0.186
+Residuals   70 1.162e+12 1.660e+10               
+
+
+2) Pairwise t-Student:
+
+  Pairwise comparisons using t tests with pooled SD 
+
+data:  data$performance and data$method 
+
+                     BM25 Classic vector model Extended boolean Neural networks
+Classic vector model 1.00 -                    -                -              
+Extended boolean     1.00 1.00                 -                -              
+Neural networks      1.00 1.00                 1.00             -              
+trace2vary           1.00 1.00                 0.29             0.29           
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = performance ~ method, data = data)
+
+$method
+                                               diff        lwr       upr     p adj
+Classic vector model-BM25             -6.086576e+01 -131797.94 131676.21 1.0000000
+Extended boolean-BM25                  3.354528e+04  -98191.80 165282.36 0.9528527
+Neural networks-BM25                   3.354448e+04  -98192.60 165281.56 0.9528566
+trace2vary-BM25                       -6.926047e+04 -200997.55  62476.61 0.5837467
+Extended boolean-Classic vector model  3.360615e+04  -98130.93 165343.22 0.9525508
+Neural networks-Classic vector model   3.360535e+04  -98131.73 165342.42 0.9525548
+trace2vary-Classic vector model       -6.919960e+04 -200936.68  62537.47 0.5845735
+Neural networks-Extended boolean      -8.008473e-01 -131737.88 131736.28 1.0000000
+trace2vary-Extended boolean           -1.028058e+05 -234542.83  28931.32 0.1974050
+trace2vary-Neural networks            -1.028050e+05 -234542.03  28932.13 0.1974114

@@ -5,7 +5,7 @@ require("ggplot2")
 setwd("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/")
 
 # read csv file
-data <- read.csv("2018-05-09_16h30m_output.csv")
+data <- read.csv("results_output.csv")
 
 chart <- ggplot(data=data, aes(x=method, y=performance, fill=method)) +
     geom_boxplot() +
@@ -14,4 +14,4 @@ chart <- ggplot(data=data, aes(x=method, y=performance, fill=method)) +
     labs(x="IR method", y="Time behavior (in seconds)") +
     scale_fill_discrete(guide=FALSE)
 
-ggsave("2018-05-09_16h30m_performanceavg_chart.eps")
+ggsave("results_performanceavg_chart.eps")

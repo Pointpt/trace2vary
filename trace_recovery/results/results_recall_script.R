@@ -5,13 +5,13 @@ require("ggplot2")
 setwd("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/")
 
 # read csv file
-data <- read.csv("2018-05-09_16h30m_output.csv")
+data <- read.csv("results_output.csv")
 
-ggplot(data=data, aes(x=method, y=fmeasure, fill=method)) +
+chart <- ggplot(data=data, aes(x=method, y=recall, fill=method)) +
     geom_boxplot() +
     theme_minimal() +
-    ggtitle("F-measure per method") +
-    labs(x="IR method", y="F-measure") +
+    ggtitle("Recall per method") +
+    labs(x="IR method", y="Recall") +
     scale_fill_discrete(guide=FALSE)
 
-ggsave("2018-05-09_16h30m_fmeasure_chart.eps")
+ggsave("results_recall_chart.eps")

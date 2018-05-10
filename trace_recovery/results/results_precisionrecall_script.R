@@ -5,7 +5,7 @@ require("ggplot2")
 setwd("/Users/tassiovale/Dropbox/PhD Thesis/trace2vary/trace_recovery/results/")
 
 # read csv file
-data <- read.csv("2018-05-02_15h43m_output.csv")
+data <- read.csv("results_output.csv")
 
 chart <- ggplot(data=data, aes(x=recall, y=precision, group=method, colour=method)) +
     geom_line() +
@@ -14,4 +14,4 @@ chart <- ggplot(data=data, aes(x=recall, y=precision, group=method, colour=metho
     labs(x="Recall", y="Precision") +
     scale_fill_discrete(name="IR method")
 
-ggsave("2018-05-02_15h43m_precisionrecall_chart.eps")
+ggsave("results_precisionrecall_chart.eps")
