@@ -6,6 +6,7 @@ trace2vary is a Traceability Recovery Algorithm For Sotware Product Lines writte
 ## Methods
 
 sgd     It refers to the Stochastic Gradient Descent method.
+
 svm     It refers to the Support Vector Machine method.
 
 ### Files to unzip
@@ -24,7 +25,7 @@ You must comply with the following command syntax:
                 -fit    Fit the machine learning model considering the training set. It requires the [method] argument.
                 -tr     Recover the traces for the analyzed project.
                 -cv     Performs the commonality and variability (C & V) analysis for the stated products'projects.
-        
+
         [-only-sgd]
                 It runs only the Stochastic Gradient Descent method for the requested task.
                 This is not applied to the -p and -cv options, since they do not use a machine learning algorithm to accomplish the task.
@@ -40,9 +41,15 @@ You must comply with the following command syntax:
 
 ### Required packages
 nltk
+
 pandas
+
 numpy
+
 scipy
+
 scikit-learn
+
 matplotlib
+
 auto-sklearn
