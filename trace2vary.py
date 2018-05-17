@@ -1,5 +1,6 @@
 from preprocessing.analyzer import perform_projects_pre_processing
 from trace_recovery.tracer import fit_machine_learning_models, recover_traces
+from commonality_and_variability.cv_analyzer import compare_products
 import config
 import sys
 import os.path
@@ -54,7 +55,7 @@ if 1 <= len(sys.argv) <= 3:
         only_sgd = check_only_sgd_argument(sys.argv)
         recover_traces(only_sgd)
     elif sys.argv[1] == config.arg_cv_analysis and len(sys.argv) < 3:
-        print('C&V analysis...')
+        compare_products()
     else:
         print_error_message()
 else:

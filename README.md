@@ -10,13 +10,13 @@ sgd     It refers to the Stochastic Gradient Descent method.
 svm     It refers to the Support Vector Machine method.
 
 ### Files to unzip
-trace2vary/projects/openldap-2.4.45/data.csv.zip
+projects/openldap-2.4.45/data.csv.zip
 
-trace2vary/projects/freebsd/data.csv.zip
+projects/freebsd/data.csv.zip
 
-trace2vary/projects/netbsd/data.csv.zip
+projects/netbsd/data.csv.zip
 
-trace2vary/projects/openbsd/data.csv.zip
+projects/openbsd/data.csv.zip
 
 ## How to use
 You must comply with the following command syntax:

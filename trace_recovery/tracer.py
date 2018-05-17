@@ -60,12 +60,12 @@ def recover_traces(only_sgd):
                 project_data_frame = get_features_data_frame_per_project(projects_base_path, project)
 
                 apply_machine_learning_method(
-                    sgd, project_data_frame, project, projects_base_path, 'sgd', evaluation_results
+                    sgd, project_data_frame, project, projects_base_path, config.sgd, evaluation_results
                 )
 
                 if not only_sgd:
                     apply_machine_learning_method(
-                        svm, project_data_frame, project, projects_base_path, 'svm', evaluation_results
+                        svm, project_data_frame, project, projects_base_path, config.svm, evaluation_results
                     )
 
             print("\n3/3 - Consolidating project results")
@@ -81,7 +81,11 @@ def apply_machine_learning_method(
         method, project_data_frame, project, projects_base_path, method_name, evaluation_results
 ):
     performance = time.time()
-    result = sgd_predict(method, project_data_frame)
+    result = None
+    if method_name == config.sgd:
+        result = sgd_predict(method, project_data_frame)
+    elif method_name == config.svm:
+        result = svm_predict(method, project_data_frame)
     performance = time.time() - performance
     traces = extract_method_traces(project, project_data_frame, result)
     with open(projects_base_path + project + '/' + method_name + '_traces.json', 'w') as result_file:
