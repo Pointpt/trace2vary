@@ -22,3 +22,6 @@ svm = 'svm'
 
 traces_file = 'sgd_traces.json'
 # traces_file = 'svm_traces.json'
+
+mandatory_str = 'mandatory'
+optional_str = 'optional'
