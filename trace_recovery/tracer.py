@@ -73,8 +73,9 @@ def recover_traces(only_sgd):
 
             print('DONE')
 
-        except FileNotFoundError:
-            print("ERROR: machine learning models are not available. Aborting trace recovery...")
+        except FileNotFoundError as f:
+            print('ERROR: machine learning models are not available. Aborting trace recovery...')
+            print('Message: ' + str(f))
 
 
 def apply_machine_learning_method(

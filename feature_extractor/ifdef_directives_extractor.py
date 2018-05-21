@@ -18,11 +18,12 @@ def extract_traces(project, files_extension_list):
                             file_name = file_name.replace(project, '')
                             for feature_name in features:
                                 feature_name = feature_name.lower()
-                                if feature_name in traces:
-                                    if file_name not in traces[feature_name]:
-                                        traces[feature_name] += (file_name,)
-                                else:
-                                    traces[feature_name] = (file_name,)
+                                if len(feature_name) > 1:
+                                    if feature_name in traces:
+                                        if file_name not in traces[feature_name]:
+                                            traces[feature_name] += (file_name,)
+                                    else:
+                                        traces[feature_name] = (file_name,)
             except IsADirectoryError:
                 pass
     del traces['ifdef']
@@ -36,10 +37,10 @@ def extract_traces(project, files_extension_list):
 # MAIN PROGRAM
 
 projects = [
-    '/Users/tassiovale/Documents/Shared/products_bsd/dragonflybsd/',
-    '/Users/tassiovale/Documents/Shared/products_bsd/freebsd/',
-    '/Users/tassiovale/Documents/Shared/products_bsd/netbsd/',
-    '/Users/tassiovale/Documents/Shared/products_bsd/openbsd/',
+    '../projects/dragonflybsd/',
+    '../projects/freebsd/',
+    '../projects/netbsd/',
+    '../projects/openbsd/',
 ]
 
 print('======= IFDEF EXTRACTOR =======')
