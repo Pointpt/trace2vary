@@ -1,6 +1,6 @@
 import config
 from itertools import combinations
-from commonality_and_variability.diff_analysis import calculate_diff_ratio
+from commonality_and_variability.diff_analysis import calculate_diff_ratio, get_valid_files, read_files_content
 
 
 class FeatureResult:
@@ -62,26 +62,21 @@ def apply_diff(projects_base_path, trace2vary_results_dictionary):
         feature_result.common_files_diff_ratios = dict()
         for file in feature_result.common_files:
             products_files_names = [projects_base_path + product + '/' + file for product in feature_result.products]
-            for file_name in products_files_names:
-                if file_name not in files_content_dictionary.keys():
-                    try:
-                        file_content = open(file_name, 'r')
-                        files_content_dictionary[file_name] = file_content.read()
-                        file_content.close()
-                    except UnicodeDecodeError:
-                        file_content = open(file_name, 'r', encoding='ISO-8859-1')
-                        files_content_dictionary[file_name] = file_content.read()
-                        file_content.close()
+            read_files_content(products_files_names, files_content_dictionary)
             pairs_of_files = list(combinations(products_files_names, 2))
             calculate_diff_ratio(
                 file, pairs_of_files, files_content_dictionary, feature_result.common_files_diff_ratios
             )
+
         # Procedure for shared files
-        # feature_result.shared_files_diff_ratios = dict()
-        # for file in feature_result.shared_files:
-        #     products_files = [projects_base_path + product + '/' + file for product in feature_result.products]
-        #     pairs_of_files = list(combinations(products_files, 2))
-        #     calculate_diff_ratio(file, pairs_of_files, feature_result.shared_files_diff_ratios)
+        feature_result.shared_files_diff_ratios = dict()
+        for file in feature_result.shared_files:
+            products_files_names = get_valid_files(projects_base_path, feature_result.products, file)
+            read_files_content(products_files_names, files_content_dictionary)
+            pairs_of_files = list(combinations(products_files_names, 2))
+            calculate_diff_ratio(
+                file, pairs_of_files, files_content_dictionary, feature_result.shared_files_diff_ratios
+            )
 
 
 def get_all_products_file_sets(products_traces_dictionary, feature, feature_result):

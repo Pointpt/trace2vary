@@ -62,22 +62,27 @@ def compare_products():
         print('5/6 - Analyzing differences between common and shared files through diff')
         apply_diff(projects_base_path, trace2vary_results_dictionary_per_feature)
 
-        for (key, obj) in trace2vary_results_dictionary_per_feature.items():
-            print('\nFeature: ' + key)
-        #     if obj.type == config.mandatory_str:
-        #         print('Type: ' + obj.type)
-        #     else:
-        #         print('Type: ' + obj.type + ' / Products: ' + str(obj.products))
-        #     print('All files: ' + str(obj.all_files))
-        #     print('Common files: ' + str(obj.common_files))
-        #     print('Shared files: ' + str(obj.shared_files))
-        #     print('Specific files: ' + str(obj.specific_files))
-        #     print('Common files\' ratios:')
-        #     for (file, ratio) in obj.common_files_diff_ratios.items():
-        #         if ratio != -1:
-        #             print('File: ' + file + ' / Diff ratio: ' + str(ratio))
-            print('Shared files\' ratios:')
-            for (file, ratio) in obj.shared_files_diff_ratios.items():
-                if ratio != -1:
-                    print('File: ' + file + ' / Diff ratio: ' + str(ratio))
+        print('6/6 - Exporting results to a JSON file')
+        print_trace2vary_results(trace2vary_results_dictionary_per_feature)
+
+
+def print_trace2vary_results(trace2vary_results):
+    for (key, obj) in trace2vary_results.items():
+        print('\nFeature: ' + key)
+        if obj.type == config.mandatory_str:
+            print('Type: ' + obj.type)
+        else:
+            print('Type: ' + obj.type + ' / Products: ' + str(obj.products))
+        print('All files: ' + str(obj.all_files))
+        print('Common files: ' + str(obj.common_files))
+        print('Shared files: ' + str(obj.shared_files))
+        print('Specific files: ' + str(obj.specific_files))
+        print('Common files\' ratios:')
+        for (file, ratio) in obj.common_files_diff_ratios.items():
+            if ratio != -1:
+                print('File: ' + file + ' / Diff ratio: ' + str(ratio))
+        print('Shared files\' ratios:')
+        for (file, ratio) in obj.shared_files_diff_ratios.items():
+            if ratio != -1:
+                print('File: ' + file + ' / Diff ratio: ' + str(ratio))
 
