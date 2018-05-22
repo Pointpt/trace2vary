@@ -18,8 +18,7 @@ svm = 'svm'
 auto_learning_file = 'trace_recovery/auto_learning.pkl'
 auto_learning = 'auto'
 
-traces_file = 'sgd_traces.json'
-# traces_file = 'svm_traces.json'
+traces_file = 'traces.json'
 
 mandatory_str = 'mandatory'
 optional_str = 'optional'
