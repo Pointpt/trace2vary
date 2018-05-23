@@ -8,21 +8,21 @@ import config
 import json
 
 
-def fit_machine_learning_models(only_sgd):
+def fit_machine_learning_models(only_default_method):
 
-    print("===== METHODS FITTING PROCESS =====\n")
+    print("\n===== METHODS FITTING PROCESS =====\n")
 
     # Stochastic Gradient Descent method
     sgd_fit(config.training_set_file)
 
-    if not only_sgd:
+    if not only_default_method:
         print("\n")
         auto_learning_fit(config.training_set_file)  # Auto Learning method
 
 
-def recover_traces(only_sgd):
+def recover_traces(only_default_method):
 
-    print("===== TRACE RECOVERY PROCESS =====")
+    print("\n===== TRACE RECOVERY PROCESS =====")
 
     with open(config.test_set_file, 'r') as projects_input_file:
 
@@ -34,7 +34,7 @@ def recover_traces(only_sgd):
             projects_base_path = projects_input_file.readline().strip('\n')
 
             sgd = sgd_load()
-            if not only_sgd:
+            if not only_default_method:
                 auto_learning = auto_learning_load()
 
             print("2/3 - Predicting traces for projects\n")
@@ -49,6 +49,7 @@ def recover_traces(only_sgd):
                     project,
                     variability_impl_technology,
                     language,
+                    files,
                     loc,
                     true_traces
                 )
@@ -60,7 +61,7 @@ def recover_traces(only_sgd):
                     projects_base_path, config.sgd, evaluation_results
                 )
 
-                if not only_sgd:
+                if not only_default_method:
                     apply_machine_learning_method(
                         auto_learning, project_data_frame, project,
                         projects_base_path, config.auto_learning, evaluation_results

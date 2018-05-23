@@ -10,10 +10,12 @@ Contact: tassio.vale@ufrb.edu.br
 """
 
 
-def perform_projects_pre_processing():
+def perform_projects_pre_processing(config_file):
+
+    print("\n===== PROJECTS PRE-PROCESSING =====")
 
     # START READING THE PROJECTS METADATA
-    with open(config.complete_set_file, 'r') as projects_input_file:
+    with open(config_file, 'r') as projects_input_file:
 
         projects_base_path = projects_input_file.readline().strip('\n')
 
@@ -27,7 +29,7 @@ def perform_projects_pre_processing():
             project_analysis = ProjectAnalysis(project, language, variability_impl_technology, files, loc, features, data)
             data_frame = project_analysis.run()
 
-            print('\nStep 4: Exporting data to the CSV file...')
+            print('\n4/4 - Exporting data to the CSV file...')
             data_frame.to_csv(project + '/data.csv')
             data = data.append(data_frame)
 

@@ -65,19 +65,19 @@ class ProjectAnalysis:
             b_const = float(bm25_constants_file.readline())
 
             # EXECUTION OF THE INFORMATION RETRIEVAL ALGORITHMS
-            print('\n\n\nProject: ' + self.project)
+            print('\n\nProject: ' + self.project)
             print('Language: ' + self.language.upper())
             print('Variability realization technology: ' + self.variability_impl_technology.upper())
 
-            print('Step 1: extracting features...')
+            print('1/4 - extracting features...')
             feature_extractor = FeatureExtractor(self.project, self.variability_impl_technology)
             feature_extractor.analyze_project()
             features_dictionary = feature_extractor.get_features_dictionary()
 
-            print('Step 2: reading project true traces...')
+            print('2/4 - reading project true traces...')
             traces = extract_true_traces(self.project)
 
-            print('Step 3: processing project...')
+            print('3/4 - processing project...')
 
             # Preprocessor and CIDE projects are the ones which implement ifdef conditional compilation directives
             remove_ifdefs = False
