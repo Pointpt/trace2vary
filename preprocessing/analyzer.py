@@ -1,6 +1,5 @@
 from preprocessing.project_analysis import ProjectAnalysis
 import pandas as pd
-import config
 
 """SPLTrac: SPL Traceability Experimental Suite
 
@@ -34,5 +33,3 @@ def perform_projects_pre_processing(config_file):
             data = data.append(data_frame)
 
             file_index += 1
-
-        print('DONE\n\n')

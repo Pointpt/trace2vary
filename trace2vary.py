@@ -81,3 +81,5 @@ if 1 <= len(sys.argv) <= 3:
         print_error_message()
 else:
     print_error_message()
+
+print('DONE\n\n')

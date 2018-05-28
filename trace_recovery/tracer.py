@@ -25,11 +25,8 @@ def recover_traces(only_default_method):
     print("\n===== TRACE RECOVERY PROCESS =====")
 
     with open(config.test_set_file, 'r') as projects_input_file:
-
         evaluation_results = EvaluationResults()
-
         try:
-
             print("1/3 - Loading machine learning models")
             projects_base_path = projects_input_file.readline().strip('\n')
 
@@ -66,11 +63,8 @@ def recover_traces(only_default_method):
                         auto_learning, project_data_frame, project,
                         projects_base_path, config.auto_learning, evaluation_results
                     )
-
             print("\n3/3 - Consolidating project results")
             evaluation_results.export_results()
-
-            print('DONE')
 
         except FileNotFoundError as f:
             print('ERROR: machine learning models are not available. Aborting trace recovery...')
