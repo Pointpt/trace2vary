@@ -82,4 +82,4 @@ if 1 <= len(sys.argv) <= 3:
 else:
     print_error_message()
 
-print('DONE\n\n')
+print('DONE\n')

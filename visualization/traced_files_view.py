@@ -1,5 +1,5 @@
 from bokeh.layouts import row
-from bokeh.plotting import figure, show, output_file
+from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource, ranges, LabelSet
 import config
 
@@ -44,9 +44,9 @@ def create_general_data_view(trace2vary_output):
 
     files_bar_chart = get_figure_from_source(files_source, 'File variability types', 0.4)
 
-    output_file('output/trace2vary_bar_chart.html', title='trace2vary - General data')
+    general_row = row(features_bar_chart, files_bar_chart)
 
-    show(row(features_bar_chart, files_bar_chart, sizing_mode='scale_width'))
+    return general_row
 
 
 def get_figure_from_source(source, title, width):
