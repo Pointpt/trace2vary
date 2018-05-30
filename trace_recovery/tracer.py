@@ -95,8 +95,9 @@ def extract_method_traces(project, project_data_frame, result):
         if result[index] == 1:
             feature_name = row['Feature']
             document = row['Document'].split(project + '/')[-1]
-            if feature_name in traces:
-                traces[feature_name] += (document,)
-            else:
-                traces[feature_name] = (document,)
+            if len(feature_name) > 1:
+                if feature_name in traces:
+                    traces[feature_name] += (document,)
+                else:
+                    traces[feature_name] = (document,)
     return traces

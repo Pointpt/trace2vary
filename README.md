@@ -49,14 +49,4 @@ You must comply with the following command syntax:
                 python3 trace2vary.py -vis
 
 ### Required packages
-nltk
-
-pandas
-
-numpy
-
-scipy
-
-scikit-learn
-
-auto_ml
+nltk, pandas, numpy, scipy, scikit-learn, auto_ml, bokeh, pscript
