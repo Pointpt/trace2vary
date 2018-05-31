@@ -1,22 +1,22 @@
-from difflib import SequenceMatcher
 import os.path
+import Levenshtein
 
 
-def calculate_diff_ratio(file, pairs_of_files, files_content_dictionary, diff_ratios_dictionary):
-    total_ratio = 0
-    for file_name_pair in pairs_of_files:
-        try:
-            first_file = files_content_dictionary[next(iter(file_name_pair))]
-            second_file = files_content_dictionary[next(iter(file_name_pair))]
-            diff = SequenceMatcher(None, first_file, second_file)
-            total_ratio += diff.ratio()
-        except FileNotFoundError:
-            total_ratio = 0
-            break
+def calculate_file_differences(file, pairs_of_files, files_content_dictionary,
+                               diff_ratios_dictionary, levenshtein_dictionary):
     if len(pairs_of_files) > 0:
+        total_ratio = 0
+        total_levenshtein = 0
+        for file_name_pair in pairs_of_files:
+            first_file = files_content_dictionary[file_name_pair[0]]
+            second_file = files_content_dictionary[file_name_pair[1]]
+            total_ratio += Levenshtein.ratio(first_file, second_file)
+            total_levenshtein += Levenshtein.distance(first_file, second_file)
         diff_ratios_dictionary[file] = total_ratio / len(pairs_of_files)
+        levenshtein_dictionary[file] = total_levenshtein / len(pairs_of_files)
     else:
         diff_ratios_dictionary[file] = -1
+        levenshtein_dictionary[file] = -1
 
 
 def read_files_content(products_files_names, files_content_dictionary):

@@ -28,8 +28,8 @@ def create_burtin_chart(trace2vary_output):
         config.optional_str: '#e69584'
     }
 
-    width = 800
-    height = 800
+    width = 600
+    height = 600
     inner_radius = 90
     outer_radius = 300 - 10
 
@@ -51,7 +51,7 @@ def create_burtin_chart(trace2vary_output):
         min_border=0, outline_line_color='black',
         background_fill_color='#f0e1d2',
         toolbar_location='right',
-        tools='pan,zoom_in,zoom_out,wheel_zoom,box_zoom,save,reset'
+        tools='pan,zoom_in,zoom_out,wheel_zoom,box_zoom,save,reset',
     )
 
     plot.xgrid.grid_line_color = None
@@ -85,9 +85,8 @@ def create_burtin_chart(trace2vary_output):
     labels = np.power(10.0, np.arange(-3, 4))
     radii = a * np.sqrt(np.log(labels * 1E4)) + b
     plot.circle(0, 0, radius=radii, fill_color=None, line_color='white')
-    reverse_labels_list = reversed(labels[:-1])
     plot.text(
-        0, radii[:-1], [str(r) for r in reverse_labels_list],
+        0, radii[:-1], [str(r) for r in labels],
         text_font_size='8pt', text_align='center', text_baseline='middle'
     )
 
@@ -97,7 +96,7 @@ def create_burtin_chart(trace2vary_output):
         -big_angle+angles, -big_angle+angles, color='black'
     )
 
-    # bacteria labels
+    # feature_name labels
     xr = radii[0]*np.cos(np.array(-big_angle/2 + angles))
     yr = radii[0]*np.sin(np.array(-big_angle/2 + angles))
     label_angle = np.array(-big_angle/2+angles)

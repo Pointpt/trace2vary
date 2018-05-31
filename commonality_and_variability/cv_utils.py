@@ -1,6 +1,6 @@
 import config
 from itertools import combinations
-from commonality_and_variability.diff_analysis import calculate_diff_ratio, get_valid_files, read_files_content
+from commonality_and_variability.diff_analysis import calculate_file_differences, get_valid_files, read_files_content
 
 
 def get_all_features(traces_dictionary):
@@ -55,24 +55,30 @@ def apply_diff(projects_base_path, trace2vary_results_dictionary):
 
         # Procedure for common files
         feature_result[config.result_common_files_diff_ratios] = dict()
+        feature_result[config.result_common_files_levenshtein] = dict()
         for file in feature_result[config.result_common_files]:
             products_files_names = [
                 projects_base_path + product + '/' + file for product in feature_result[config.result_products]
             ]
             read_files_content(products_files_names, files_content_dictionary)
             pairs_of_files = list(combinations(products_files_names, 2))
-            calculate_diff_ratio(
-                file, pairs_of_files, files_content_dictionary, feature_result[config.result_common_files_diff_ratios]
+            calculate_file_differences(
+                file, pairs_of_files, files_content_dictionary,
+                feature_result[config.result_common_files_diff_ratios],
+                feature_result[config.result_common_files_levenshtein]
             )
 
         # Procedure for shared files
         feature_result[config.result_shared_files_diff_ratios] = dict()
+        feature_result[config.result_shared_files_levenshtein] = dict()
         for file in feature_result[config.result_shared_files]:
             products_files_names = get_valid_files(projects_base_path, feature_result[config.result_products], file)
             read_files_content(products_files_names, files_content_dictionary)
             pairs_of_files = list(combinations(products_files_names, 2))
-            calculate_diff_ratio(
-                file, pairs_of_files, files_content_dictionary, feature_result[config.result_shared_files_diff_ratios]
+            calculate_file_differences(
+                file, pairs_of_files, files_content_dictionary,
+                feature_result[config.result_shared_files_diff_ratios],
+                feature_result[config.result_shared_files_levenshtein]
             )
 
 

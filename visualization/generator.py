@@ -34,19 +34,19 @@ def build_views():
     with open(selected_file, 'r') as trace2vary_output_file:
         trace2vary_output = json.load(trace2vary_output_file)
 
-        print('1/3 - Creating general data visualization')
+        print('1/2 - Creating general data visualization')
         general_plot = create_general_data_view(trace2vary_output)
         general_tab = Panel(child=general_plot, title='General')
 
-        print('2/3 - Creating consolidated features visualization')
-        features_plot = create_burtin_chart(trace2vary_output)
-        features_tab = Panel(child=features_plot, title='Features')
+        # print('2/3 - Creating consolidated features visualization')
+        # features_plot = create_burtin_chart(trace2vary_output)
+        # features_tab = Panel(child=features_plot, title='Features')
 
-        print('3/3 - Creating table with raw data')
+        print('2/2 - Creating table with raw data')
         table_plot = create_table(trace2vary_output)
         table_tab = Panel(child=table_plot, title='Raw data')
 
-        tabs = Tabs(tabs=[general_tab, features_tab, table_tab])
+        tabs = Tabs(tabs=[general_tab, table_tab])
 
         output_file('output/trace2vary_result.html', title='trace2vary - Results')
         show(tabs)
