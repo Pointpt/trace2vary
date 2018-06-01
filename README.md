@@ -15,7 +15,7 @@ a feature and a source code file.
 
 ## How to use
 
-###### Dataset preparation
+### Dataset preparation
 
 Before running the *trace2vary* command, **you have to unzip** the following files
 (they are compressed due to GitHub file size constraints):
@@ -36,7 +36,7 @@ In addition, **the following python packages have to be installed**:
 - [bokeh](https://bokeh.pydata.org/en/latest/docs/installation.html)
 - [python-Levenshtein](https://pypi.org/project/python-Levenshtein/)
 
-###### Command syntax
+### Command syntax
 
 You must comply with the following command syntax:
 
@@ -50,7 +50,7 @@ python3 trace2vary.py <options> [-default]
         -cv     Performs the commonality and variability (C & V) analysis for the stated products'projects.
         -vis    Starts the visualization client for the *trace2vary* output file.
         -core   Runs the -tr (with the default method), -cv and -vis tasks in a sequential way.
-        -pre    Prepares *trace2vary* for the core tasks, by running the -p and -fit tasks with the default method.
+        -pre    Prepares *trace2vary* for the core tasks, running the -p and -fit tasks with the default method.
 
 [-default]
         It runs only the default method, Stochastic Gradient Descent, for the requested task.
