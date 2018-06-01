@@ -3,12 +3,21 @@ import os.path
 import json
 from bokeh.models.widgets import Panel, Tabs
 from bokeh.io import output_file, show
-from visualization.features_view import create_burtin_chart
 from visualization.traced_files_view import create_general_data_view
 from visualization.table_view import create_table
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def build_views():
+    """
+    It calls the plot creators and exports the results to an HTML file.
+    """
     print('\n===== COMMONALITY AND VARIABILITY ANALYSIS =====')
 
     candidate_output_files_list = glob.glob("output/*.t2v")

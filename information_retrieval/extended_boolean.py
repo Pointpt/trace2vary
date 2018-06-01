@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -10,8 +10,14 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 def extended_boolean_calculation(pre_processor, features, document):
-    """This variability_impl_technology calculates the similarity of every document
-    for a given feature (and related synonyms)."""
+    """
+    This variability_impl_technology calculates the similarity of every document
+    for a given feature (and related synonyms).
+    :param pre_processor: preprocessed data from the project
+    :param features: set of feature and its synonyms to be analyzed
+    :param document: document to be analyzed
+    :return: similarity value between feature and document
+    """
 
     # reading p-norm value
     with open('information_retrieval/extended_boolean_p_norm.dat', "r") as p_norm_file:
@@ -40,7 +46,13 @@ def extended_boolean_calculation(pre_processor, features, document):
 
 
 def get_maximum_frequency(pre_processor, document, features):
-    """This variability_impl_technology identifies the maximum TF value for a given document."""
+    """
+    This variability_impl_technology identifies the maximum TF value for a given document.
+    :param pre_processor: preprocessed data from the project
+    :param document: document to be analyzed
+    :param features: set of feature and its synonyms to be analyzed
+    :return: maximum frequency value
+    """
     maximum_frequency = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
         if term in features and document in index_by_term:
@@ -51,7 +63,11 @@ def get_maximum_frequency(pre_processor, document, features):
 
 
 def get_maximum_idf(pre_processor):
-    """This variability_impl_technology identifies the maximum IDF value for the project."""
+    """
+    This variability_impl_technology identifies the maximum IDF value for the project.
+    :param pre_processor: preprocessed data from the project
+    :return: maximum inverse document frequency value
+    """
     maximum_idf = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
         number_of_documents_for_a_term = len(index_by_term.keys())

@@ -1,7 +1,19 @@
 import pandas as pd
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def get_features_data_frame(config_file):
+    """
+    It reads the CSV features' results file and transforms the data into a Pandas DataFrame
+    :param config_file: file containing projects metadata to be analyzed
+    :return: resulting data frame
+    """
 
     data = pd.DataFrame()
 
@@ -16,6 +28,12 @@ def get_features_data_frame(config_file):
 
 
 def get_features_data_frame_per_project(base_path, project):
+    """
+    It reads the CSV features' results file per project and transforms the data into a Pandas DataFrame
+    :param base_path: project location
+    :param project: project name
+    :return: resulting data frame
+    """
 
     data_frame = pd.read_csv(base_path + project + '/data.csv', index_col=0)
 

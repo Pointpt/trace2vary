@@ -5,14 +5,26 @@ from preprocessing.merge_features_data import get_features_data_frame
 from sklearn.externals import joblib
 import config
 
-# Choosing the right estimator - http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
-# SGD - http://scikit-learn.org/stable/modules/sgd.html
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+
+References:
+Choosing the right estimator - http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+SGD - http://scikit-learn.org/stable/modules/sgd.html
+"""
 
 ESTIMATOR_FILE_NAME = config.sgd_file
 scaler = StandardScaler()
 
 
 def sgd_fit(config_file):
+    """
+    It performs the machine learning method fitting for the SGD algorithm
+    :param config_file: file containing the projects metadata
+    """
 
     print('- METHOD: Stochastic Gradient Descent')
     print('1/5 - Reading training data')
@@ -46,11 +58,21 @@ def sgd_fit(config_file):
 
 
 def sgd_load():
+    """
+    It loads the machine learning model used during the analysis
+    :return: SGD model object
+    """
     estimator = joblib.load(ESTIMATOR_FILE_NAME)
     return estimator
 
 
 def sgd_predict(estimator, data_frame):
+    """
+    It predicts the traceability result for a given feature-document pair
+    :param estimator: SGD model object
+    :param data_frame_row: input data for the machine learning method
+    :return: resulting value (relevant - 1 or non-relevant - 0)
+    """
     features_data_frame = data_frame.drop(['Feature', 'Document', 'Result'], 1)
     X = features_data_frame.as_matrix()
     scaler.fit(X)

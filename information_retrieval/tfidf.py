@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -14,6 +14,7 @@ def calculate_tfidf_weights(pre_processor):
 
     Foundations of the most popular term weighting scheme in IR tf-idf variability_impl_technology with log normalization
     and inverse frequency. The tf-idf weighting scheme used is (1 + log fi,j) ∗ log N / ni
+    :param pre_processor: preprocessed data from the project
     """
 
     for (term, documents_dictionary) in pre_processor.get_inverted_index().items():
@@ -26,7 +27,13 @@ def calculate_tfidf_weights(pre_processor):
 
 
 def tfidf_resulting_value(pre_processor, features, document):
-    """Method used for tests to check the similarity value of documents to the respective features."""
+    """
+    Method used for tests to check the similarity value of documents to the respective features.
+    :param pre_processor: preprocessed data from the project
+    :param features: set of feature and its synonyms to be analyzed
+    :param document: document to be analyzed
+    :return: similarity value between feature and document
+    """
 
     tfidf = 0
     for feature in features:
@@ -39,7 +46,13 @@ def tfidf_resulting_value(pre_processor, features, document):
 
 
 def document_frequency_value(pre_processor, features, document):
-    """Method used for tests to check the similarity value of documents to the respective features."""
+    """
+    Method used for tests to check the similarity value of documents to the respective features.
+    :param pre_processor: preprocessed data from the project
+    :param features: set of feature and its synonyms to be analyzed
+    :param document: document to be analyzed
+    :return: term frequency value
+    """
 
     tf = 0
     for feature in features:

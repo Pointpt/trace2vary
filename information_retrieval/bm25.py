@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -10,8 +10,16 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 def bm25_calculation(pre_processor, features, document, k1_const, b_const):
-    """This variability_impl_technology calculates the similarity of every document
-    for a given feature (and related synonyms)."""
+    """
+    This variability_impl_technology calculates the similarity of every document
+    for a given feature (and related synonyms).
+    :param pre_processor: preprocessed data from the project
+    :param features: set of feature and its synonyms to be analyzed
+    :param document: document to be analyzed
+    :param k1_const: k1 constant used for the BM25 method
+    :param b_const: B constant used for the BM25 method
+    :return: similarity value between feature and document
+    """
 
     avg_document_length = get_avg_document_len(pre_processor)
 
@@ -32,7 +40,11 @@ def bm25_calculation(pre_processor, features, document, k1_const, b_const):
 
 
 def get_avg_document_len(pre_processor):
-    """It calculates the average document size considering the number of terms."""
+    """
+    It calculates the average document size considering the number of terms.
+    :param pre_processor: preprocessed data from the project
+    :return: resulting average value
+    """
     acum = 0
     for (doc, length) in pre_processor.get_documents().items():
         acum += length

@@ -6,6 +6,16 @@ import config
 import sys
 import os.path
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+
+This is the main file of the project. 
+You have to run python passing this file as argument to initiate the trace2vary analysis.
+"""
+
 
 def print_error_message():
     print(
@@ -18,7 +28,8 @@ def print_error_message():
         '\t-cv     Performs the commonality and variability (C & V) analysis for the stated products\' projects.\n'
         '\t-vis    Starts the visualization client for the trace2vary output file.\n'
         '\t-core   Runs the -p, -tr (with the default method), -cv and -vis tasks in a sequential way.\n'
-        '\t-pre    Prepares trace2vary for the core tasks, by running the -p and -fit tasks with the default method.\n\n'
+        '\t-pre    Prepares trace2vary for the core tasks, '
+        'by running the -p and -fit tasks with the default method.\n\n'
         '[-default]\n'
         '\tIt runs only the default method, Stochastic Gradient Descent, for the requested task.\n'
         'This is not applied to the -p, -cv, and -vis options,\n'
@@ -37,6 +48,11 @@ def print_error_message():
 
 
 def check_only_default_method_argument(arguments_list):
+    """
+    It verifies the list of arguments to determine if the '-default' flag was typed.
+    :param arguments_list: list of command arguments
+    :return: boolean indicating the existence of the '-default' flag
+    """
     default_method = False
     if len(arguments_list) == 3:
         if arguments_list[2] == config.arg_only_default_method:

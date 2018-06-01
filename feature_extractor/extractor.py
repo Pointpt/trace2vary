@@ -3,7 +3,7 @@ import glob
 import os
 from xml.dom import minidom
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -12,7 +12,8 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 class FeatureExtractor:
-    """This class is responsible for extracting the features according to the specific SPL implementation technique:
+    """
+    This class is responsible for extracting the features according to the specific SPL implementation technique:
     FeatureHouse, CIDE, Antenna, AHEAD, or HyperJ
     """
 
@@ -22,6 +23,9 @@ class FeatureExtractor:
         self.features_dictionary = {}
 
     def analyze_project(self):
+        """
+        It starts the project analysis
+        """
         if self.method == 'featurehouse':
             self.extract_feature_house_features()
         elif self.method == 'cide':
@@ -47,7 +51,9 @@ class FeatureExtractor:
         # print('Extracted features: ' + str(self.features_dictionary))
 
     def extract_feature_house_features(self):
-        """Identifies features from the FeatureHouse projects."""
+        """
+        Identifies features from the FeatureHouse projects.
+        """
         exp_files_list = glob.glob(self.project + '/**/*.exp', recursive=True)
         if exp_files_list:
             self.read_features_plain_list_file(exp_files_list[0])
@@ -59,7 +65,9 @@ class FeatureExtractor:
                 self.read_model_xml()
 
     def extract_cide_features(self):
-        """Identifies features from the CIDE projects."""
+        """
+        Identifies features from the CIDE projects.
+        """
         document = minidom.parse(self.project + '/model.colors')
         feature_list = document.getElementsByTagName('featureattr')
         for element in feature_list:
@@ -68,15 +76,23 @@ class FeatureExtractor:
                 self.features_dictionary[feature_name.lower()] = (feature_name.lower(),)
 
     def extract_ahead_features(self):
-        """Identifies features from the AHEAD projects."""
+        """
+        Identifies features from the AHEAD projects.
+        :return: the resulting features list
+        """
         self.read_model_xml()
 
     def extract_antenna_features(self):
-        """Identifies features from the Antenna projects."""
+        """
+        Identifies features from the Antenna projects.
+        :return: the resulting features list
+        """
         self.read_model_xml()
 
     def extract_hyper_j_features(self):
-        """Identifies features from the HyperJ projects."""
+        """
+        Identifies features from the HyperJ projects.
+        """
         feature_folder_list = glob.glob(self.project + '/**/src/feature', recursive=True)
         if feature_folder_list:
             for folder_name in os.walk(feature_folder_list[0]):
@@ -85,8 +101,9 @@ class FeatureExtractor:
                     self.features_dictionary[feature_name.lower()] = (feature_name.lower(),)
 
     def extract_preprocessor_features(self):
-        """Identifies features from thesaurus of preprocessor projects.
-            The features were extracted using the CPPStats tool (https://github.com/clhunsen/cppstats).
+        """
+        Identifies features from thesaurus of preprocessor projects.
+        The features were extracted using the CPPStats tool (https://github.com/clhunsen/cppstats).
         """
         try:
             thesaurus_file = open(self.project + '/thesaurus.dat', "r")
@@ -100,7 +117,10 @@ class FeatureExtractor:
             print('No thesaurus available')
 
     def read_features_plain_list_file(self, file_name):
-        """Method used for FeatureHouse projects to support reading .exp files."""
+        """
+        Method used for FeatureHouse projects to support reading .exp files.
+        :param file_name: .exp file name
+        """
         features_file = open(file_name, "r")
         for feature in [line.strip() for line in features_file]:
             if feature:
@@ -108,13 +128,17 @@ class FeatureExtractor:
         features_file.close()
 
     def read_model_xml(self):
-        """Method used for AHEAD/Antenna projects to support reading model.xml files."""
+        """
+        Method used for AHEAD/Antenna projects to support reading model.xml files.
+        """
         xml_files_list = glob.glob(self.project + '/**/*model.xml', recursive=True)
         if xml_files_list:
             self.extract_features_into_xml(xml_files_list[0])
 
     def extract_features_into_xml(self, file_name):
-        """Method used for reading XML tags into model.xml files."""
+        """
+        Method used for reading XML tags into model.xml files.
+        """
         document = minidom.parse(file_name)
         feature_list = document.getElementsByTagName('feature')
         and_list = document.getElementsByTagName('and')
@@ -125,10 +149,11 @@ class FeatureExtractor:
             if 'abstract' not in element.attributes:
                 feature = element.attributes['name'].value
                 self.features_dictionary[feature.lower()] = (feature.lower(),)
-        # print(self.features_dictionary)
 
     def extract_thesaurus(self):
-        """Method that reads the thesaurus.dat file to identify synonyms for each feature (if available)."""
+        """
+        Method that reads the thesaurus.dat file to identify synonyms for each feature (if available).
+        """
         try:
             thesaurus_file = open(self.project + '/thesaurus.dat', "r")
             for line in thesaurus_file:

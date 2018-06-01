@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -10,7 +10,9 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 class Node:
-    """Graph node implementation for the neural network."""
+    """
+    Graph node implementation for the neural network.
+    """
 
     def __init__(self, node_id, act_level=0.0):
         self.id = node_id
@@ -18,27 +20,52 @@ class Node:
         self.adjacent = {}
 
     def update_neighbor(self, neighbor, weight=0.0):
+        """
+        Update the neighbor node value.
+        :param neighbor: neighbor node object
+        :param weight: weight value
+        """
         if neighbor in self.adjacent:
             self.adjacent[neighbor] += weight
         else:
             self.adjacent[neighbor] = weight
 
     def get_connections(self):
+        """
+        It returns all connections for the node object.
+        :return: list of adjacent node IDs
+        """
         return self.adjacent.keys()
 
     def get_id(self):
+        """
+        It returns the node ID.
+        :return: node ID
+        """
         return self.id
 
     def get_neighbor_edge_weight(self, neighbor):
+        """
+        It returns the edge wight between the node and its neighbor.
+        :param neighbor: neighbor node ID
+        :return: weight value
+        """
         if neighbor in self.adjacent:
             return self.adjacent[neighbor]
         else:
             return None
 
     def get_activation_level(self):
+        """
+        It returns the node activation level value.
+        :return: activation level value
+        """
         return self.activation_level
 
     def update_activation_level(self, act_level):
+        """
+        It updates the node activation level value.
+        """
         self.activation_level += act_level
 
 
@@ -46,7 +73,9 @@ pass
 
 
 class Graph:
-    """Graph implementation for the neural network."""
+    """
+    Graph implementation for the neural network.
+    """
 
     def __init__(self):
         self.node_dict = {}
@@ -56,18 +85,36 @@ class Graph:
         return iter(self.node_dict.values())
 
     def add_node(self, node_id, activation_level=0.0):
+        """
+        It adds a node to the graph
+        :param node_id: node ID
+        :param activation_level: activation level value
+        :return: new graph node
+        """
         self.num_nodes += 1
         new_node = Node(node_id, activation_level)
         self.node_dict[node_id] = new_node
         return new_node
 
     def get_node(self, node_id):
+        """
+        It returns the node object.
+        :param node_id: node ID
+        :return: node object
+        """
         if node_id in self.node_dict:
             return self.node_dict[node_id]
         else:
             return None
 
     def update_edge(self, source_node, dest_node, new_dest_act_level, weight=0.0):
+        """
+        It updates the edge value
+        :param source_node: source node object
+        :param dest_node: destination node object
+        :param new_dest_act_level: new activation level value
+        :param weight: weight value
+        """
         if source_node not in self.node_dict:
             self.add_node(source_node)
         if dest_node not in self.node_dict:
@@ -77,6 +124,10 @@ class Graph:
         self.node_dict[dest_node].update_neighbor(self.node_dict[source_node], weight)
 
     def get_nodes(self):
+        """
+        It returns all graph node IDs.
+        :return: list of node IDs
+        """
         return self.node_dict.keys()
 
 
@@ -84,8 +135,13 @@ pass
 
 
 def create_neural_network(pre_processor, features):
-    """This variability_impl_technology calculates the similarity of relevant documents
-    for a given feature (and related synonyms)."""
+    """
+    This variability_impl_technology calculates the similarity of relevant documents
+    for a given feature (and related synonyms).
+    :param pre_processor: preprocessed data from the project
+    :param features: set of feature and its synonyms to be analyzed
+    :return: resulting neural network for a given feature
+    """
 
     neural_network = Graph()
     sum_query_weights = 0.0
@@ -149,7 +205,12 @@ def create_neural_network(pre_processor, features):
 
 
 def neural_network_calculation(neural_network, document):
-    """Method used for tests to check the similarity value of documents to the respective features."""
+    """
+    Method used for tests to check the similarity value of documents to the respective features.
+    :param neural_network: resulting neural network for a given feature
+    :param document: document to be analyzed
+    :return: similarity value between feature and document
+    """
 
     document_node = neural_network.get_node(document)
 

@@ -3,7 +3,7 @@ from nltk.tokenize import RegexpTokenizer
 from collections import Counter
 import glob
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -12,7 +12,9 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 class DocumentDataByTerm:
-    """Objects from this class stores the frequency and weight of a term-document element"""
+    """
+    Objects from this class stores the frequency and weight of a term-document element.
+    """
     pass
 
 
@@ -37,10 +39,13 @@ class SPLProjectPreProcessor:
         self.generate_index(project, language)
 
     def generate_index(self, project, language):
-        """It builds the index for the SPL project files (documents).
+        """
+        It builds the index for the SPL project files (documents).
 
         The variability_impl_technology identifies all valid files to be processed (considering the programming language)
         and requests the processing of all term frequencies per document.
+        :param project: project path to be analyzed
+        :param language: project programming language
         """
 
         stop_word_file = open('preprocessing/stopwords_' + language + '.dat', "r")
@@ -65,10 +70,13 @@ class SPLProjectPreProcessor:
             self.analyze_term_document_frequency(project, '.hs')
 
     def analyze_term_document_frequency(self, project, file_extension):
-        """This variability_impl_technology builds the inverted index for terms and related documents.
+        """
+        This variability_impl_technology builds the inverted index for terms and related documents.
 
-           It is responsible for creating the data structure to store term-document data
-           and count the frequencies of terms per document.
+        It is responsible for creating the data structure to store term-document data
+        and count the frequencies of terms per document.
+        :param project: project path to be analyzed
+        :param file_extension: file extension considered during analysis
         """
         for file_name in glob.iglob(project + '/**/*' + file_extension, recursive=True):
             self.num_files += 1
@@ -131,23 +139,52 @@ class SPLProjectPreProcessor:
                                 self.inverted_index[feature] = aux_index
 
     def get_docs_per_term(self, term):
+        """
+        It returns the list of documents that contains a term.
+        :param term: keyword analyzed
+        :return: amount of documents with the term
+        """
         doc_term_dictionary = self.inverted_index[term]
         return len(doc_term_dictionary.keys())
 
     def get_inverted_index(self):
+        """
+        It returns the IR inverted index for analysis.
+        :return: inverted index
+        """
         return self.inverted_index
 
     def get_num_files(self):
+        """
+        It returns the number of analyzed files.
+        :return: resulting amount of files
+        """
         return self.num_files
 
     def get_stop_words(self):
+        """
+        It returns a list of stopwords to be removed from analysis.
+        :return: list of stopwords
+        """
         return self.stop_words
 
     def get_index_terms(self):
+        """
+        It returns a list of index terms.
+        :return: list of index terms
+        """
         return self.index_terms
 
     def get_documents(self):
+        """
+        It returns a list of project documents.
+        :return: list of project documents
+        """
         return self.documents
 
     def get_document_length(self, document):
+        """
+        It returns the length of a given document.
+        :return: document length value
+        """
         return self.documents[document]

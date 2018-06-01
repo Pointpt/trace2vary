@@ -1,8 +1,23 @@
 import glob
 import re
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+
+This script was implemented to automatically extract the feature-to-code traces within preprocessor projects.
+"""
+
 
 def extract_traces(project, files_extension_list):
+    """
+    It recovers the list of true traces based on #ifdef directives
+    :param project: project to be analyzed
+    :param files_extension_list: valid file extensions
+    :return: true traces
+    """
     traces = {}
     for file_extension in files_extension_list:
         for file_name in glob.iglob(project + '/**/*' + file_extension, recursive=True):

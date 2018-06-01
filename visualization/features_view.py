@@ -7,8 +7,22 @@ import warnings
 import config
 from visualization.utils import get_data_frame_from_trace2vary_output
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+
+This plot needs improvements, therefore, this is not part of the visualization at the moment.
+"""
+
 
 def create_burtin_chart(trace2vary_output):
+    """
+    It creates the 'pallete' plot presenting results categorized by feature names.
+    :param trace2vary_output: trave2vary result data structure
+    :return: resulting plot
+    """
 
     if not sys.warnoptions:
         warnings.simplefilter('ignore')

@@ -1,3 +1,13 @@
+
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+
+This file stores all configuration of the tool
+"""
+
 # complete_set_file = 'projects/_preprocessor_complete_set.dat'
 # training_set_file = 'projects/_preprocessor_training_set.dat'
 # test_set_file = 'projects/_preprocessor_training_set.dat'

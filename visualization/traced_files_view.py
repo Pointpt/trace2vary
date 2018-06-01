@@ -3,8 +3,20 @@ from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource, ranges, LabelSet, NumberFormatter
 import config
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def create_general_data_view(trace2vary_output):
+    """
+    It creates four bar charts summarizing the trace2vary results.
+    :param trace2vary_output: trave2vary result data structure
+    :return: view containing the four charts
+    """
 
     # Mandatory x Optional features dot chart
     mandatory_features_list = []
@@ -15,7 +27,7 @@ def create_general_data_view(trace2vary_output):
     shared_files_amount = 0
     specific_files_amount = 0
 
-    #Ratio and levenshtein calculations
+    # Diff ratio and Levenshtein distance calculations
     common_ratio_amount = 0
     common_ratio_count = 0
     shared_ratio_amount = 0
@@ -103,6 +115,13 @@ def create_general_data_view(trace2vary_output):
 
 
 def get_figure_from_source(source, title, width):
+    """
+    It builds the bar chart according to the input data received.
+    :param source: input data
+    :param title: chart title
+    :param width: figure width in pixels
+    :return: bar chart
+    """
     bar_chart = figure(
         title=title,
         tools='save',

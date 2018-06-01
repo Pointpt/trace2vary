@@ -1,7 +1,7 @@
 from preprocessing.project_analysis import ProjectAnalysis
 import pandas as pd
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -10,6 +10,10 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 def perform_projects_pre_processing(config_file):
+    """
+    It starts the preprocessing trace2vary step.
+    :param config_file: file containing projects metadata to be analyzed
+    """
 
     print("\n===== PROJECTS PRE-PROCESSING =====")
 

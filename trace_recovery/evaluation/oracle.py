@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""SPLTrac: SPL Traceability Experimental Suite
+
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -17,7 +18,10 @@ class TraceabilityOracle:
         self.true_traces = {}
 
     def extract_true_traces(self):
-        """It extracts the true traces from the traceability_oracle.dat file."""
+        """
+        It extracts the true traces from the traceability_oracle.dat file.
+        :return: true traces dictionary
+        """
         try:
             oracle_file = open(self.project_path + '/traceability_oracle.dat', "r")
             for line in oracle_file:

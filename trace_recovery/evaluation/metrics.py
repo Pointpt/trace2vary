@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-import csv
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -29,7 +28,9 @@ class ProjectMethodMetricsResult:
         self.calculate_metric_results()
 
     def calculate_metric_results(self):
-        """It performs the calculation of metrics for the project."""
+        """
+        It performs the calculation of metrics for the project.
+        """
 
         acum_precision = 0.0
         acum_recall = 0.0

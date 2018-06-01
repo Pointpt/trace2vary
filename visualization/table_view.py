@@ -2,10 +2,24 @@ from bokeh.layouts import column, row, widgetbox
 from bokeh.models import ColumnDataSource, CustomJS, NumberFormatter
 from bokeh.models.widgets import DataTable, TextInput, TableColumn, PreText
 from visualization.utils import get_data_frame_from_trace2vary_output
-# Source: https://gist.github.com/dennisobrien/450d7da20daaba6d39d0
+
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+
+References:
+https://gist.github.com/dennisobrien/450d7da20daaba6d39d0
+"""
 
 
 def create_table(trace2vary_output):
+    """
+    It creates the 'data table' view presenting results categorized by feature names.
+    :param trace2vary_output: trave2vary result data structure
+    :return: resulting plot
+    """
 
     features_data_frame = get_data_frame_from_trace2vary_output(trace2vary_output)
 

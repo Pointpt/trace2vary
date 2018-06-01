@@ -4,8 +4,16 @@ import datetime
 from commonality_and_variability.cv_utils \
     import get_all_features, identify_products_per_feature, set_file_variability_type_per_feature, apply_diff
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def compare_products():
+    """It starts the commonality and variability analysis process."""
 
     print('\n===== COMMONALITY AND VARIABILITY ANALYSIS =====')
 

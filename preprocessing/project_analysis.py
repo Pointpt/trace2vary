@@ -9,7 +9,7 @@ from information_retrieval.neural_networks import *
 from information_retrieval.bm25 import bm25_calculation
 from information_retrieval.extended_boolean import extended_boolean_calculation
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -18,7 +18,11 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 def extract_true_traces(project_path):
-    """It extracts the true traces from the traceability_oracle.dat file."""
+    """
+    It extracts the true traces from the traceability_oracle.dat file.
+    :param project_path: path used to read the traceability_oracle.dat file
+    :return: true traces dictionary
+    """
     true_traces = {}
 
     with open(project_path + '/traceability_oracle.dat', "r") as oracle_file:
@@ -40,9 +44,6 @@ def extract_true_traces(project_path):
     return true_traces
 
 
-pass
-
-
 class ProjectAnalysis:
 
     def __init__(self, project, language, variability_impl_technology, files, loc, features, data):
@@ -55,6 +56,10 @@ class ProjectAnalysis:
         self.data = data
 
     def run(self):
+        """
+        It performs the project analysis.
+        :return: resulting features data frame for the project
+        """
 
         data_frame = pd.DataFrame()
 

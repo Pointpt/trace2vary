@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -10,8 +10,14 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 def classic_vector_calculation(pre_processor, features, document):
-    """This variability_impl_technology calculates the similarity of a document
-    for a given feature (and related synonyms)."""
+    """
+    This variability_impl_technology calculates the similarity of a document
+    for a given feature (and related synonyms).
+    :param pre_processor: preprocessed data from the project
+    :param features: set of feature and its synonyms to be analyzed
+    :param document: document to be analyzed
+    :return: similarity value between feature and document
+    """
 
     sum_query_document_weights = 0.0
     sum_tf = 0.0

@@ -4,7 +4,7 @@ import datetime
 import csv
 import os
 
-"""SPLTrac: SPL Traceability Experimental Suite
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
 Author: Tassio Vale
 Website: www.tassiovale.com
@@ -29,7 +29,15 @@ class EvaluationResults:
         self.project_results = {}
 
     def add_project_input_data(self, project, variability_impl_technology, language, number_of_files, loc, true_traces):
-        """It includes the project information to the project results dictionary."""
+        """
+        It includes the project information to the project results dictionary.
+        :param project: project name
+        :param variability_impl_technology: variability implementation value
+        :param language: project programming language
+        :param number_of_files: amount of analyzed files
+        :param loc: project lines of code amount
+        :param true_traces: true traces dictionary
+        """
         project_result = ProjectResults()
         project_result.variability_impl_technology = variability_impl_technology
         project_result.language = language
@@ -40,7 +48,14 @@ class EvaluationResults:
         self.project_results[project] = project_result
 
     def add_method_results(self, project, method_name, method_traces, performance):
-        """It adds the results of a specific IR variability_impl_technology to a given project."""
+        """
+        It adds the results of a specific IR variability_impl_technology to a given project.
+        :param project: project name
+        :param method_name: information retrieval method name
+        :param method_traces: traces dictionary recovered by the information retrieval method
+        :param performance: time spent during analysis
+        :return:
+        """
         method_result = ProjectMethodMetricsResult(
             project,
             self.project_results[project].true_traces,
@@ -51,7 +66,9 @@ class EvaluationResults:
         self.project_results[project].method_results[method_name] = method_result
 
     def export_results(self):
-        """This variability_impl_technology generates the CSV and R script files."""
+        """
+        This variability_impl_technology generates the CSV and R script files.
+        """
         date_time_str = datetime.datetime.now().strftime('%Y-%m-%d_%Hh%Mm')
         output_file_str = date_time_str + '_output.csv'
         with open('trace_recovery/results/' + output_file_str, 'w') as csv_file:
@@ -96,7 +113,12 @@ class EvaluationResults:
 
     @staticmethod
     def write_r_file(output_file_str, date_time_str, file_type):
-        """Method which replaces the strings from a template script, putting the correct data."""
+        """
+        Method which replaces the strings from a template script, putting the correct data.
+        :param output_file_str: output file name
+        :param date_time_str: date and time to be part o the resulting file name
+        :param file_type: type of result stored by the file
+        """
         with open('trace_recovery/results/templates/script_template_' + file_type + '.R', 'r') as template_script_file:
             script_data = template_script_file.read()
             # print(script_data)

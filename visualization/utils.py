@@ -1,8 +1,21 @@
 import pandas as pd
 import config
 
+"""trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def get_data_frame_from_trace2vary_output(trace2vary_output):
+    """
+    It transforms the trace2vary output into a Pandas DataFrame object.
+    :param trace2vary_output: trave2vary result data structure
+    :return: resulting data frame
+    """
+
     columns = [
         'feature_name', 'variability', 'products',
         'common_files_names', 'common_files', 'common_ratio', 'common_levenshtein',
@@ -37,6 +50,11 @@ def get_data_frame_from_trace2vary_output(trace2vary_output):
 
 
 def calculate_list_average(values_list):
+    """
+    This function calculates the average value of a float numbers list.
+    :param values_list: float numbers list
+    :return: average value
+    """
     if len(values_list) > 0:
         return sum(values_list) / float(len(values_list))
     else:
