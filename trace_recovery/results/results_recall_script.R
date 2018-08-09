@@ -9,9 +9,12 @@ data <- read.csv("results_output.csv")
 
 chart <- ggplot(data=data, aes(x=method, y=recall, fill=method)) +
     geom_boxplot() +
-    theme_minimal() +
-    ggtitle("Recall per method") +
-    labs(x="IR method", y="Recall") +
-    scale_fill_discrete(guide=FALSE)
+scale_fill_grey(start = 0, end = .9) +
+guides(fill=FALSE) +
+ggtitle("") +
+labs(x="", y="") +
+theme_grey(base_size = 16) +
+xlab("IR method") +
+ylab("Value")
 
 ggsave("results_recall_chart.eps")

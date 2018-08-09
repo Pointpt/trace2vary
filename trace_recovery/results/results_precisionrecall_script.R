@@ -9,9 +9,12 @@ data <- read.csv("results_output.csv")
 
 chart <- ggplot(data=data, aes(x=recall, y=precision, group=method, colour=method)) +
     geom_line() +
-    geom_point(aes(shape=method)) +
-    ggtitle("Precision x recall") +
-    labs(x="Recall", y="Precision") +
-    scale_fill_discrete(name="IR method")
+scale_fill_grey(start = 0, end = .9) +
+guides(fill=FALSE) +
+ggtitle("") +
+labs(x="", y="") +
+theme_grey(base_size = 16) +
+xlab("IR method") +
+ylab("Value")
 
 ggsave("results_precisionrecall_chart.eps")
