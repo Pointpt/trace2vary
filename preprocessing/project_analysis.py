@@ -8,6 +8,7 @@ from information_retrieval.classic_vector import classic_vector_calculation
 from information_retrieval.neural_networks import *
 from information_retrieval.bm25 import bm25_calculation
 from information_retrieval.extended_boolean import extended_boolean_calculation
+import time
 
 """trace2vary: An Algorithm to Recover Feature-Code Traceability and Variability
 
@@ -83,6 +84,8 @@ class ProjectAnalysis:
             traces = extract_true_traces(self.project)
 
             print('3/4 - processing project...')
+
+            performance = time.time()
 
             # Preprocessor and CIDE projects are the ones which implement ifdef conditional compilation directives
             remove_ifdefs = False
@@ -163,7 +166,10 @@ class ProjectAnalysis:
                         ignore_index=True
                     )
 
-                    print('Feature: ' + str(feature_name) + '\tDocument: ' + str(document))
+                    # print('Feature: ' + str(feature_name) + '\tDocument: ' + str(document))
+
+            performance = time.time() - performance
+            print('Project: ' + self.project + ' Performance: ' + str(performance))
 
                     # print('\n\n==============================')
                     # print('Feature and synonyms: ' + str(feature_synonyms))

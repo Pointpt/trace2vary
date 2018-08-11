@@ -1,0 +1,201 @@
+F-MEASURE TESTS
+
+BM25 preprocessor < BM25 SPL
+
+Welch Two Sample t-test
+
+data:  datapbm25$fmeasure and datasbm25$fmeasure
+t = -6.3772, df = 28.991, p-value = 2.849e-07
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -0.225197
+sample estimates:
+mean of x mean of y
+0.2667880 0.5737799
+
+Classic vector model preprocessor < Classic vector model SPL
+
+Wilcoxon rank sum test
+
+data:  data_classic_vector1$fmeasure and data_classic_vector2$fmeasure
+W = 411, p-value = 3.604e-10
+alternative hypothesis: true location shift is greater than 0
+
+Neural networks preprocessor < Neural networks SPL
+
+Wilcoxon rank sum test
+
+data:  data_neural_network1$fmeasure and data_neural_network2$fmeasure
+W = 337, p-value = 0.0003202
+alternative hypothesis: true location shift is greater than 0
+
+Extended boolean preprocessor < Extended boolean SPL
+
+Wilcoxon rank sum test
+
+data:  data_extended_boolean1$fmeasure and data_extended_boolean2$fmeasure
+W = 210, p-value = 0.5051
+alternative hypothesis: true location shift is greater than 0
+
+BM25 preprocessor < BM25 SPL
+
+Wilcoxon rank sum test
+
+data:  data_bm251$fmeasure and data_bm252$fmeasure
+W = 396, p-value = 2.719e-08
+alternative hypothesis: true location shift is greater than 0
+
+
+
+PRECISION TESTS
+
+BM25 preprocessor < BM25 SPL
+
+Welch Two Sample t-test
+
+data:  datapbm25$precision and datasbm25$precision
+t = -5.8344, df = 23.204, p-value = 2.919e-06
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.2036891
+sample estimates:
+mean of x mean of y
+0.1588455 0.4472112
+
+Classic vector model preprocessor < Classic vector model SPL
+
+Welch Two Sample t-test
+
+data:  datapcv$precision and datascv$precision
+t = -6.1758, df = 23.24, p-value = 1.274e-06
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -0.217254
+sample estimates:
+mean of x mean of y
+0.1218840 0.4225383
+
+Neural networks preprocessor < Neural networks SPL
+
+Welch Two Sample t-test
+
+data:  datapnn$precision and datasnn$precision
+t = -3.5163, df = 24.422, p-value = 0.0008686
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+        -Inf -0.09048659
+sample estimates:
+mean of x mean of y
+0.2583106 0.4344317
+
+
+
+RECALL TESTS
+
+BM25 preprocessor > BM25 SPL
+
+Welch Two Sample t-test
+
+data:  datapbm25$recall and datasbm25$recall
+t = 3.2349, df = 19.647, p-value = 0.002111
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.04211686        Inf
+sample estimates:
+mean of x mean of y
+0.9703453 0.8800389
+
+Extended boolean preprocessor > Extended boolean SPL
+
+Welch Two Sample t-test
+
+data:  datapeb$recall and dataseb$recall
+t = 2.112, df = 27.063, p-value = 0.02203
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.02437141        Inf
+sample estimates:
+mean of x mean of y
+0.7840101 0.6581069
+
+Classic vector model preprocessor < Classic vector model SPL
+
+Welch Two Sample t-test
+
+data:  datapcv$recall and datascv$recall
+t = -7.8296, df = 37.417, p-value = 1.061e-09
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.2664307
+sample estimates:
+mean of x mean of y
+0.5127098 0.8522911
+
+Neural networks preprocessor < Neural networks SPL
+
+Welch Two Sample t-test
+
+data:  datapnn$recall and datasnn$recall
+t = -3.5883, df = 32.854, p-value = 0.0005344
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+        -Inf -0.08204263
+sample estimates:
+mean of x mean of y
+0.6392389 0.7945334
+
+
+
+PERFORMANCE TESTS
+
+Classic vector model preprocessor > Classic vector model SPL
+
+Welch Two Sample t-test
+
+data:  datapcv$performance and datascv$performance
+t = 3.6449, df = 20.002, p-value = 0.0008055
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 4568.509      Inf
+sample estimates:
+ mean of x  mean of y
+8697.10519   25.17264
+
+Extended boolean preprocessor > Extended boolean SPL
+
+Welch Two Sample t-test
+
+data:  datapeb$performance and dataseb$performance
+t = 3.5801, df = 20.002, p-value = 0.0009364
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 7075.542      Inf
+sample estimates:
+  mean of x   mean of y
+13699.92989    47.08043
+
+Neural networks preprocessor > Neural networks SPL
+
+Welch Two Sample t-test
+
+data:  datapnn$performance and datasnn$performance
+t = 3.5707, df = 20.002, p-value = 0.0009571
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 7033.678      Inf
+sample estimates:
+  mean of x   mean of y
+13651.29968    45.93898
+
+BM25 preprocessor > BM25 SPL
+
+Welch Two Sample t-test
+
+data:  datapbm25$performance and datasbm25$performance
+t = 3.6418, df = 20.002, p-value = 0.0008113
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 4551.27     Inf
+sample estimates:
+ mean of x  mean of y
+8671.12237   25.30544
