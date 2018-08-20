@@ -169,7 +169,7 @@ class ProjectAnalysis:
                     # print('Feature: ' + str(feature_name) + '\tDocument: ' + str(document))
 
             performance = time.time() - performance
-            print('Project: ' + self.project + ' Performance: ' + str(performance))
+            print('Performance: ' + str(performance))
 
                     # print('\n\n==============================')
                     # print('Feature and synonyms: ' + str(feature_synonyms))

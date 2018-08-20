@@ -190,20 +190,18 @@ PERFORMANCE TESTS
 
 Applying the Shapiro-Wilk normality test
 
-  Shapiro-Wilk normality test
+hapiro-Wilk normality test
 
 data:  data$performance
-W = 0.52446, p-value = 1.375e-15
+W = 0.64526, p-value = 2.003e-13
 
 The sample has a normal distribution!
 
 
 1) ANOVA:
-            Df    Sum Sq   Mean Sq F value Pr(>F)  
-method       5 1.649e+11 3.298e+10   2.384  0.045 *
-Residuals   84 1.162e+12 1.383e+10                 
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+            Df    Sum Sq   Mean Sq F value Pr(>F)
+method       5 3.634e+10 7.268e+09   0.299  0.912
+Residuals   84 2.043e+12 2.432e+10               
 
 
 2) Pairwise t-Student:
@@ -212,12 +210,12 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 data:  data$performance and data$method 
 
-           BM25 CV   EB   NN   t2v-AutoML
-CV         1.00 -    -    -    -         
-EB         1.00 1.00 -    -    -         
-NN         1.00 1.00 1.00 -    -         
-t2v-AutoML 0.89 0.89 0.23 0.23 -         
-t2v-SGD    0.89 0.89 0.23 0.23 1.00      
+           BM25 CV EB NN t2v-AutoML
+CV         1    -  -  -  -         
+EB         1    1  -  -  -         
+NN         1    1  1  -  -         
+t2v-AutoML 1    1  1  1  -         
+t2v-SGD    1    1  1  1  1         
 
 P value adjustment method: hochberg 
 
@@ -229,19 +227,19 @@ P value adjustment method: hochberg
 Fit: aov(formula = performance ~ method, data = data)
 
 $method
-                            diff        lwr       upr     p adj
-CV-BM25            -6.086576e+01 -125318.51 125196.78 1.0000000
-EB-BM25             3.354528e+04  -91712.37 158802.93 0.9700117
-NN-BM25             3.354448e+04  -91713.17 158802.13 0.9700147
-t2v-AutoML-BM25    -6.926014e+04 -194517.79  55997.51 0.5926115
-t2v-SGD-BM25       -6.926047e+04 -194518.12  55997.18 0.5926065
-EB-CV               3.360615e+04  -91651.50 158863.80 0.9697760
-NN-CV               3.360535e+04  -91652.30 158863.00 0.9697791
-t2v-AutoML-CV      -6.919928e+04 -194456.93  56058.37 0.5935348
-t2v-SGD-CV         -6.919960e+04 -194457.25  56058.05 0.5935299
-NN-EB              -8.008473e-01 -125258.45 125256.85 1.0000000
-t2v-AutoML-EB      -1.028054e+05 -228063.07  22452.22 0.1702872
-t2v-SGD-EB         -1.028057e+05 -228063.40  22451.90 0.1702846
-t2v-AutoML-NN      -1.028046e+05 -228062.27  22453.02 0.1702938
-t2v-SGD-NN         -1.028049e+05 -228062.60  22452.70 0.1702911
-t2v-SGD-t2v-AutoML -3.250477e-01 -125257.97 125257.32 1.0000000
+                            diff       lwr      upr     p adj
+CV-BM25              -60.8657618 -166148.6 166026.9 1.0000000
+EB-BM25            33545.2820796 -132542.5 199633.1 0.9915132
+NN-BM25            33544.4812323 -132543.3 199632.3 0.9915141
+t2v-AutoML-BM25    47926.7053934 -118161.1 214014.5 0.9587581
+t2v-SGD-BM25       47926.4759896 -118161.3 214014.2 0.9587590
+EB-CV              33606.1478414 -132481.6 199693.9 0.9914421
+NN-CV              33605.3469941 -132482.4 199693.1 0.9914430
+t2v-AutoML-CV      47987.5711552 -118100.2 214075.3 0.9585369
+t2v-SGD-CV         47987.3417514 -118100.4 214075.1 0.9585377
+NN-EB                 -0.8008473 -166088.6 166087.0 1.0000000
+t2v-AutoML-EB      14381.4233138 -151706.3 180469.2 0.9998552
+t2v-SGD-EB         14381.1939100 -151706.6 180469.0 0.9998552
+t2v-AutoML-NN      14382.2241611 -151705.5 180470.0 0.9998552
+t2v-SGD-NN         14381.9947573 -151705.8 180469.8 0.9998552
+t2v-SGD-t2v-AutoML    -0.2294038 -166088.0 166087.5 1.0000000

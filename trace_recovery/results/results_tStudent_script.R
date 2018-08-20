@@ -115,3 +115,11 @@ print(result)
 print("AutoML > BM25")
 result = t.test(data_auto$recall,data_bm25$recall, paired=TRUE, alt="greater")
 print(result)
+
+print("BM25 > AutoML")
+result = t.test(data_bm25$recall,data_auto$recall, paired=TRUE, alt="greater")
+print(result)
+
+print("BM25 > SVM")
+result = t.test(data_bm25$recall,data_svm$recall, paired=TRUE, alt="greater")
+print(result)

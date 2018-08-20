@@ -1,201 +1,346 @@
-F-MEASURE TESTS
+[1] "Student's t test - F-MEASURE"
+[1] "SVM > Classic vector model"
 
-BM25 preprocessor < BM25 SPL
+	Paired t-test
 
-Welch Two Sample t-test
-
-data:  datapbm25$fmeasure and datasbm25$fmeasure
-t = -6.3772, df = 28.991, p-value = 2.849e-07
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-      -Inf -0.225197
-sample estimates:
-mean of x mean of y
-0.2667880 0.5737799
-
-Classic vector model preprocessor < Classic vector model SPL
-
-Wilcoxon rank sum test
-
-data:  data_classic_vector1$fmeasure and data_classic_vector2$fmeasure
-W = 411, p-value = 3.604e-10
-alternative hypothesis: true location shift is greater than 0
-
-Neural networks preprocessor < Neural networks SPL
-
-Wilcoxon rank sum test
-
-data:  data_neural_network1$fmeasure and data_neural_network2$fmeasure
-W = 337, p-value = 0.0003202
-alternative hypothesis: true location shift is greater than 0
-
-Extended boolean preprocessor < Extended boolean SPL
-
-Wilcoxon rank sum test
-
-data:  data_extended_boolean1$fmeasure and data_extended_boolean2$fmeasure
-W = 210, p-value = 0.5051
-alternative hypothesis: true location shift is greater than 0
-
-BM25 preprocessor < BM25 SPL
-
-Wilcoxon rank sum test
-
-data:  data_bm251$fmeasure and data_bm252$fmeasure
-W = 396, p-value = 2.719e-08
-alternative hypothesis: true location shift is greater than 0
-
-
-
-PRECISION TESTS
-
-BM25 preprocessor < BM25 SPL
-
-Welch Two Sample t-test
-
-data:  datapbm25$precision and datasbm25$precision
-t = -5.8344, df = 23.204, p-value = 2.919e-06
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-       -Inf -0.2036891
-sample estimates:
-mean of x mean of y
-0.1588455 0.4472112
-
-Classic vector model preprocessor < Classic vector model SPL
-
-Welch Two Sample t-test
-
-data:  datapcv$precision and datascv$precision
-t = -6.1758, df = 23.24, p-value = 1.274e-06
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-      -Inf -0.217254
-sample estimates:
-mean of x mean of y
-0.1218840 0.4225383
-
-Neural networks preprocessor < Neural networks SPL
-
-Welch Two Sample t-test
-
-data:  datapnn$precision and datasnn$precision
-t = -3.5163, df = 24.422, p-value = 0.0008686
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-        -Inf -0.09048659
-sample estimates:
-mean of x mean of y
-0.2583106 0.4344317
-
-
-
-RECALL TESTS
-
-BM25 preprocessor > BM25 SPL
-
-Welch Two Sample t-test
-
-data:  datapbm25$recall and datasbm25$recall
-t = 3.2349, df = 19.647, p-value = 0.002111
+data:  data_svm$fmeasure and data_classic_vector$fmeasure
+t = 15.445, df = 14, p-value = 1.727e-10
 alternative hypothesis: true difference in means is greater than 0
 95 percent confidence interval:
- 0.04211686        Inf
+ 0.4469241       Inf
 sample estimates:
-mean of x mean of y
-0.9703453 0.8800389
+mean of the differences 
+              0.5044483 
 
-Extended boolean preprocessor > Extended boolean SPL
+[1] "SVM > Neural networks"
 
-Welch Two Sample t-test
+	Paired t-test
 
-data:  datapeb$recall and dataseb$recall
-t = 2.112, df = 27.063, p-value = 0.02203
+data:  data_svm$fmeasure and data_neural_network$fmeasure
+t = 9.7208, df = 14, p-value = 6.626e-08
 alternative hypothesis: true difference in means is greater than 0
 95 percent confidence interval:
- 0.02437141        Inf
+ 0.280363      Inf
 sample estimates:
-mean of x mean of y
-0.7840101 0.6581069
+mean of the differences 
+              0.3424031 
 
-Classic vector model preprocessor < Classic vector model SPL
+[1] "SVM > Extended boolean"
 
-Welch Two Sample t-test
+	Paired t-test
 
-data:  datapcv$recall and datascv$recall
-t = -7.8296, df = 37.417, p-value = 1.061e-09
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-       -Inf -0.2664307
-sample estimates:
-mean of x mean of y
-0.5127098 0.8522911
-
-Neural networks preprocessor < Neural networks SPL
-
-Welch Two Sample t-test
-
-data:  datapnn$recall and datasnn$recall
-t = -3.5883, df = 32.854, p-value = 0.0005344
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-        -Inf -0.08204263
-sample estimates:
-mean of x mean of y
-0.6392389 0.7945334
-
-
-
-PERFORMANCE TESTS
-
-Classic vector model preprocessor > Classic vector model SPL
-
-Welch Two Sample t-test
-
-data:  datapcv$performance and datascv$performance
-t = 3.6449, df = 20.002, p-value = 0.0008055
+data:  data_svm$fmeasure and data_extended_boolean$fmeasure
+t = 4.5005, df = 14, p-value = 0.0002494
 alternative hypothesis: true difference in means is greater than 0
 95 percent confidence interval:
- 4568.509      Inf
+ 0.1278491       Inf
 sample estimates:
- mean of x  mean of y
-8697.10519   25.17264
+mean of the differences 
+              0.2100571 
 
-Extended boolean preprocessor > Extended boolean SPL
+[1] "SVM > BM25"
 
-Welch Two Sample t-test
+	Paired t-test
 
-data:  datapeb$performance and dataseb$performance
-t = 3.5801, df = 20.002, p-value = 0.0009364
+data:  data_svm$fmeasure and data_bm25$fmeasure
+t = 14.566, df = 14, p-value = 3.75e-10
 alternative hypothesis: true difference in means is greater than 0
 95 percent confidence interval:
- 7075.542      Inf
+ 0.4035021       Inf
 sample estimates:
-  mean of x   mean of y
-13699.92989    47.08043
+mean of the differences 
+              0.4590044 
 
-Neural networks preprocessor > Neural networks SPL
+[1] "AutoML > Classic vector model"
 
-Welch Two Sample t-test
+	Paired t-test
 
-data:  datapnn$performance and datasnn$performance
-t = 3.5707, df = 20.002, p-value = 0.0009571
+data:  data_auto$fmeasure and data_classic_vector$fmeasure
+t = 12.197, df = 14, p-value = 3.792e-09
 alternative hypothesis: true difference in means is greater than 0
 95 percent confidence interval:
- 7033.678      Inf
+ 0.3832734       Inf
 sample estimates:
-  mean of x   mean of y
-13651.29968    45.93898
+mean of the differences 
+              0.4479584 
 
-BM25 preprocessor > BM25 SPL
+[1] "AutoML > Neural networks"
 
-Welch Two Sample t-test
+	Paired t-test
 
-data:  datapbm25$performance and datasbm25$performance
-t = 3.6418, df = 20.002, p-value = 0.0008113
+data:  data_auto$fmeasure and data_neural_network$fmeasure
+t = 7.2668, df = 14, p-value = 2.058e-06
 alternative hypothesis: true difference in means is greater than 0
 95 percent confidence interval:
- 4551.27     Inf
+ 0.2166146       Inf
 sample estimates:
- mean of x  mean of y
-8671.12237   25.30544
+mean of the differences 
+              0.2859131 
+
+[1] "AutoML > Extended boolean"
+
+	Paired t-test
+
+data:  data_auto$fmeasure and data_extended_boolean$fmeasure
+t = 3.249, df = 14, p-value = 0.002912
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.07031777        Inf
+sample estimates:
+mean of the differences 
+              0.1535671 
+
+[1] "AutoML > BM25"
+
+	Paired t-test
+
+data:  data_auto$fmeasure and data_bm25$fmeasure
+t = 11.333, df = 14, p-value = 9.712e-09
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.3399568       Inf
+sample estimates:
+mean of the differences 
+              0.4025145 
+
+
+
+
+[1] "Student's t test - PRECISION"
+[1] "SVM > Classic vector model"
+
+	Paired t-test
+
+data:  data_svm$precision and data_classic_vector$precision
+t = 16.651, df = 14, p-value = 6.344e-11
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.4802209       Inf
+sample estimates:
+mean of the differences 
+              0.5370259 
+
+[1] "SVM > Neural networks"
+
+	Paired t-test
+
+data:  data_svm$precision and data_neural_network$precision
+t = 11.078, df = 14, p-value = 1.296e-08
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.3324506       Inf
+sample estimates:
+mean of the differences 
+              0.3953008 
+
+[1] "SVM > Extended boolean"
+
+	Paired t-test
+
+data:  data_svm$precision and data_extended_boolean$precision
+t = 5.7469, df = 14, p-value = 2.526e-05
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1856474       Inf
+sample estimates:
+mean of the differences 
+              0.2676886 
+
+[1] "SVM > BM25"
+
+	Paired t-test
+
+data:  data_svm$precision and data_bm25$precision
+t = 17.241, df = 14, p-value = 3.979e-11
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.4645252       Inf
+sample estimates:
+mean of the differences 
+              0.5173783 
+
+[1] "AutoML > Classic vector model"
+
+	Paired t-test
+
+data:  data_auto$precision and data_classic_vector$precision
+t = 18.066, df = 14, p-value = 2.125e-11
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.4739596       Inf
+sample estimates:
+mean of the differences 
+              0.5251602 
+
+[1] "AutoML > Neural networks"
+
+	Paired t-test
+
+data:  data_auto$precision and data_neural_network$precision
+t = 11.579, df = 14, p-value = 7.389e-09
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.3251082       Inf
+sample estimates:
+mean of the differences 
+              0.3834351 
+
+[1] "AutoML > Extended boolean"
+
+	Paired t-test
+
+data:  data_auto$precision and data_extended_boolean$precision
+t = 6.5264, df = 14, p-value = 6.711e-06
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.186783      Inf
+sample estimates:
+mean of the differences 
+               0.255823 
+
+[1] "AutoML > BM25"
+
+	Paired t-test
+
+data:  data_auto$precision and data_bm25$precision
+t = 16.549, df = 14, p-value = 6.885e-11
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.4517125       Inf
+sample estimates:
+mean of the differences 
+              0.5055126 
+
+
+
+
+[1] "Student's t test - RECALL"
+[1] "SVM > Classic vector model"
+
+	Paired t-test
+
+data:  data_svm$recall and data_classic_vector$recall
+t = 5.2368, df = 14, p-value = 6.292e-05
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1413897       Inf
+sample estimates:
+mean of the differences 
+              0.2130426 
+
+[1] "SVM > Neural networks"
+
+	Paired t-test
+
+data:  data_svm$recall and data_neural_network$recall
+t = 3.7534, df = 14, p-value = 0.00107
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.07964593        Inf
+sample estimates:
+mean of the differences 
+              0.1500658 
+
+[1] "SVM > Extended boolean"
+
+	Paired t-test
+
+data:  data_svm$recall and data_extended_boolean$recall
+t = 1.0059, df = 14, p-value = 0.1658
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.03919727         Inf
+sample estimates:
+mean of the differences 
+             0.05219277 
+
+[1] "SVM > BM25"
+
+	Paired t-test
+
+data:  data_svm$recall and data_bm25$recall
+t = -3.4608, df = 14, p-value = 0.9981
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.2245329        Inf
+sample estimates:
+mean of the differences 
+             -0.1488021 
+
+[1] "AutoML > Classic vector model"
+
+	Paired t-test
+
+data:  data_auto$recall and data_classic_vector$recall
+t = 2.4626, df = 14, p-value = 0.01369
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.03225772        Inf
+sample estimates:
+mean of the differences 
+              0.1132746 
+
+[1] "AutoML > Neural networks"
+
+	Paired t-test
+
+data:  data_auto$recall and data_neural_network$recall
+t = 1.0726, df = 14, p-value = 0.1508
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.0322972        Inf
+sample estimates:
+mean of the differences 
+             0.05029781 
+
+[1] "AutoML > Extended boolean"
+
+	Paired t-test
+
+data:  data_auto$recall and data_extended_boolean$recall
+t = -0.84422, df = 14, p-value = 0.7936
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.1468323        Inf
+sample estimates:
+mean of the differences 
+            -0.04757522 
+
+[1] "AutoML > BM25"
+
+	Paired t-test
+
+data:  data_auto$recall and data_bm25$recall
+t = -5.2668, df = 14, p-value = 0.9999
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.331696       Inf
+sample estimates:
+mean of the differences 
+             -0.2485701 
+
+[1] "BM25 > AutoML"
+
+	Paired t-test
+
+data:  data_bm25$recall and data_auto$recall
+t = 5.2668, df = 14, p-value = 5.957e-05
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1654442       Inf
+sample estimates:
+mean of the differences 
+              0.2485701 
+
+[1] "BM25 > SVM"
+
+	Paired t-test
+
+data:  data_bm25$recall and data_svm$recall
+t = 3.4608, df = 14, p-value = 0.001911
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.07307122        Inf
+sample estimates:
+mean of the differences 
+              0.1488021 
